@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+          enable-cache: true
+      - name: Install dependencies
+        run: uv sync
+      - name: Lint
+        run: uv run ruff check .
+      - name: Type check
+        run: uv run mypy src
+      - name: Test
+        run: uv run pytest
+      - name: Generate synthetic dataset
+        run: uv run marketpilot dataset generate --dataset synthetic-market-v1 --seed 42
+      - name: Showcase
+        run: uv run marketpilot showcase
+      - name: Benchmark smoke test
+        run: uv run marketpilot benchmark run --suite marketpilot-synthetic-v1 --strategy baseline --provider mock --n 1
+      - name: Offline demo
+        run: uv run marketpilot demo --goal "Find promising pet products in the US market"
+      - name: Offline LLM runtime demo
+        run: uv run marketpilot demo --mode llm --provider mock --goal "Find promising pet products in the US market"
+      - name: Offline research mock demo
+        run: uv run marketpilot demo --mode llm --provider mock --research-mode mock --goal "Find promising pet products in the US market"
+      - name: Offline research replay demo
+        run: |
+          RUN_DIR=$(uv run marketpilot demo --mode llm --provider mock --research-mode mock --goal "Find promising pet products in the US market" | sed -n 's/Run directory: //p')
+          RUN_ID=$(basename "$RUN_DIR")
+          uv run marketpilot demo --mode llm --provider mock --research-mode replay --replay-run "$RUN_ID" --goal "Find promising pet products in the US market"

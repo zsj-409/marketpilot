@@ -1,0 +1,18 @@
+{
+  "validation_status": "COMPLETE",
+  "distinct_domain_count": 3,
+  "attempted_page_count": 6,
+  "successful_page_count": 6,
+  "refetch_count": 0,
+  "deterministic_extraction_success_count": 6,
+  "llm_semantic_analysis_success_count": 6,
+  "replay_repeatability_run_count": 3,
+  "replay_repeatability_passed": true,
+  "cross_site_decision_passed": true,
+  "evidence_gap_followup_passed": true,
+  "limitations": [
+    "Pimoroni pages did not expose deterministic price; price remained UNKNOWN.",
+    "LLM semantic features are DERIVED, not OBSERVED.",
+    "This is a bounded validation, not a production crawler."
+  ]
+}

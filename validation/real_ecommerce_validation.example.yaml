@@ -1,0 +1,25 @@
+validation_id: real-ecommerce-example
+created_at: 2026-08-30T00:00:00Z
+limits:
+  target_domains: 3
+  target_successful_pages: 6
+  minimum_successful_pages: 4
+  max_successful_pages: 6
+  max_total_fetch_attempts: 8
+  refetch_same_url: false
+site_groups:
+  - site_class: global_marketplace
+    domain: example.com
+    products:
+      - url: https://example.com/product-a
+      - url: https://example.com/product-b
+  - site_class: global_marketplace
+    domain: example-shop.com
+    products:
+      - url: https://example-shop.com/product-c
+      - url: https://example-shop.com/product-d
+  - site_class: independent_store
+    domain: example-store.com
+    products:
+      - url: https://example-store.com/products/product-e
+      - url: https://example-store.com/products/product-f

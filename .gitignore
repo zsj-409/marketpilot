@@ -1,0 +1,69 @@
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets/
+
+# Python / tooling
+.tools/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime output
+runs/*
+!runs/.gitkeep
+logs/
+tmp/
+temp/
+.cache/
+work/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+
+# Internal engineering history
+docs/devlog/
+
+# Generated research / benchmark artifacts
+artifacts/diagnostics/
+artifacts/step5/
+artifacts/step5_live/
+artifacts/step5d2/
+artifacts/real_validation/
+benchmark_runs/
+
+# Actual live validation input
+validation/real_ecommerce_validation.yaml
+
+# Reproducible generated benchmark dataset (run `marketpilot dataset generate`)
+datasets/
+
+# Internal experiment scratch not needed for public portfolio
+docs/experiments/STEP5_REAL_LLM_REPORT.md
+docs/experiments/baseline-saturation-analysis.md
+docs/experiments/verifier-utility-alignment.md
