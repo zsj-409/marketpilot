@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MarketPilot Workbench · 多智能体商品调研平台</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%234f6df5'/%3E%3Cpath d='M7 22V10l5 7 4-7 4 7 5-7v12' stroke='white' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div id="app">
+  <aside class="sidebar">
+    <a class="brand" href="#/">
+      <span class="brand-mark">M</span>
+      <span class="brand-text">
+        <strong>MarketPilot</strong>
+        <small>Workbench · v1.1</small>
+      </span>
+    </a>
+    <nav id="nav" class="nav">
+      <a href="#/" data-route="#/">总览<span class="nav-en">Overview</span></a>
+      <a href="#/runs" data-route="#/runs">研究运行<span class="nav-en">Runs</span></a>
+      <a href="#/experiments" data-route="#/experiments">基准实验<span class="nav-en">Benchmarks</span></a>
+      <a href="#/compare" data-route="#/compare">实验对比<span class="nav-en">Compare</span></a>
+      <a href="#/environment" data-route="#/environment">合成环境<span class="nav-en">Environment</span></a>
+      <a href="#/workbench" data-route="#/workbench">运行工作台<span class="nav-en">Workbench</span></a>
+    </nav>
+    <div class="sidebar-foot">
+      <p class="foot-note">Evidence-grounded multi-agent<br>product research platform</p>
+      <p class="foot-note dim">数据来源：runs/ · benchmark_runs/<br>datasets/ · 仅本机访问</p>
+    </div>
+  </aside>
+  <main class="main"><div id="page" class="page"></div></main>
+</div>
+<div id="toast" class="toast hidden"></div>
+<script type="module" src="/js/app.js"></script>
+</body>
+</html>

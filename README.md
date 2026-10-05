@@ -21,6 +21,27 @@ No API keys required:
 uv run marketpilot showcase
 ```
 
+For the full interactive experience, launch the web workbench:
+
+```bash
+uv run marketpilot workbench
+# → http://127.0.0.1:8600
+```
+
+## Web Workbench
+
+MarketPilot ships an interactive, self-contained web UI (`src/marketpilot/webui/`) for presenting and operating the whole system — no build step, no CDN assets, works fully offline.
+
+- **Overview** — the product story: live artifact counts, architecture diagram, cross-experiment strategy table, and the honest-labeling caveats.
+- **Runs** — every research run and closed-loop selection run, filterable and searchable.
+- **Run detail** — the full evidence chain for one run: task DAG (click a node to filter), recommendation with score radar, findings, evidence, risk flags, sources/snapshots, SystemEvaluator checks, and a filterable trajectory timeline of all 40+ event types.
+- **Benchmarks** — every experiment with manifest reproducibility info, regret/recall/verifier metrics, difficulty and family breakdowns, failure taxonomy, and per-task results.
+- **Compare** — pick 2–4 experiments and compare decision-quality metrics side by side.
+- **Environment** — explore the synthetic market (observable agent-facing fields only; hidden ground truth is never exposed).
+- **Workbench** — submit demo runs, benchmark experiments, dataset generation, and closed-loop selection as background jobs with live logs.
+
+The API is read-only over artifacts plus an allow-listed job endpoint; jobs execute as isolated subprocesses with logs under `work/jobs/`. The server binds to `127.0.0.1` by default.
+
 ## Architecture
 
 ```text
@@ -145,7 +166,8 @@ src/marketpilot/
 ├── research/          # research tools, replay, provenance
 ├── synthetic/         # synthetic market environment
 ├── tools/             # tool protocol and registry
-└── verifier/          # deterministic verification
+├── verifier/          # deterministic verification
+└── webui/             # FastAPI backend + self-contained SPA workbench
 ```
 
 ## Quick Start
@@ -155,6 +177,7 @@ uv sync
 uv run marketpilot doctor
 uv run marketpilot dataset generate --dataset synthetic-market-v1 --seed 42
 uv run marketpilot showcase
+uv run marketpilot workbench   # interactive web UI at http://127.0.0.1:8600
 ```
 
 See [docs/PROJECT_STATE.md](docs/PROJECT_STATE.md) for the canonical project status and [docs/experiments/V1_EXPERIMENT_REPORT.md](docs/experiments/V1_EXPERIMENT_REPORT.md) for benchmark findings.
@@ -198,7 +221,7 @@ Synthetic benchmark results describe behavior inside MarketPilot's deterministic
 - Larger benchmark datasets and human evaluation.
 - Reflection loops and more advanced test-time scaling.
 - Trajectory-learning reward modeling and Agentic RL.
-- Interactive research workbench.
+- ~~Interactive research workbench~~ → shipped in v1.1 (`marketpilot workbench`): runs, evidence chains, trajectory timelines, benchmark comparison, and job submission in a self-contained web UI. Next: live streaming (SSE) run progress and multi-user auth for shared deployments.
 
 ## Engineering Decisions
 

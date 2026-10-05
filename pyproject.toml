@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "marketpilot"
-version = "0.1.0"
+version = "1.1.0"
 description = "Evidence-grounded multi-agent product intelligence architecture foundation"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
@@ -12,10 +12,12 @@ authors = [{ name = "MarketPilot Engineers" }]
 license = { text = "MIT" }
 dependencies = [
   "alembic>=1.13,<2",
+  "fastapi>=0.142.2",
   "openai>=1.40,<2",
   "pydantic>=2.8,<3",
   "pydantic-settings>=2.4,<3",
   "sqlalchemy>=2.0,<3",
+  "uvicorn[standard]>=0.54.0",
 ]
 
 [project.optional-dependencies]
