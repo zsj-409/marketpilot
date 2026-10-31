@@ -1,0 +1,116 @@
+{
+  "final_candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+  "final_verdict": "MISSING_EVIDENCE",
+  "termination": "STOP_BUDGET_EXHAUSTED",
+  "rounds": [
+    {
+      "round_number": 1,
+      "unresolved_gaps": [
+        {
+          "candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+          "facet": "battery",
+          "reason": "missing no_battery evidence",
+          "priority": 1,
+          "required_evidence": "no_battery evidence"
+        },
+        {
+          "candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+          "facet": "max_price",
+          "reason": "missing max_price evidence",
+          "priority": 1,
+          "required_evidence": "max_price evidence"
+        }
+      ],
+      "conflicts": [],
+      "completed_followup_tasks": [
+        "product:battery:5c85fc56-243c-53e9-a780-35b217b27fca",
+        "product:max_price:5c85fc56-243c-53e9-a780-35b217b27fca"
+      ],
+      "remaining_budget": 4,
+      "termination_reason": "CONTINUE_TARGETED_RESEARCH"
+    },
+    {
+      "round_number": 2,
+      "unresolved_gaps": [
+        {
+          "candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+          "facet": "battery",
+          "reason": "missing no_battery evidence",
+          "priority": 1,
+          "required_evidence": "no_battery evidence"
+        },
+        {
+          "candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+          "facet": "max_price",
+          "reason": "missing max_price evidence",
+          "priority": 1,
+          "required_evidence": "max_price evidence"
+        }
+      ],
+      "conflicts": [],
+      "completed_followup_tasks": [
+        "product:battery:5c85fc56-243c-53e9-a780-35b217b27fca",
+        "product:max_price:5c85fc56-243c-53e9-a780-35b217b27fca"
+      ],
+      "remaining_budget": 2,
+      "termination_reason": "CONTINUE_TARGETED_RESEARCH"
+    },
+    {
+      "round_number": 3,
+      "unresolved_gaps": [
+        {
+          "candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+          "facet": "battery",
+          "reason": "missing no_battery evidence",
+          "priority": 1,
+          "required_evidence": "no_battery evidence"
+        },
+        {
+          "candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+          "facet": "max_price",
+          "reason": "missing max_price evidence",
+          "priority": 1,
+          "required_evidence": "max_price evidence"
+        }
+      ],
+      "conflicts": [],
+      "completed_followup_tasks": [],
+      "remaining_budget": 2,
+      "termination_reason": "STOP_BUDGET_EXHAUSTED"
+    }
+  ],
+  "followup_events": [
+    {
+      "task_id": "0651c6af-4695-4ece-b335-274c3c2937fc",
+      "worker_role": "product",
+      "candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+      "facet": "battery",
+      "round_number": 1
+    },
+    {
+      "task_id": "1b7a858d-f941-4d66-b028-6c61a4a0d82b",
+      "worker_role": "product",
+      "candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+      "facet": "max_price",
+      "round_number": 1
+    },
+    {
+      "task_id": "6f6177a6-6538-463e-9002-e0b7bac76b4a",
+      "worker_role": "product",
+      "candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+      "facet": "battery",
+      "round_number": 2
+    },
+    {
+      "task_id": "af298fbd-61b8-4804-af02-d7daaaa86fcb",
+      "worker_role": "product",
+      "candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+      "facet": "max_price",
+      "round_number": 2
+    }
+  ],
+  "research_rounds": 3,
+  "initial_candidates": 6,
+  "followup_investigations": 4,
+  "unresolved_gaps": 6
+}

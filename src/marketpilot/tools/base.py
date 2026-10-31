@@ -14,9 +14,14 @@ from marketpilot.research.store import ResearchStore
 
 
 class ToolArguments(BaseModel):
-    """Typed arguments shared by deterministic mock tools."""
+    """Typed arguments shared by deterministic mock tools.
 
-    model_config = ConfigDict(frozen=True)
+    `extra="allow"` keeps arbitrary tool-specific fields (e.g. `facet`
+    from LLM tool calls) so real-model arguments are never silently
+    truncated by the fixed schema.
+    """
+
+    model_config = ConfigDict(frozen=True, extra="allow")
 
     query: str | None = Field(default=None, min_length=1, max_length=500)
     category: str | None = Field(default=None, min_length=2, max_length=100)

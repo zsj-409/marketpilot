@@ -1,0 +1,13 @@
+{
+  "candidate_id": "e1fb8b42-deb8-5b2d-8b84-b14ce6bdfb01",
+  "verdict": "MISSING_EVIDENCE",
+  "gaps": [
+    {
+      "candidate_id": "e1fb8b42-deb8-5b2d-8b84-b14ce6bdfb01",
+      "facet": "battery",
+      "reason": "missing no_battery evidence",
+      "priority": 1,
+      "required_evidence": "no_battery evidence"
+    }
+  ]
+}

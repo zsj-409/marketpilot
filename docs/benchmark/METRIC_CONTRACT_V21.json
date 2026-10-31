@@ -1,0 +1,30 @@
+{
+  "metric_contract_version": "2.1",
+  "supersedes": "2.0",
+  "frozen_before_reading_new_test_results": true,
+  "reason_codes": {
+    "supported_valid_go": {"loss": 0, "definition": "hard constraints satisfied, sufficient evidence, oracle-optimal"},
+    "supported_suboptimal_go": {"loss": "decision_regret", "definition": "valid recommendation, sufficient evidence, not oracle-optimal"},
+    "unsupported_go": {"loss": "max(decision_regret, 1.0)", "definition": "recommendation without sufficient evidence"},
+    "constraint_violation": {"loss": 1.5, "definition": "hard business constraint breached"},
+    "appropriate_abstention": {"loss": 1.0, "definition": "reasonable abstention per evidence/task rules"},
+    "unnecessary_abstention": {"loss": 1.5, "definition": "premature abstention when task was completable"},
+    "invalid": {"loss": 1.0, "definition": "runtime anomaly / illegal schema / unacceptable state"}
+  },
+  "constants": {
+    "ABSTENTION_COST_V21": 1.0,
+    "UNSUPPORTED_GO_LOSS": 1.0,
+    "OPPORTUNITY_LOSS": 0.5,
+    "CONSTRAINT_VIOLATION_LOSS": 1.5,
+    "INVALID_LOSS": 1.0
+  },
+  "principles": [
+    "sub-optimal with evidence is a VALID recommendation (positive regret)",
+    "unsupported GO loss >= abstention cost (no reward for unsafe guessing)",
+    "correct abstention not penalized more than unsafe recommendation",
+    "unnecessary abstention not free (opportunity loss)",
+    "multi-metric reporting (valid/unvalid/unsupported/constraint/regret/cost); task loss v2.1 is the pre-registered composite"
+  ],
+  "implementation": "task_loss_v21 in src/marketpilot/evaluation/outcomes.py; reason_code on TaskOutcome",
+  "non_tuning": "weights frozen pre-registration; no selection by prior TEST winner"
+}

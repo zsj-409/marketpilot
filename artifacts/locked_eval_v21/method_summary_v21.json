@@ -1,0 +1,116 @@
+{
+  "test": {
+    "fixed": {
+      "valid_go": 68,
+      "unsupported_go": 0,
+      "suboptimal_go": 16,
+      "app_abstain": 36,
+      "unn_abstain": 0,
+      "total_cost": 1237.2,
+      "task_loss_v21": 39.23,
+      "valid_go_rate": 0.567,
+      "cost_per_valid": 18.19
+    },
+    "missing-evidence": {
+      "valid_go": 68,
+      "unsupported_go": 0,
+      "suboptimal_go": 16,
+      "app_abstain": 36,
+      "unn_abstain": 0,
+      "total_cost": 1237.2,
+      "task_loss_v21": 39.23,
+      "valid_go_rate": 0.567,
+      "cost_per_valid": 18.19
+    },
+    "uncertainty": {
+      "valid_go": 68,
+      "unsupported_go": 0,
+      "suboptimal_go": 16,
+      "app_abstain": 36,
+      "unn_abstain": 0,
+      "total_cost": 1237.6,
+      "task_loss_v21": 39.23,
+      "valid_go_rate": 0.567,
+      "cost_per_valid": 18.2
+    },
+    "adaptive-voi": {
+      "valid_go": 26,
+      "unsupported_go": 55,
+      "suboptimal_go": 8,
+      "app_abstain": 31,
+      "unn_abstain": 0,
+      "total_cost": 1180.3,
+      "task_loss_v21": 87.566,
+      "valid_go_rate": 0.217,
+      "cost_per_valid": 45.4
+    },
+    "contextual-hybrid": {
+      "valid_go": 68,
+      "unsupported_go": 0,
+      "suboptimal_go": 16,
+      "app_abstain": 36,
+      "unn_abstain": 0,
+      "total_cost": 1237.2,
+      "task_loss_v21": 39.23,
+      "valid_go_rate": 0.567,
+      "cost_per_valid": 18.19
+    }
+  },
+  "ood": {
+    "fixed": {
+      "valid_go": 16,
+      "unsupported_go": 0,
+      "suboptimal_go": 4,
+      "app_abstain": 60,
+      "unn_abstain": 0,
+      "total_cost": 856.0,
+      "task_loss_v21": 60.752,
+      "valid_go_rate": 0.2,
+      "cost_per_valid": 53.5
+    },
+    "missing-evidence": {
+      "valid_go": 16,
+      "unsupported_go": 0,
+      "suboptimal_go": 4,
+      "app_abstain": 60,
+      "unn_abstain": 0,
+      "total_cost": 856.0,
+      "task_loss_v21": 60.752,
+      "valid_go_rate": 0.2,
+      "cost_per_valid": 53.5
+    },
+    "uncertainty": {
+      "valid_go": 16,
+      "unsupported_go": 0,
+      "suboptimal_go": 4,
+      "app_abstain": 60,
+      "unn_abstain": 0,
+      "total_cost": 859.6,
+      "task_loss_v21": 60.752,
+      "valid_go_rate": 0.2,
+      "cost_per_valid": 53.73
+    },
+    "adaptive-voi": {
+      "valid_go": 0,
+      "unsupported_go": 32,
+      "suboptimal_go": 0,
+      "app_abstain": 48,
+      "unn_abstain": 0,
+      "total_cost": 857.8,
+      "task_loss_v21": 80.0,
+      "valid_go_rate": 0.0,
+      "cost_per_valid": null
+    },
+    "contextual-hybrid": {
+      "valid_go": 16,
+      "unsupported_go": 0,
+      "suboptimal_go": 4,
+      "app_abstain": 60,
+      "unn_abstain": 0,
+      "total_cost": 856.0,
+      "task_loss_v21": 60.752,
+      "valid_go_rate": 0.2,
+      "cost_per_valid": 53.5
+    }
+  }
+}

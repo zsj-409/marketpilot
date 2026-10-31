@@ -1,0 +1,182 @@
+[
+  {
+    "rho": 0.0,
+    "budget": 2,
+    "decision": "INSUFFICIENT",
+    "cost": 0.5,
+    "steps": 1,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.0,
+    "budget": 4,
+    "decision": "INSUFFICIENT",
+    "cost": 0.5,
+    "steps": 1,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.0,
+    "budget": 8,
+    "decision": "INSUFFICIENT",
+    "cost": 0.5,
+    "steps": 1,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.0,
+    "budget": 12,
+    "decision": "INSUFFICIENT",
+    "cost": 0.5,
+    "steps": 1,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.25,
+    "budget": 2,
+    "decision": "INSUFFICIENT",
+    "cost": 1.0,
+    "steps": 2,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.25,
+    "budget": 4,
+    "decision": "INSUFFICIENT",
+    "cost": 2.5,
+    "steps": 3,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.25,
+    "budget": 8,
+    "decision": "INSUFFICIENT",
+    "cost": 2.5,
+    "steps": 3,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.25,
+    "budget": 12,
+    "decision": "INSUFFICIENT",
+    "cost": 2.5,
+    "steps": 3,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.5,
+    "budget": 2,
+    "decision": "INSUFFICIENT",
+    "cost": 1.0,
+    "steps": 2,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.5,
+    "budget": 4,
+    "decision": "INSUFFICIENT",
+    "cost": 2.5,
+    "steps": 3,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.5,
+    "budget": 8,
+    "decision": "GO",
+    "cost": 5.5,
+    "steps": 4,
+    "refused": false,
+    "correct": true
+  },
+  {
+    "rho": 0.5,
+    "budget": 12,
+    "decision": "GO",
+    "cost": 8.5,
+    "steps": 5,
+    "refused": false,
+    "correct": true
+  },
+  {
+    "rho": 0.75,
+    "budget": 2,
+    "decision": "INSUFFICIENT",
+    "cost": 1.0,
+    "steps": 2,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.75,
+    "budget": 4,
+    "decision": "INSUFFICIENT",
+    "cost": 2.5,
+    "steps": 3,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 0.75,
+    "budget": 8,
+    "decision": "GO",
+    "cost": 5.5,
+    "steps": 4,
+    "refused": false,
+    "correct": true
+  },
+  {
+    "rho": 0.75,
+    "budget": 12,
+    "decision": "GO",
+    "cost": 8.5,
+    "steps": 5,
+    "refused": false,
+    "correct": true
+  },
+  {
+    "rho": 1.0,
+    "budget": 2,
+    "decision": "INSUFFICIENT",
+    "cost": 1.0,
+    "steps": 2,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 1.0,
+    "budget": 4,
+    "decision": "INSUFFICIENT",
+    "cost": 2.5,
+    "steps": 3,
+    "refused": true,
+    "correct": false
+  },
+  {
+    "rho": 1.0,
+    "budget": 8,
+    "decision": "GO",
+    "cost": 5.5,
+    "steps": 4,
+    "refused": false,
+    "correct": true
+  },
+  {
+    "rho": 1.0,
+    "budget": 12,
+    "decision": "GO",
+    "cost": 8.5,
+    "steps": 5,
+    "refused": false,
+    "correct": true
+  }
+]

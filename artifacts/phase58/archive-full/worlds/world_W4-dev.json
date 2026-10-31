@@ -1,0 +1,254 @@
+{
+  "world_id": "W4-dev",
+  "split": "dev",
+  "difficulty": "hard",
+  "key_facet": "margin",
+  "world_version": "W4-v1",
+  "action_costs": null,
+  "products": [
+    {
+      "product_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+      "true_margin": 0.7,
+      "true_reliability": 0.8,
+      "true_demand": 0.6,
+      "true_competition": 0.3,
+      "true_risk": 0.2,
+      "true_utility": 0.43,
+      "viable": true
+    },
+    {
+      "product_id": "7311801c-d9b5-5d2a-b77e-8057321a779a",
+      "true_margin": 0.62,
+      "true_reliability": 0.75,
+      "true_demand": 0.55,
+      "true_competition": 0.4,
+      "true_risk": 0.3,
+      "true_utility": 0.347,
+      "viable": true
+    },
+    {
+      "product_id": "af640524-642d-559c-9876-7cad47581c72",
+      "true_margin": 0.45,
+      "true_reliability": 0.7,
+      "true_demand": 0.5,
+      "true_competition": 0.35,
+      "true_risk": 0.4,
+      "true_utility": 0.255,
+      "viable": false
+    },
+    {
+      "product_id": "1aecae5a-c37f-50d2-a808-c8b610943d78",
+      "true_margin": 0.3,
+      "true_reliability": 0.65,
+      "true_demand": 0.45,
+      "true_competition": 0.45,
+      "true_risk": 0.55,
+      "true_utility": 0.1375,
+      "viable": false
+    }
+  ],
+  "observables": {
+    "9012d88a-cdb6-55fb-a721-6a15b79ab684": {
+      "product_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+      "title": "W4 4",
+      "observed_margin": 0.7,
+      "observed_reliability": 0.8,
+      "observed_demand": 0.6,
+      "observed_competition": 0.3,
+      "observed_risk": 0.2
+    },
+    "7311801c-d9b5-5d2a-b77e-8057321a779a": {
+      "product_id": "7311801c-d9b5-5d2a-b77e-8057321a779a",
+      "title": "W4 a",
+      "observed_margin": 0.62,
+      "observed_reliability": 0.75,
+      "observed_demand": 0.55,
+      "observed_competition": 0.4,
+      "observed_risk": 0.3
+    },
+    "af640524-642d-559c-9876-7cad47581c72": {
+      "product_id": "af640524-642d-559c-9876-7cad47581c72",
+      "title": "W4 2",
+      "observed_margin": 0.45,
+      "observed_reliability": 0.7,
+      "observed_demand": 0.5,
+      "observed_competition": 0.35,
+      "observed_risk": 0.4
+    },
+    "1aecae5a-c37f-50d2-a808-c8b610943d78": {
+      "product_id": "1aecae5a-c37f-50d2-a808-c8b610943d78",
+      "title": "W4 8",
+      "observed_margin": 0.3,
+      "observed_reliability": 0.65,
+      "observed_demand": 0.45,
+      "observed_competition": 0.45,
+      "observed_risk": 0.55
+    }
+  },
+  "evidence": {
+    "9012d88a-cdb6-55fb-a721-6a15b79ab684": {
+      "margin": [
+        {
+          "facet": "margin",
+          "value": 0.7,
+          "truth_value": 0.7,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "w4-9012d88a-cdb6-55fb-a721-6a15b79ab684-margin",
+          "observed_at": null
+        }
+      ],
+      "demand": [
+        {
+          "facet": "demand",
+          "value": 0.6,
+          "truth_value": 0.6,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "w4-9012d88a-cdb6-55fb-a721-6a15b79ab684-demand",
+          "observed_at": null
+        }
+      ],
+      "risk": [
+        {
+          "facet": "risk",
+          "value": 0.2,
+          "truth_value": 0.2,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "w4-9012d88a-cdb6-55fb-a721-6a15b79ab684-risk",
+          "observed_at": null
+        }
+      ]
+    },
+    "7311801c-d9b5-5d2a-b77e-8057321a779a": {
+      "margin": [
+        {
+          "facet": "margin",
+          "value": 0.62,
+          "truth_value": 0.62,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "w4-7311801c-d9b5-5d2a-b77e-8057321a779a-margin",
+          "observed_at": null
+        }
+      ],
+      "demand": [
+        {
+          "facet": "demand",
+          "value": 0.55,
+          "truth_value": 0.55,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "w4-7311801c-d9b5-5d2a-b77e-8057321a779a-demand",
+          "observed_at": null
+        }
+      ],
+      "risk": [
+        {
+          "facet": "risk",
+          "value": 0.3,
+          "truth_value": 0.3,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "w4-7311801c-d9b5-5d2a-b77e-8057321a779a-risk",
+          "observed_at": null
+        }
+      ]
+    },
+    "af640524-642d-559c-9876-7cad47581c72": {
+      "margin": [
+        {
+          "facet": "margin",
+          "value": 0.45,
+          "truth_value": 0.45,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "w4-af640524-642d-559c-9876-7cad47581c72-margin",
+          "observed_at": null
+        }
+      ],
+      "demand": [
+        {
+          "facet": "demand",
+          "value": 0.9,
+          "truth_value": 0.5,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": true,
+          "source": "w4-c-demand-conflict",
+          "observed_at": null
+        }
+      ],
+      "risk": [
+        {
+          "facet": "risk",
+          "value": 0.4,
+          "truth_value": 0.4,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "w4-af640524-642d-559c-9876-7cad47581c72-risk",
+          "observed_at": null
+        }
+      ]
+    },
+    "1aecae5a-c37f-50d2-a808-c8b610943d78": {
+      "margin": [
+        {
+          "facet": "margin",
+          "value": 0.3,
+          "truth_value": 0.3,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "w4-1aecae5a-c37f-50d2-a808-c8b610943d78-margin",
+          "observed_at": null
+        }
+      ],
+      "demand": [
+        {
+          "facet": "demand",
+          "value": 0.45,
+          "truth_value": 0.45,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "w4-1aecae5a-c37f-50d2-a808-c8b610943d78-demand",
+          "observed_at": null
+        }
+      ],
+      "risk": [
+        {
+          "facet": "risk",
+          "value": 0.55,
+          "truth_value": 0.55,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "w4-1aecae5a-c37f-50d2-a808-c8b610943d78-risk",
+          "observed_at": null
+        }
+      ]
+    }
+  }
+}

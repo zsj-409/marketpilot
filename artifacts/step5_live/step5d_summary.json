@@ -1,0 +1,74 @@
+[
+  {
+    "task_key": "fitness-hard",
+    "category": "Fitness Accessories",
+    "difficulty": "hard",
+    "policy_diverse_n4_regret": 0.0782,
+    "policy_diverse_frontier_utility": 0.4665,
+    "oracle_ranks": {
+      "static-ranking": 3,
+      "constraint-first": 10,
+      "evidence-gap-first": 7,
+      "risk-first": 7
+    },
+    "pool_size": 3,
+    "evidence_overlap": 1.0,
+    "total_tokens": 21919,
+    "llm_calls": 4,
+    "trajectory_wall_latency_ms": 82099.92
+  },
+  {
+    "task_key": "kitchen-medium",
+    "category": "Kitchen Accessories",
+    "difficulty": "medium",
+    "policy_diverse_n4_regret": 0.055,
+    "policy_diverse_frontier_utility": 0.5154,
+    "oracle_ranks": {
+      "static-ranking": 8,
+      "constraint-first": 7,
+      "evidence-gap-first": 7,
+      "risk-first": 8
+    },
+    "pool_size": 4,
+    "evidence_overlap": 1.0,
+    "total_tokens": 23630,
+    "llm_calls": 4,
+    "trajectory_wall_latency_ms": 81910.77
+  },
+  {
+    "task_key": "outdoor-hard",
+    "category": "Outdoor Recreation",
+    "difficulty": "hard",
+    "policy_diverse_n4_regret": 0.0,
+    "policy_diverse_frontier_utility": 0.5983,
+    "oracle_ranks": {
+      "static-ranking": 1,
+      "constraint-first": 1,
+      "evidence-gap-first": 1,
+      "risk-first": 1
+    },
+    "pool_size": 2,
+    "evidence_overlap": 1.0,
+    "total_tokens": 22363,
+    "llm_calls": 4,
+    "trajectory_wall_latency_ms": 82813.87
+  },
+  {
+    "task_key": "beauty-medium",
+    "category": "Beauty Tools",
+    "difficulty": "medium",
+    "policy_diverse_n4_regret": 0.0,
+    "policy_diverse_frontier_utility": 0.5556,
+    "oracle_ranks": {
+      "static-ranking": 1,
+      "constraint-first": 1,
+      "evidence-gap-first": 1,
+      "risk-first": 8
+    },
+    "pool_size": 4,
+    "evidence_overlap": 1.0,
+    "total_tokens": 23595,
+    "llm_calls": 4,
+    "trajectory_wall_latency_ms": 82393.57
+  }
+]

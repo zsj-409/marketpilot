@@ -1,0 +1,17 @@
+{
+  "dataset": "synthetic-market-v1",
+  "version": "v1",
+  "generator_version": "1.0.0",
+  "seed": 42,
+  "products_per_category": 18,
+  "categories": [
+    "Pet Supplies",
+    "Home Organization",
+    "Kitchen Accessories",
+    "Outdoor Recreation",
+    "Beauty Tools",
+    "Office Accessories",
+    "Travel Accessories",
+    "Fitness Accessories"
+  ]
+}

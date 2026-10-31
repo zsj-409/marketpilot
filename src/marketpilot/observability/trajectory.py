@@ -69,6 +69,14 @@ class TrajectoryRecorder:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(state.model_dump_json(indent=2), encoding="utf-8")
 
+    def write_gate_event(self, path: Path, gated: dict[str, object]) -> None:
+        """Persist the Safety Gate emission record for a run."""
+        path.parent.mkdir(parents=True, exist_ok=True)
+        import json as _json
+
+        path.write_text(_json.dumps(gated, indent=2, ensure_ascii=False),
+                        encoding="utf-8")
+
     def write_summary(self, path: Path, summary: dict[str, str | int | float | bool]) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")

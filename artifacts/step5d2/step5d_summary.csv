@@ -1,0 +1,5 @@
+task_key,category,difficulty,policy_diverse_n4_regret,policy_diverse_frontier_utility,oracle_ranks,pool_size,evidence_overlap,total_tokens,llm_calls,trajectory_wall_latency_ms
+fitness-hard,Fitness Accessories,hard,0.0782,0.4665,"{'static-ranking': 5, 'constraint-first': 16, 'evidence-gap-first': 11, 'risk-first': 17}",4,0.4133,23132,4,88961.25
+kitchen-medium,Kitchen Accessories,medium,0.055,0.5154,"{'static-ranking': 9, 'constraint-first': 11, 'evidence-gap-first': 8, 'risk-first': 12}",5,0.411,24713,4,87715.73
+outdoor-hard,Outdoor Recreation,hard,0.0,0.5983,"{'static-ranking': 1, 'constraint-first': 1, 'evidence-gap-first': 1, 'risk-first': 4}",5,0.4268,23517,4,90846.54000000001
+beauty-medium,Beauty Tools,medium,0.0,0.5556,"{'static-ranking': 1, 'constraint-first': 2, 'evidence-gap-first': 2, 'risk-first': 4}",4,0.4137,24788,4,91338.65

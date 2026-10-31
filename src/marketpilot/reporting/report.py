@@ -4,7 +4,6 @@
 
 import html
 import json
-from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -144,10 +143,11 @@ def build_run_report(run_dir: Path) -> RunReport:
         (item for item in trajectory if item["event_type"] in {"RUN_COMPLETED", "RUN_FAILED"}),
         None,
     )
-    duration_ms = _duration_ms(
-        start_event.get("timestamp") if start_event else None,
-        end_event.get("timestamp") if end_event else None,
-    )
+    duration_ms = 0
+    if start_event and end_event:
+        duration_ms = max(
+            int(end_event.get("sequence_number", 0)) - int(start_event.get("sequence_number", 0)), 0
+        )
 
     return RunReport(
         run_id=str(final_state["run_id"]),
@@ -170,19 +170,6 @@ def build_run_report(run_dir: Path) -> RunReport:
         evidence=evidence,
         errors=errors,
     )
-
-
-def _duration_ms(start: str | None, end: str | None) -> int:
-    """Wall-clock duration between two ISO timestamps; 0 when unusable."""
-
-    if not start or not end:
-        return 0
-    try:
-        start_at = datetime.fromisoformat(str(start).replace("Z", "+00:00"))
-        end_at = datetime.fromisoformat(str(end).replace("Z", "+00:00"))
-    except ValueError:
-        return 0
-    return max(int((end_at - start_at).total_seconds() * 1000), 0)
 
 
 def _read_json(path: Path) -> dict[str, Any]:

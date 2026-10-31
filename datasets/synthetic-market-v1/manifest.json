@@ -1,0 +1,20 @@
+{
+  "dataset": "synthetic-market-v1",
+  "version": "v1",
+  "generator_version": "1.0.0",
+  "seed": 42,
+  "categories": [
+    "Pet Supplies",
+    "Home Organization",
+    "Kitchen Accessories",
+    "Outdoor Recreation",
+    "Beauty Tools",
+    "Office Accessories",
+    "Travel Accessories",
+    "Fitness Accessories"
+  ],
+  "product_count": 144,
+  "review_count": 1012,
+  "source_count": 24,
+  "created_at": "2026-08-29T13:00:48.662172+00:00"
+}

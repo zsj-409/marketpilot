@@ -1,0 +1,99 @@
+[
+  {
+    "world_id": "b31-conflict-304",
+    "split": "test",
+    "category": "wrong_go_sufficient_evidence",
+    "method": "fixed",
+    "regret": 0.21700684698642347,
+    "task_loss": 0.21700684698642347,
+    "detail": "evidence sufficient but selected non-optimal product"
+  },
+  {
+    "world_id": "b31-conflict-304",
+    "split": "test",
+    "category": "wrong_go_sufficient_evidence",
+    "method": "missing-evidence",
+    "regret": 0.21700684698642347,
+    "task_loss": 0.21700684698642347,
+    "detail": "evidence sufficient but selected non-optimal product"
+  },
+  {
+    "world_id": "b31-conflict-304",
+    "split": "test",
+    "category": "wrong_go_sufficient_evidence",
+    "method": "uncertainty",
+    "regret": 0.21700684698642347,
+    "task_loss": 0.21700684698642347,
+    "detail": "evidence sufficient but selected non-optimal product"
+  },
+  {
+    "world_id": "b31-conflict-304",
+    "split": "test",
+    "category": "wrong_go_sufficient_evidence",
+    "method": "adaptive-voi",
+    "regret": 0.21700684698642347,
+    "task_loss": 0.21700684698642347,
+    "detail": "evidence sufficient but selected non-optimal product"
+  },
+  {
+    "world_id": "b31-conflict-304",
+    "split": "test",
+    "category": "wrong_go_sufficient_evidence",
+    "method": "contextual-hybrid",
+    "regret": 0.21700684698642347,
+    "task_loss": 0.21700684698642347,
+    "detail": "evidence sufficient but selected non-optimal product"
+  },
+  {
+    "world_id": "b31-ood-drift-conflict-402",
+    "split": "ood",
+    "category": "wrong_go_sufficient_evidence",
+    "method": "fixed",
+    "regret": 0.2027738192986298,
+    "task_loss": 0.2027738192986298,
+    "detail": "evidence sufficient but selected non-optimal product"
+  },
+  {
+    "world_id": "b31-ood-drift-conflict-402",
+    "split": "ood",
+    "category": "wrong_go_sufficient_evidence",
+    "method": "missing-evidence",
+    "regret": 0.2027738192986298,
+    "task_loss": 0.2027738192986298,
+    "detail": "evidence sufficient but selected non-optimal product"
+  },
+  {
+    "world_id": "b31-ood-drift-conflict-402",
+    "split": "ood",
+    "category": "wrong_go_sufficient_evidence",
+    "method": "uncertainty",
+    "regret": 0.2027738192986298,
+    "task_loss": 0.2027738192986298,
+    "detail": "evidence sufficient but selected non-optimal product"
+  },
+  {
+    "world_id": "b31-ood-drift-conflict-402",
+    "split": "ood",
+    "category": "wrong_go_sufficient_evidence",
+    "method": "adaptive-voi",
+    "regret": 0.2027738192986298,
+    "task_loss": 0.2027738192986298,
+    "detail": "evidence sufficient but selected non-optimal product"
+  },
+  {
+    "world_id": "b31-ood-drift-conflict-402",
+    "split": "ood",
+    "category": "wrong_go_sufficient_evidence",
+    "method": "contextual-hybrid",
+    "regret": 0.2027738192986298,
+    "task_loss": 0.2027738192986298,
+    "detail": "evidence sufficient but selected non-optimal product"
+  },
+  {
+    "world_id": "(aggregate OOD)",
+    "split": "ood",
+    "category": "fixed_ood_degradation",
+    "method": "fixed",
+    "detail": "fixed abstained on 60/80 OOD worlds (vs 36/120 on TEST) — fixed research order cannot cope with source-reliability shift + tool-failure combos"
+  }
+]

@@ -1,0 +1,769 @@
+{
+  "status": "REAL_LLM_EXECUTED",
+  "provider": "volcengine-ark",
+  "model": "deepseek-v4-flash",
+  "base_url": "https://ark.cn-beijing.volces.com/api/plan/v3",
+  "prompt_hash": "2ea3f0fb6d635e6b",
+  "n_worlds": 24,
+  "temperature": 0.0,
+  "max_output_tokens": 800,
+  "max_turns": 6,
+  "totals": {
+    "deterministic_go": 16,
+    "llm_go": 15,
+    "llm_gate_pass": 15,
+    "llm_gate_interceptions": 0,
+    "llm_calls": 50,
+    "llm_tool_calls": 170,
+    "llm_tokens_in": 59254,
+    "llm_tokens_out": 27787,
+    "llm_total_tokens": 87041,
+    "llm_schema_failures": 0,
+    "llm_latency_p50_ms": 7969.0,
+    "llm_latency_p95_ms": 15922.0,
+    "llm_estimated_cost_usd": null
+  },
+  "per_world": [
+    {
+      "world_id": "W0-7",
+      "deterministic": {
+        "world_id": "W0-7",
+        "decision": "GO",
+        "selected": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "REFUSED",
+        "selected": null,
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2124,
+        "tokens_out": 860,
+        "latency_ms": [
+          6266.0,
+          7328.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "REFUSED",
+        "gate_reason_codes": [
+          "evidence_insufficient"
+        ],
+        "post_gate_outcome": "REFUSED"
+      }
+    },
+    {
+      "world_id": "W0-8",
+      "deterministic": {
+        "world_id": "W0-8",
+        "decision": "GO",
+        "selected": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2124,
+        "tokens_out": 990,
+        "latency_ms": [
+          5922.0,
+          9531.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W0-9",
+      "deterministic": {
+        "world_id": "W0-9",
+        "decision": "GO",
+        "selected": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2124,
+        "tokens_out": 914,
+        "latency_ms": [
+          6297.0,
+          7578.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W0-10",
+      "deterministic": {
+        "world_id": "W0-10",
+        "decision": "GO",
+        "selected": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2124,
+        "tokens_out": 900,
+        "latency_ms": [
+          7969.0,
+          8359.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W1-7",
+      "deterministic": {
+        "world_id": "W1-7",
+        "decision": "GO",
+        "selected": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2164,
+        "tokens_out": 1078,
+        "latency_ms": [
+          6406.0,
+          12954.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W1-8",
+      "deterministic": {
+        "world_id": "W1-8",
+        "decision": "GO",
+        "selected": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "REFUSED",
+        "selected": null,
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2164,
+        "tokens_out": 798,
+        "latency_ms": [
+          5875.0,
+          4750.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "REFUSED",
+        "gate_reason_codes": [
+          "evidence_insufficient"
+        ],
+        "post_gate_outcome": "REFUSED"
+      }
+    },
+    {
+      "world_id": "W1-9",
+      "deterministic": {
+        "world_id": "W1-9",
+        "decision": "GO",
+        "selected": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "6ca90f9c-d601-5981-b0bf-10a200c1383a",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2164,
+        "tokens_out": 706,
+        "latency_ms": [
+          7578.0,
+          2328.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W1-10",
+      "deterministic": {
+        "world_id": "W1-10",
+        "decision": "GO",
+        "selected": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2164,
+        "tokens_out": 1072,
+        "latency_ms": [
+          6344.0,
+          8812.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W2-7",
+      "deterministic": {
+        "world_id": "W2-7",
+        "decision": "GO",
+        "selected": "64a91384-b198-545d-972b-4e08874807c6",
+        "cost": 10.0,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "64a91384-b198-545d-972b-4e08874807c6",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2148,
+        "tokens_out": 1070,
+        "latency_ms": [
+          6219.0,
+          10156.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W2-8",
+      "deterministic": {
+        "world_id": "W2-8",
+        "decision": "GO",
+        "selected": "64a91384-b198-545d-972b-4e08874807c6",
+        "cost": 10.0,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "64a91384-b198-545d-972b-4e08874807c6",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2148,
+        "tokens_out": 1112,
+        "latency_ms": [
+          6656.0,
+          11016.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W2-9",
+      "deterministic": {
+        "world_id": "W2-9",
+        "decision": "GO",
+        "selected": "64a91384-b198-545d-972b-4e08874807c6",
+        "cost": 10.0,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "64a91384-b198-545d-972b-4e08874807c6",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2148,
+        "tokens_out": 1027,
+        "latency_ms": [
+          6609.0,
+          10860.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W2-10",
+      "deterministic": {
+        "world_id": "W2-10",
+        "decision": "GO",
+        "selected": "64a91384-b198-545d-972b-4e08874807c6",
+        "cost": 10.0,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "REFUSED",
+        "selected": null,
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2148,
+        "tokens_out": 750,
+        "latency_ms": [
+          6609.0,
+          4984.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "REFUSED",
+        "gate_reason_codes": [
+          "evidence_insufficient"
+        ],
+        "post_gate_outcome": "REFUSED"
+      }
+    },
+    {
+      "world_id": "W3-7",
+      "deterministic": {
+        "world_id": "W3-7",
+        "decision": "GO",
+        "selected": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "REFUSED",
+        "selected": null,
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2132,
+        "tokens_out": 1200,
+        "latency_ms": [
+          6469.0,
+          12203.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "REFUSED",
+        "gate_reason_codes": [
+          "evidence_insufficient"
+        ],
+        "post_gate_outcome": "REFUSED"
+      }
+    },
+    {
+      "world_id": "W3-8",
+      "deterministic": {
+        "world_id": "W3-8",
+        "decision": "GO",
+        "selected": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2132,
+        "tokens_out": 940,
+        "latency_ms": [
+          6688.0,
+          8219.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W3-9",
+      "deterministic": {
+        "world_id": "W3-9",
+        "decision": "GO",
+        "selected": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2132,
+        "tokens_out": 1052,
+        "latency_ms": [
+          7484.0,
+          8828.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W3-10",
+      "deterministic": {
+        "world_id": "W3-10",
+        "decision": "GO",
+        "selected": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+        "cost": 7.6,
+        "outcome": "valid_go",
+        "reason": "supported_valid_go",
+        "evidence_sufficient": true,
+        "n_steps": 6
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+        "calls": 2,
+        "tool_calls": 7,
+        "tokens_in": 2132,
+        "tokens_out": 1064,
+        "latency_ms": [
+          6469.0,
+          11437.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W4-7",
+      "deterministic": {
+        "world_id": "W4-7",
+        "decision": "INSUFFICIENT",
+        "selected": "af640524-642d-559c-9876-7cad47581c72",
+        "cost": 9.2,
+        "outcome": "appropriate_abstention",
+        "reason": "",
+        "evidence_sufficient": false,
+        "n_steps": 8
+      },
+      "llm": {
+        "decision": "REFUSED",
+        "selected": null,
+        "calls": 1,
+        "tool_calls": 0,
+        "tokens_in": 665,
+        "tokens_out": 889,
+        "latency_ms": [
+          12141.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "REFUSED",
+        "gate_reason_codes": [
+          "evidence_insufficient"
+        ],
+        "post_gate_outcome": "REFUSED"
+      }
+    },
+    {
+      "world_id": "W4-8",
+      "deterministic": {
+        "world_id": "W4-8",
+        "decision": "INSUFFICIENT",
+        "selected": "af640524-642d-559c-9876-7cad47581c72",
+        "cost": 9.2,
+        "outcome": "appropriate_abstention",
+        "reason": "",
+        "evidence_sufficient": false,
+        "n_steps": 8
+      },
+      "llm": {
+        "decision": "REFUSED",
+        "selected": null,
+        "calls": 1,
+        "tool_calls": 0,
+        "tokens_in": 665,
+        "tokens_out": 913,
+        "latency_ms": [
+          10484.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "REFUSED",
+        "gate_reason_codes": [
+          "evidence_insufficient"
+        ],
+        "post_gate_outcome": "REFUSED"
+      }
+    },
+    {
+      "world_id": "W4-9",
+      "deterministic": {
+        "world_id": "W4-9",
+        "decision": "INSUFFICIENT",
+        "selected": "af640524-642d-559c-9876-7cad47581c72",
+        "cost": 9.2,
+        "outcome": "appropriate_abstention",
+        "reason": "",
+        "evidence_sufficient": false,
+        "n_steps": 8
+      },
+      "llm": {
+        "decision": "REFUSED",
+        "selected": null,
+        "calls": 1,
+        "tool_calls": 0,
+        "tokens_in": 665,
+        "tokens_out": 941,
+        "latency_ms": [
+          15922.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "REFUSED",
+        "gate_reason_codes": [
+          "evidence_insufficient"
+        ],
+        "post_gate_outcome": "REFUSED"
+      }
+    },
+    {
+      "world_id": "W4-10",
+      "deterministic": {
+        "world_id": "W4-10",
+        "decision": "INSUFFICIENT",
+        "selected": "af640524-642d-559c-9876-7cad47581c72",
+        "cost": 9.2,
+        "outcome": "appropriate_abstention",
+        "reason": "",
+        "evidence_sufficient": false,
+        "n_steps": 8
+      },
+      "llm": {
+        "decision": "",
+        "selected": null,
+        "calls": 6,
+        "tool_calls": 12,
+        "tokens_in": 9647,
+        "tokens_out": 1635,
+        "latency_ms": [
+          6703.0,
+          10922.0,
+          6453.0,
+          2094.0,
+          1984.0,
+          2954.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "REFUSED",
+        "gate_reason_codes": [
+          "evidence_insufficient"
+        ],
+        "post_gate_outcome": "REFUSED"
+      }
+    },
+    {
+      "world_id": "W5-7",
+      "deterministic": {
+        "world_id": "W5-7",
+        "decision": "INSUFFICIENT",
+        "selected": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+        "cost": 9.9,
+        "outcome": "appropriate_abstention",
+        "reason": "",
+        "evidence_sufficient": false,
+        "n_steps": 8
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+        "calls": 3,
+        "tool_calls": 16,
+        "tokens_in": 5522,
+        "tokens_out": 3376,
+        "latency_ms": [
+          8546.0,
+          23406.0,
+          22485.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W5-8",
+      "deterministic": {
+        "world_id": "W5-8",
+        "decision": "INSUFFICIENT",
+        "selected": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+        "cost": 9.9,
+        "outcome": "appropriate_abstention",
+        "reason": "",
+        "evidence_sufficient": false,
+        "n_steps": 8
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+        "calls": 2,
+        "tool_calls": 10,
+        "tokens_in": 2606,
+        "tokens_out": 1604,
+        "latency_ms": [
+          8156.0,
+          14750.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    },
+    {
+      "world_id": "W5-9",
+      "deterministic": {
+        "world_id": "W5-9",
+        "decision": "INSUFFICIENT",
+        "selected": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+        "cost": 9.9,
+        "outcome": "appropriate_abstention",
+        "reason": "",
+        "evidence_sufficient": false,
+        "n_steps": 8
+      },
+      "llm": {
+        "decision": "REFUSED",
+        "selected": null,
+        "calls": 2,
+        "tool_calls": 10,
+        "tokens_in": 2606,
+        "tokens_out": 1561,
+        "latency_ms": [
+          8984.0,
+          14735.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "REFUSED",
+        "gate_reason_codes": [
+          "evidence_insufficient"
+        ],
+        "post_gate_outcome": "REFUSED"
+      }
+    },
+    {
+      "world_id": "W5-10",
+      "deterministic": {
+        "world_id": "W5-10",
+        "decision": "INSUFFICIENT",
+        "selected": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+        "cost": 9.9,
+        "outcome": "appropriate_abstention",
+        "reason": "",
+        "evidence_sufficient": false,
+        "n_steps": 8
+      },
+      "llm": {
+        "decision": "GO",
+        "selected": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+        "calls": 2,
+        "tool_calls": 10,
+        "tokens_in": 2606,
+        "tokens_out": 1335,
+        "latency_ms": [
+          8109.0,
+          12656.0
+        ],
+        "errors": [],
+        "schema_ok": true,
+        "gate": "PASS",
+        "gate_reason_codes": [],
+        "post_gate_outcome": "GO"
+      }
+    }
+  ],
+  "note": "key read from Hermes .env (ARK_API_KEY), never persisted; cost estimate unavailable (no provider pricing table)"
+}

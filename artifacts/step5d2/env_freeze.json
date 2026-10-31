@@ -1,0 +1,13 @@
+{
+  "environment_version": "v2",
+  "source_count": 64,
+  "sources_sha256": "dd9ea22311409b00343ddbbf21718688c25cc7680cac0152552aca5d26a8a632",
+  "retrieval_sha256": "7f3be5178178fb7d313d527d2717680928a420877e3b253e141fede18bd44921",
+  "latent_leak_in_sources": false,
+  "queries": {
+    "best opportunity overview": "broad",
+    "downside failure risk": "downside",
+    "constraints eligible required": "constraints",
+    "price cost margin": "price"
+  }
+}

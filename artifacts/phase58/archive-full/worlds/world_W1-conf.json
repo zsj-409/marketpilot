@@ -1,0 +1,134 @@
+{
+  "world_id": "W1-conf",
+  "split": "dev",
+  "difficulty": "medium",
+  "key_facet": "risk",
+  "world_version": "W1-v1",
+  "action_costs": null,
+  "products": [
+    {
+      "product_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+      "true_margin": 0.68,
+      "true_reliability": 0.78,
+      "true_demand": 0.58,
+      "true_competition": 0.35,
+      "true_risk": 0.22,
+      "true_utility": 0.4035,
+      "viable": true
+    },
+    {
+      "product_id": "6ca90f9c-d601-5981-b0bf-10a200c1383a",
+      "true_margin": 0.3,
+      "true_reliability": 0.72,
+      "true_demand": 0.85,
+      "true_competition": 0.3,
+      "true_risk": 0.55,
+      "true_utility": 0.2705,
+      "viable": false
+    }
+  ],
+  "observables": {
+    "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88": {
+      "product_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+      "title": "W1 Solid",
+      "observed_margin": 0.53,
+      "observed_reliability": 0.78,
+      "observed_demand": 0.48,
+      "observed_competition": 0.35,
+      "observed_risk": 0.22
+    },
+    "6ca90f9c-d601-5981-b0bf-10a200c1383a": {
+      "product_id": "6ca90f9c-d601-5981-b0bf-10a200c1383a",
+      "title": "W1 Shiny",
+      "observed_margin": 0.4,
+      "observed_reliability": 0.72,
+      "observed_demand": 0.95,
+      "observed_competition": 0.3,
+      "observed_risk": 0.55
+    }
+  },
+  "evidence": {
+    "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88": {
+      "margin": [
+        {
+          "facet": "margin",
+          "value": 0.68,
+          "truth_value": 0.68,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "W1-3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88-margin",
+          "observed_at": null
+        }
+      ],
+      "demand": [
+        {
+          "facet": "demand",
+          "value": 0.58,
+          "truth_value": 0.58,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "W1-3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88-demand",
+          "observed_at": null
+        }
+      ],
+      "risk": [
+        {
+          "facet": "risk",
+          "value": 0.22,
+          "truth_value": 0.22,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "W1-3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88-risk",
+          "observed_at": null
+        }
+      ]
+    },
+    "6ca90f9c-d601-5981-b0bf-10a200c1383a": {
+      "margin": [
+        {
+          "facet": "margin",
+          "value": 0.3,
+          "truth_value": 0.3,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "W1-6ca90f9c-d601-5981-b0bf-10a200c1383a-margin",
+          "observed_at": null
+        }
+      ],
+      "demand": [
+        {
+          "facet": "demand",
+          "value": 0.85,
+          "truth_value": 0.85,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "W1-6ca90f9c-d601-5981-b0bf-10a200c1383a-demand",
+          "observed_at": null
+        }
+      ],
+      "risk": [
+        {
+          "facet": "risk",
+          "value": 0.55,
+          "truth_value": 0.55,
+          "noise": 0.0,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "W1-6ca90f9c-d601-5981-b0bf-10a200c1383a-risk",
+          "observed_at": null
+        }
+      ]
+    }
+  }
+}

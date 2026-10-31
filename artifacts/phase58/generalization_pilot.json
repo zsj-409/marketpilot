@@ -1,0 +1,1043 @@
+{
+  "protocol": "phase5.8 generalization pilot; 6 mixed templates x 3 seeds",
+  "templates": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M6"
+  ],
+  "seeds": [
+    7,
+    8,
+    9
+  ],
+  "rows": [
+    {
+      "template": "M1",
+      "seed": 7,
+      "world_id": "M1-7",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": true,
+        "regret": 0.4035,
+        "cost": 2.8,
+        "correct": false,
+        "best_utility": 0.4035
+      }
+    },
+    {
+      "template": "M1",
+      "seed": 8,
+      "world_id": "M1-8",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": true,
+        "regret": 0.4035,
+        "cost": 2.8,
+        "correct": false,
+        "best_utility": 0.4035
+      }
+    },
+    {
+      "template": "M1",
+      "seed": 9,
+      "world_id": "M1-9",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": true,
+        "regret": 0.4035,
+        "cost": 2.8,
+        "correct": false,
+        "best_utility": 0.4035
+      }
+    },
+    {
+      "template": "M2",
+      "seed": 7,
+      "world_id": "M2-7",
+      "fixed": {
+        "family": "fixed",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.4,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      }
+    },
+    {
+      "template": "M2",
+      "seed": 8,
+      "world_id": "M2-8",
+      "fixed": {
+        "family": "fixed",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.4,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      }
+    },
+    {
+      "template": "M2",
+      "seed": 9,
+      "world_id": "M2-9",
+      "fixed": {
+        "family": "fixed",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.4,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      }
+    },
+    {
+      "template": "M3",
+      "seed": 7,
+      "world_id": "M3-7",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.3,
+        "correct": true,
+        "best_utility": 0.42
+      }
+    },
+    {
+      "template": "M3",
+      "seed": 8,
+      "world_id": "M3-8",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.3,
+        "correct": true,
+        "best_utility": 0.42
+      }
+    },
+    {
+      "template": "M3",
+      "seed": 9,
+      "world_id": "M3-9",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.3,
+        "correct": true,
+        "best_utility": 0.42
+      }
+    },
+    {
+      "template": "M4",
+      "seed": 7,
+      "world_id": "M4-7",
+      "fixed": {
+        "family": "fixed",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.4,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      }
+    },
+    {
+      "template": "M4",
+      "seed": 8,
+      "world_id": "M4-8",
+      "fixed": {
+        "family": "fixed",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.4,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      }
+    },
+    {
+      "template": "M4",
+      "seed": 9,
+      "world_id": "M4-9",
+      "fixed": {
+        "family": "fixed",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.4,
+        "correct": false,
+        "best_utility": 0.43
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      }
+    },
+    {
+      "template": "M5",
+      "seed": 7,
+      "world_id": "M5-7",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 6.3,
+        "correct": true,
+        "best_utility": 0.42
+      }
+    },
+    {
+      "template": "M5",
+      "seed": 8,
+      "world_id": "M5-8",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 6.3,
+        "correct": true,
+        "best_utility": 0.42
+      }
+    },
+    {
+      "template": "M5",
+      "seed": 9,
+      "world_id": "M5-9",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 6.3,
+        "correct": true,
+        "best_utility": 0.42
+      }
+    },
+    {
+      "template": "M6",
+      "seed": 7,
+      "world_id": "M6-7",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": true,
+        "regret": 0.4035,
+        "cost": 3.8,
+        "correct": false,
+        "best_utility": 0.4035
+      }
+    },
+    {
+      "template": "M6",
+      "seed": 8,
+      "world_id": "M6-8",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": true,
+        "regret": 0.4035,
+        "cost": 3.8,
+        "correct": false,
+        "best_utility": 0.4035
+      }
+    },
+    {
+      "template": "M6",
+      "seed": 9,
+      "world_id": "M6-9",
+      "fixed": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "missing-evidence": {
+        "family": "missing-evidence",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "uncertainty": {
+        "family": "uncertainty",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "adaptive-voi": {
+        "family": "adaptive-voi",
+        "decision": "INSUFFICIENT",
+        "invalid": true,
+        "refused": true,
+        "regret": 0.4035,
+        "cost": 3.8,
+        "correct": false,
+        "best_utility": 0.4035
+      }
+    }
+  ],
+  "per_world_oracle_ub": {
+    "M1": {
+      "7": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "8": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "9": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.6,
+        "correct": true,
+        "best_utility": 0.4035
+      }
+    },
+    "M2": {
+      "7": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      },
+      "8": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      },
+      "9": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      }
+    },
+    "M3": {
+      "7": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "8": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "9": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.42
+      }
+    },
+    "M4": {
+      "7": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      },
+      "8": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      },
+      "9": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 9.4,
+        "correct": true,
+        "best_utility": 0.43
+      }
+    },
+    "M5": {
+      "7": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 6.3,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "8": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 6.3,
+        "correct": true,
+        "best_utility": 0.42
+      },
+      "9": {
+        "family": "adaptive-voi",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 6.3,
+        "correct": true,
+        "best_utility": 0.42
+      }
+    },
+    "M6": {
+      "7": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "8": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      },
+      "9": {
+        "family": "fixed",
+        "decision": "GO",
+        "invalid": false,
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true,
+        "best_utility": 0.4035
+      }
+    }
+  },
+  "global_best_static": {
+    "family": "adaptive-voi",
+    "scores": {
+      "fixed": {
+        "correct": 4,
+        "cost": 53.8
+      },
+      "missing-evidence": {
+        "correct": 4,
+        "cost": 53.8
+      },
+      "uncertainty": {
+        "correct": 4,
+        "cost": 53.2
+      },
+      "adaptive-voi": {
+        "correct": 4,
+        "cost": 40.99999999999999
+      }
+    }
+  }
+}

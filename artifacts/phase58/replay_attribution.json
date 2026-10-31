@@ -1,0 +1,528 @@
+{
+  "protocol": "phase5.8 replay attribution; budget-comparable; quality-first",
+  "generation_dev": [
+    "W1-dev",
+    "W4-dev"
+  ],
+  "confirmation_dev": [
+    "W1-conf",
+    "W4-conf"
+  ],
+  "rounds": 3,
+  "seed": 42,
+  "global_best_static": {
+    "family": "adaptive-voi",
+    "scores": {
+      "fixed": {
+        "correct": 1,
+        "cost": 18.299999999999997,
+        "n": 2
+      },
+      "missing-evidence": {
+        "correct": 1,
+        "cost": 18.299999999999997,
+        "n": 2
+      },
+      "uncertainty": {
+        "correct": 1,
+        "cost": 18.0,
+        "n": 2
+      },
+      "adaptive-voi": {
+        "correct": 1,
+        "cost": 13.2,
+        "n": 2
+      }
+    },
+    "ranking": [
+      "adaptive-voi",
+      "uncertainty",
+      "fixed",
+      "missing-evidence"
+    ]
+  },
+  "global_best_static_on_confirmation": {
+    "W1": {
+      "family": "adaptive-voi",
+      "decision": "INSUFFICIENT",
+      "refused": true,
+      "regret": 0.4035,
+      "cost": 3.8,
+      "correct": false
+    },
+    "W4": {
+      "family": "adaptive-voi",
+      "decision": "GO",
+      "refused": false,
+      "regret": 0.0,
+      "cost": 9.4,
+      "correct": true
+    }
+  },
+  "per_world_static_oracle_ub": {
+    "W1-dev": {
+      "family": "fixed",
+      "decision": "GO",
+      "refused": false,
+      "regret": 0.0,
+      "cost": 7.6,
+      "correct": true
+    },
+    "W4-dev": {
+      "family": "adaptive-voi",
+      "decision": "GO",
+      "refused": false,
+      "regret": 0.0,
+      "cost": 9.4,
+      "correct": true
+    }
+  },
+  "random_search": {
+    "W1": {
+      "results": [
+        {
+          "family": "fixed",
+          "decision": "GO",
+          "refused": false,
+          "regret": 0.0,
+          "cost": 7.6,
+          "correct": true
+        },
+        {
+          "family": "fixed",
+          "decision": "GO",
+          "refused": false,
+          "regret": 0.0,
+          "cost": 7.6,
+          "correct": true
+        },
+        {
+          "family": "uncertainty",
+          "decision": "GO",
+          "refused": false,
+          "regret": 0.0,
+          "cost": 7.6,
+          "correct": true
+        }
+      ]
+    },
+    "W4": {
+      "results": [
+        {
+          "family": "missing-evidence",
+          "decision": "INSUFFICIENT",
+          "refused": false,
+          "regret": 0.43,
+          "cost": 10.7,
+          "correct": false
+        },
+        {
+          "family": "missing-evidence",
+          "decision": "INSUFFICIENT",
+          "refused": false,
+          "regret": 0.43,
+          "cost": 10.7,
+          "correct": false
+        },
+        {
+          "family": "missing-evidence",
+          "decision": "INSUFFICIENT",
+          "refused": false,
+          "regret": 0.43,
+          "cost": 10.7,
+          "correct": false
+        }
+      ]
+    }
+  },
+  "no_replay": {
+    "W1": {
+      "results": [
+        {
+          "family": "fixed",
+          "decision": "GO",
+          "refused": false,
+          "regret": 0.0,
+          "cost": 7.6,
+          "correct": true
+        },
+        {
+          "family": "fixed",
+          "decision": "GO",
+          "refused": false,
+          "regret": 0.0,
+          "cost": 7.6,
+          "correct": true
+        },
+        {
+          "family": "adaptive-voi",
+          "decision": "INSUFFICIENT",
+          "refused": true,
+          "regret": 0.4035,
+          "cost": 3.8,
+          "correct": false
+        }
+      ]
+    },
+    "W4": {
+      "results": [
+        {
+          "family": "fixed",
+          "decision": "INSUFFICIENT",
+          "refused": false,
+          "regret": 0.43,
+          "cost": 10.7,
+          "correct": false
+        },
+        {
+          "family": "fixed",
+          "decision": "INSUFFICIENT",
+          "refused": false,
+          "regret": 0.43,
+          "cost": 10.7,
+          "correct": false
+        },
+        {
+          "family": "fixed",
+          "decision": "INSUFFICIENT",
+          "refused": false,
+          "regret": 0.43,
+          "cost": 10.7,
+          "correct": false
+        }
+      ]
+    }
+  },
+  "full_rsi": {
+    "W1": {
+      "round_log": [
+        {
+          "round": 1,
+          "incumbent_policy_hash": "b0b945835e119098",
+          "challenger_policy_hash": "b8894c6127a08a3d",
+          "incumbent_family": "adaptive-voi",
+          "challenger_family": "missing-evidence",
+          "dream_score": 0.5,
+          "replay_support": "SUPPORTED",
+          "confirmation_world_id": "W1-conf",
+          "confirmation_ok": true,
+          "action": "promote",
+          "kind": "improved",
+          "incumbent_outcome": "INSUFFICIENT",
+          "challenger_outcome": "GO",
+          "incumbent_regret": 0.4035,
+          "challenger_regret": 0.0,
+          "quality_delta": 0.4035,
+          "cost_delta": 3.8
+        },
+        {
+          "round": 2,
+          "incumbent_policy_hash": "b8894c6127a08a3d",
+          "challenger_policy_hash": "f4b43eab8630ee75",
+          "incumbent_family": "missing-evidence",
+          "challenger_family": "missing-evidence",
+          "dream_score": 1.0,
+          "replay_support": "SUPPORTED",
+          "confirmation_world_id": "W1-conf",
+          "confirmation_ok": false,
+          "action": "rollback",
+          "kind": "tied",
+          "incumbent_outcome": "GO",
+          "challenger_outcome": "GO",
+          "incumbent_regret": 0.0,
+          "challenger_regret": 0.0,
+          "quality_delta": 0.0,
+          "cost_delta": 0.0
+        },
+        {
+          "round": 3,
+          "incumbent_policy_hash": "b8894c6127a08a3d",
+          "challenger_policy_hash": "bcf60f532dee0915",
+          "incumbent_family": "missing-evidence",
+          "challenger_family": "missing-evidence",
+          "dream_score": 1.0,
+          "replay_support": "SUPPORTED",
+          "confirmation_world_id": "W1-conf",
+          "confirmation_ok": false,
+          "action": "rollback",
+          "kind": "tied",
+          "incumbent_outcome": "GO",
+          "challenger_outcome": "GO",
+          "incumbent_regret": 0.0,
+          "challenger_regret": 0.0,
+          "quality_delta": 0.0,
+          "cost_delta": 0.0
+        }
+      ],
+      "active": "b8894c6127a08a3d",
+      "final_decision": "",
+      "online_cost": 53.199999999999996,
+      "replay_cost": 41.8,
+      "promotions": [
+        {
+          "round": 1,
+          "incumbent_policy_hash": "b0b945835e119098",
+          "challenger_policy_hash": "b8894c6127a08a3d",
+          "incumbent_family": "adaptive-voi",
+          "challenger_family": "missing-evidence",
+          "dream_score": 0.5,
+          "replay_support": "SUPPORTED",
+          "confirmation_world_id": "W1-conf",
+          "confirmation_ok": true,
+          "action": "promote",
+          "kind": "improved",
+          "incumbent_outcome": "INSUFFICIENT",
+          "challenger_outcome": "GO",
+          "incumbent_regret": 0.4035,
+          "challenger_regret": 0.0,
+          "quality_delta": 0.4035,
+          "cost_delta": 3.8
+        }
+      ]
+    },
+    "W4": {
+      "round_log": [
+        {
+          "round": 1,
+          "incumbent_policy_hash": "b0b945835e119098",
+          "challenger_policy_hash": "b8894c6127a08a3d",
+          "incumbent_family": "adaptive-voi",
+          "challenger_family": "missing-evidence",
+          "dream_score": 0.4,
+          "replay_support": "SUPPORTED",
+          "confirmation_world_id": "W4-conf",
+          "confirmation_ok": false,
+          "action": "rollback",
+          "kind": null,
+          "incumbent_outcome": null,
+          "challenger_outcome": "INSUFFICIENT",
+          "incumbent_regret": null,
+          "challenger_regret": null,
+          "quality_delta": null,
+          "cost_delta": null
+        },
+        {
+          "round": 2,
+          "incumbent_policy_hash": "b0b945835e119098",
+          "challenger_policy_hash": "4c637c2fe6c42215",
+          "incumbent_family": "adaptive-voi",
+          "challenger_family": "adaptive-voi",
+          "dream_score": 1.0,
+          "replay_support": "SUPPORTED",
+          "confirmation_world_id": "W4-conf",
+          "confirmation_ok": false,
+          "action": "rollback",
+          "kind": "tied",
+          "incumbent_outcome": "GO",
+          "challenger_outcome": "GO",
+          "incumbent_regret": 0.0,
+          "challenger_regret": 0.0,
+          "quality_delta": 0.0,
+          "cost_delta": 0.0
+        },
+        {
+          "round": 3,
+          "incumbent_policy_hash": "b0b945835e119098",
+          "challenger_policy_hash": "505d22008f516765",
+          "incumbent_family": "adaptive-voi",
+          "challenger_family": "adaptive-voi",
+          "dream_score": 1.0,
+          "replay_support": "SUPPORTED",
+          "confirmation_world_id": "W4-conf",
+          "confirmation_ok": false,
+          "action": "rollback",
+          "kind": "tied",
+          "incumbent_outcome": "GO",
+          "challenger_outcome": "GO",
+          "incumbent_regret": 0.0,
+          "challenger_regret": 0.0,
+          "quality_delta": 0.0,
+          "cost_delta": 0.0
+        }
+      ],
+      "active": "b0b945835e119098",
+      "final_decision": "",
+      "online_cost": 57.7,
+      "replay_cost": 57.7,
+      "promotions": []
+    }
+  },
+  "current_only_rsi": {
+    "W1": {
+      "round_log": [
+        {
+          "round": 1,
+          "incumbent_policy_hash": "b0b945835e119098",
+          "challenger_policy_hash": "b8894c6127a08a3d",
+          "incumbent_family": "adaptive-voi",
+          "challenger_family": "missing-evidence",
+          "dream_score": 0.5,
+          "replay_support": "SUPPORTED",
+          "confirmation_world_id": "W1-conf",
+          "confirmation_ok": true,
+          "action": "promote",
+          "kind": "improved",
+          "incumbent_outcome": "INSUFFICIENT",
+          "challenger_outcome": "GO",
+          "incumbent_regret": 0.4035,
+          "challenger_regret": 0.0,
+          "quality_delta": 0.4035,
+          "cost_delta": 3.8
+        },
+        {
+          "round": 2,
+          "incumbent_policy_hash": "b8894c6127a08a3d",
+          "challenger_policy_hash": "f4b43eab8630ee75",
+          "incumbent_family": "missing-evidence",
+          "challenger_family": "missing-evidence",
+          "dream_score": 1.0,
+          "replay_support": "SUPPORTED",
+          "confirmation_world_id": "W1-conf",
+          "confirmation_ok": false,
+          "action": "rollback",
+          "kind": "tied",
+          "incumbent_outcome": "GO",
+          "challenger_outcome": "GO",
+          "incumbent_regret": 0.0,
+          "challenger_regret": 0.0,
+          "quality_delta": 0.0,
+          "cost_delta": 0.0
+        },
+        {
+          "round": 3,
+          "incumbent_policy_hash": "b8894c6127a08a3d",
+          "challenger_policy_hash": "bcf60f532dee0915",
+          "incumbent_family": "missing-evidence",
+          "challenger_family": "missing-evidence",
+          "dream_score": 0.0,
+          "replay_support": "UNSUPPORTED",
+          "confirmation_world_id": "W1-conf",
+          "confirmation_ok": false,
+          "action": "rollback",
+          "kind": null,
+          "incumbent_outcome": null,
+          "challenger_outcome": "GO",
+          "incumbent_regret": null,
+          "challenger_regret": null,
+          "quality_delta": null,
+          "cost_delta": null
+        }
+      ],
+      "active": "b8894c6127a08a3d",
+      "final_decision": "",
+      "online_cost": 45.599999999999994,
+      "replay_cost": 34.199999999999996,
+      "promotions": [
+        {
+          "round": 1,
+          "incumbent_policy_hash": "b0b945835e119098",
+          "challenger_policy_hash": "b8894c6127a08a3d",
+          "incumbent_family": "adaptive-voi",
+          "challenger_family": "missing-evidence",
+          "dream_score": 0.5,
+          "replay_support": "SUPPORTED",
+          "confirmation_world_id": "W1-conf",
+          "confirmation_ok": true,
+          "action": "promote",
+          "kind": "improved",
+          "incumbent_outcome": "INSUFFICIENT",
+          "challenger_outcome": "GO",
+          "incumbent_regret": 0.4035,
+          "challenger_regret": 0.0,
+          "quality_delta": 0.4035,
+          "cost_delta": 3.8
+        }
+      ]
+    },
+    "W4": {
+      "round_log": [
+        {
+          "round": 1,
+          "incumbent_policy_hash": "b0b945835e119098",
+          "challenger_policy_hash": "b8894c6127a08a3d",
+          "incumbent_family": "adaptive-voi",
+          "challenger_family": "missing-evidence",
+          "dream_score": 0.4,
+          "replay_support": "SUPPORTED",
+          "confirmation_world_id": "W4-conf",
+          "confirmation_ok": false,
+          "action": "rollback",
+          "kind": null,
+          "incumbent_outcome": null,
+          "challenger_outcome": "INSUFFICIENT",
+          "incumbent_regret": null,
+          "challenger_regret": null,
+          "quality_delta": null,
+          "cost_delta": null
+        },
+        {
+          "round": 2,
+          "incumbent_policy_hash": "b0b945835e119098",
+          "challenger_policy_hash": "4c637c2fe6c42215",
+          "incumbent_family": "adaptive-voi",
+          "challenger_family": "adaptive-voi",
+          "dream_score": 0.0,
+          "replay_support": "UNSUPPORTED",
+          "confirmation_world_id": "W4-conf",
+          "confirmation_ok": false,
+          "action": "rollback",
+          "kind": null,
+          "incumbent_outcome": null,
+          "challenger_outcome": "GO",
+          "incumbent_regret": null,
+          "challenger_regret": null,
+          "quality_delta": null,
+          "cost_delta": null
+        },
+        {
+          "round": 3,
+          "incumbent_policy_hash": "b0b945835e119098",
+          "challenger_policy_hash": "505d22008f516765",
+          "incumbent_family": "adaptive-voi",
+          "challenger_family": "adaptive-voi",
+          "dream_score": 0.0,
+          "replay_support": "UNSUPPORTED",
+          "confirmation_world_id": "W4-conf",
+          "confirmation_ok": false,
+          "action": "rollback",
+          "kind": null,
+          "incumbent_outcome": null,
+          "challenger_outcome": "GO",
+          "incumbent_regret": null,
+          "challenger_regret": null,
+          "quality_delta": null,
+          "cost_delta": null
+        }
+      ],
+      "active": "b0b945835e119098",
+      "final_decision": "",
+      "online_cost": 38.9,
+      "replay_cost": 38.9,
+      "promotions": []
+    }
+  },
+  "history_feedback": {
+    "W1": {
+      "family": "fixed",
+      "result": {
+        "family": "fixed",
+        "decision": "GO",
+        "refused": false,
+        "regret": 0.0,
+        "cost": 7.6,
+        "correct": true
+      }
+    },
+    "W4": {
+      "family": "fixed",
+      "result": {
+        "family": "fixed",
+        "decision": "INSUFFICIENT",
+        "refused": false,
+        "regret": 0.43,
+        "cost": 10.7,
+        "correct": false
+      }
+    }
+  }
+}

@@ -1,0 +1,977 @@
+{
+  "status": "SHADOW_NOT_RUN",
+  "note": "read-only; no purchase/order/payment; fixed source snapshots",
+  "n_requests": 5,
+  "runs": [
+    {
+      "request_id": "shadow-001",
+      "raw_request": "find a reliable wireless keyboard under 200 yuan without battery dependency",
+      "structured_constraints": {
+        "max_price": 200.0,
+        "forbid_battery": true,
+        "required_facets": [
+          "margin",
+          "demand",
+          "risk"
+        ]
+      },
+      "search_actions": [
+        {
+          "query": "find a reliable wireless keyboard under 200 yuan without battery dependency",
+          "source": "fixture"
+        }
+      ],
+      "product_entities": [
+        {
+          "candidate_id": "p1",
+          "title": "product 1",
+          "price": 180.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p2",
+          "title": "product 2",
+          "price": 260.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p3",
+          "title": "product 3",
+          "price": 320.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p4",
+          "title": "product 4",
+          "price": 120.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p5",
+          "title": "product 5",
+          "price": 90.0,
+          "battery": false
+        }
+      ],
+      "sources": [
+        {
+          "source": "fixture-snapshot",
+          "acquired_at": "2026-10-30T11:54:29.377347+00:00"
+        }
+      ],
+      "evidence_snapshots": {
+        "p1": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p1-margin",
+              "snapshot_ref": "snapshot:p1-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p1-demand",
+              "snapshot_ref": "snapshot:p1-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p1-risk",
+              "snapshot_ref": "snapshot:p1-risk"
+            }
+          ]
+        },
+        "p2": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p2-margin",
+              "snapshot_ref": "snapshot:p2-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p2-demand",
+              "snapshot_ref": "snapshot:p2-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p2-risk",
+              "snapshot_ref": "snapshot:p2-risk"
+            }
+          ]
+        },
+        "p3": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p3-margin",
+              "snapshot_ref": "snapshot:p3-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p3-demand",
+              "snapshot_ref": "snapshot:p3-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p3-risk",
+              "snapshot_ref": "snapshot:p3-risk"
+            }
+          ]
+        },
+        "p4": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p4-margin",
+              "snapshot_ref": "snapshot:p4-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p4-demand",
+              "snapshot_ref": "snapshot:p4-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p4-risk",
+              "snapshot_ref": "snapshot:p4-risk"
+            }
+          ]
+        },
+        "p5": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p5-margin",
+              "snapshot_ref": "snapshot:p5-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p5-demand",
+              "snapshot_ref": "snapshot:p5-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p5-risk",
+              "snapshot_ref": "snapshot:p5-risk"
+            }
+          ]
+        }
+      },
+      "conflicts_missing": {
+        "conflicts": [],
+        "missing": []
+      },
+      "final_recommendation": "p5",
+      "gate_verdict": "PASS",
+      "gate_reason": "none",
+      "refused": false,
+      "token_cost": {
+        "tokens": 0,
+        "estimated_cost_usd": 0.0
+      },
+      "tool_costs": [
+        {
+          "tool": "fixture-search",
+          "cost": 0.0
+        }
+      ],
+      "failure_reasons": [],
+      "mode": "OFFLINE_FIXTURE"
+    },
+    {
+      "request_id": "shadow-002",
+      "raw_request": "recommend a durable mechanical keyboard for office use, budget 300 yuan",
+      "structured_constraints": {
+        "max_price": 300.0,
+        "forbid_battery": false,
+        "required_facets": [
+          "margin",
+          "demand",
+          "risk"
+        ]
+      },
+      "search_actions": [
+        {
+          "query": "recommend a durable mechanical keyboard for office use, budget 300 yuan",
+          "source": "fixture"
+        }
+      ],
+      "product_entities": [
+        {
+          "candidate_id": "p1",
+          "title": "product 1",
+          "price": 180.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p2",
+          "title": "product 2",
+          "price": 260.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p3",
+          "title": "product 3",
+          "price": 320.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p4",
+          "title": "product 4",
+          "price": 120.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p5",
+          "title": "product 5",
+          "price": 90.0,
+          "battery": false
+        }
+      ],
+      "sources": [
+        {
+          "source": "fixture-snapshot",
+          "acquired_at": "2026-10-30T11:54:29.377848+00:00"
+        }
+      ],
+      "evidence_snapshots": {
+        "p1": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p1-margin",
+              "snapshot_ref": "snapshot:p1-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p1-demand",
+              "snapshot_ref": "snapshot:p1-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p1-risk",
+              "snapshot_ref": "snapshot:p1-risk"
+            }
+          ]
+        },
+        "p2": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p2-margin",
+              "snapshot_ref": "snapshot:p2-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p2-demand",
+              "snapshot_ref": "snapshot:p2-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p2-risk",
+              "snapshot_ref": "snapshot:p2-risk"
+            }
+          ]
+        },
+        "p3": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p3-margin",
+              "snapshot_ref": "snapshot:p3-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p3-demand",
+              "snapshot_ref": "snapshot:p3-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p3-risk",
+              "snapshot_ref": "snapshot:p3-risk"
+            }
+          ]
+        },
+        "p4": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p4-margin",
+              "snapshot_ref": "snapshot:p4-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p4-demand",
+              "snapshot_ref": "snapshot:p4-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p4-risk",
+              "snapshot_ref": "snapshot:p4-risk"
+            }
+          ]
+        },
+        "p5": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p5-margin",
+              "snapshot_ref": "snapshot:p5-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p5-demand",
+              "snapshot_ref": "snapshot:p5-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p5-risk",
+              "snapshot_ref": "snapshot:p5-risk"
+            }
+          ]
+        }
+      },
+      "conflicts_missing": {
+        "conflicts": [],
+        "missing": []
+      },
+      "final_recommendation": "p5",
+      "gate_verdict": "PASS",
+      "gate_reason": "none",
+      "refused": false,
+      "token_cost": {
+        "tokens": 0,
+        "estimated_cost_usd": 0.0
+      },
+      "tool_costs": [
+        {
+          "tool": "fixture-search",
+          "cost": 0.0
+        }
+      ],
+      "failure_reasons": [],
+      "mode": "OFFLINE_FIXTURE"
+    },
+    {
+      "request_id": "shadow-003",
+      "raw_request": "a gaming mouse under 150 yuan with low risk",
+      "structured_constraints": {
+        "max_price": 150.0,
+        "forbid_battery": false,
+        "required_facets": [
+          "margin",
+          "demand",
+          "risk"
+        ]
+      },
+      "search_actions": [
+        {
+          "query": "a gaming mouse under 150 yuan with low risk",
+          "source": "fixture"
+        }
+      ],
+      "product_entities": [
+        {
+          "candidate_id": "p1",
+          "title": "product 1",
+          "price": 180.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p2",
+          "title": "product 2",
+          "price": 260.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p3",
+          "title": "product 3",
+          "price": 320.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p4",
+          "title": "product 4",
+          "price": 120.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p5",
+          "title": "product 5",
+          "price": 90.0,
+          "battery": false
+        }
+      ],
+      "sources": [
+        {
+          "source": "fixture-snapshot",
+          "acquired_at": "2026-10-30T11:54:29.377848+00:00"
+        }
+      ],
+      "evidence_snapshots": {
+        "p1": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p1-margin",
+              "snapshot_ref": "snapshot:p1-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p1-demand",
+              "snapshot_ref": "snapshot:p1-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p1-risk",
+              "snapshot_ref": "snapshot:p1-risk"
+            }
+          ]
+        },
+        "p2": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p2-margin",
+              "snapshot_ref": "snapshot:p2-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p2-demand",
+              "snapshot_ref": "snapshot:p2-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p2-risk",
+              "snapshot_ref": "snapshot:p2-risk"
+            }
+          ]
+        },
+        "p3": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p3-margin",
+              "snapshot_ref": "snapshot:p3-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p3-demand",
+              "snapshot_ref": "snapshot:p3-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p3-risk",
+              "snapshot_ref": "snapshot:p3-risk"
+            }
+          ]
+        },
+        "p4": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p4-margin",
+              "snapshot_ref": "snapshot:p4-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p4-demand",
+              "snapshot_ref": "snapshot:p4-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p4-risk",
+              "snapshot_ref": "snapshot:p4-risk"
+            }
+          ]
+        },
+        "p5": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p5-margin",
+              "snapshot_ref": "snapshot:p5-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p5-demand",
+              "snapshot_ref": "snapshot:p5-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p5-risk",
+              "snapshot_ref": "snapshot:p5-risk"
+            }
+          ]
+        }
+      },
+      "conflicts_missing": {
+        "conflicts": [],
+        "missing": []
+      },
+      "final_recommendation": "p5",
+      "gate_verdict": "PASS",
+      "gate_reason": "none",
+      "refused": false,
+      "token_cost": {
+        "tokens": 0,
+        "estimated_cost_usd": 0.0
+      },
+      "tool_costs": [
+        {
+          "tool": "fixture-search",
+          "cost": 0.0
+        }
+      ],
+      "failure_reasons": [],
+      "mode": "OFFLINE_FIXTURE"
+    },
+    {
+      "request_id": "shadow-004",
+      "raw_request": "bluetooth speaker for travel, under 100 yuan",
+      "structured_constraints": {
+        "max_price": 100.0,
+        "forbid_battery": true,
+        "required_facets": [
+          "margin",
+          "demand",
+          "risk"
+        ]
+      },
+      "search_actions": [
+        {
+          "query": "bluetooth speaker for travel, under 100 yuan",
+          "source": "fixture"
+        }
+      ],
+      "product_entities": [
+        {
+          "candidate_id": "p1",
+          "title": "product 1",
+          "price": 180.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p2",
+          "title": "product 2",
+          "price": 260.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p3",
+          "title": "product 3",
+          "price": 320.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p4",
+          "title": "product 4",
+          "price": 120.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p5",
+          "title": "product 5",
+          "price": 90.0,
+          "battery": false
+        }
+      ],
+      "sources": [
+        {
+          "source": "fixture-snapshot",
+          "acquired_at": "2026-10-30T11:54:29.377848+00:00"
+        }
+      ],
+      "evidence_snapshots": {
+        "p1": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p1-margin",
+              "snapshot_ref": "snapshot:p1-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p1-demand",
+              "snapshot_ref": "snapshot:p1-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p1-risk",
+              "snapshot_ref": "snapshot:p1-risk"
+            }
+          ]
+        },
+        "p2": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p2-margin",
+              "snapshot_ref": "snapshot:p2-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p2-demand",
+              "snapshot_ref": "snapshot:p2-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p2-risk",
+              "snapshot_ref": "snapshot:p2-risk"
+            }
+          ]
+        },
+        "p3": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p3-margin",
+              "snapshot_ref": "snapshot:p3-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p3-demand",
+              "snapshot_ref": "snapshot:p3-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p3-risk",
+              "snapshot_ref": "snapshot:p3-risk"
+            }
+          ]
+        },
+        "p4": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p4-margin",
+              "snapshot_ref": "snapshot:p4-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p4-demand",
+              "snapshot_ref": "snapshot:p4-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p4-risk",
+              "snapshot_ref": "snapshot:p4-risk"
+            }
+          ]
+        },
+        "p5": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p5-margin",
+              "snapshot_ref": "snapshot:p5-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p5-demand",
+              "snapshot_ref": "snapshot:p5-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p5-risk",
+              "snapshot_ref": "snapshot:p5-risk"
+            }
+          ]
+        }
+      },
+      "conflicts_missing": {
+        "conflicts": [],
+        "missing": []
+      },
+      "final_recommendation": "p5",
+      "gate_verdict": "PASS",
+      "gate_reason": "none",
+      "refused": false,
+      "token_cost": {
+        "tokens": 0,
+        "estimated_cost_usd": 0.0
+      },
+      "tool_costs": [
+        {
+          "tool": "fixture-search",
+          "cost": 0.0
+        }
+      ],
+      "failure_reasons": [],
+      "mode": "OFFLINE_FIXTURE"
+    },
+    {
+      "request_id": "shadow-005",
+      "raw_request": "usb-c hub with stable reviews, budget 120 yuan",
+      "structured_constraints": {
+        "max_price": 120.0,
+        "forbid_battery": false,
+        "required_facets": [
+          "margin",
+          "demand",
+          "risk"
+        ]
+      },
+      "search_actions": [
+        {
+          "query": "usb-c hub with stable reviews, budget 120 yuan",
+          "source": "fixture"
+        }
+      ],
+      "product_entities": [
+        {
+          "candidate_id": "p1",
+          "title": "product 1",
+          "price": 180.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p2",
+          "title": "product 2",
+          "price": 260.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p3",
+          "title": "product 3",
+          "price": 320.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p4",
+          "title": "product 4",
+          "price": 120.0,
+          "battery": false
+        },
+        {
+          "candidate_id": "p5",
+          "title": "product 5",
+          "price": 90.0,
+          "battery": false
+        }
+      ],
+      "sources": [
+        {
+          "source": "fixture-snapshot",
+          "acquired_at": "2026-10-30T11:54:29.377848+00:00"
+        }
+      ],
+      "evidence_snapshots": {
+        "p1": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p1-margin",
+              "snapshot_ref": "snapshot:p1-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p1-demand",
+              "snapshot_ref": "snapshot:p1-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p1-risk",
+              "snapshot_ref": "snapshot:p1-risk"
+            }
+          ]
+        },
+        "p2": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p2-margin",
+              "snapshot_ref": "snapshot:p2-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p2-demand",
+              "snapshot_ref": "snapshot:p2-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p2-risk",
+              "snapshot_ref": "snapshot:p2-risk"
+            }
+          ]
+        },
+        "p3": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p3-margin",
+              "snapshot_ref": "snapshot:p3-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p3-demand",
+              "snapshot_ref": "snapshot:p3-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p3-risk",
+              "snapshot_ref": "snapshot:p3-risk"
+            }
+          ]
+        },
+        "p4": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p4-margin",
+              "snapshot_ref": "snapshot:p4-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p4-demand",
+              "snapshot_ref": "snapshot:p4-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p4-risk",
+              "snapshot_ref": "snapshot:p4-risk"
+            }
+          ]
+        },
+        "p5": {
+          "margin": [
+            {
+              "value": "ok",
+              "source": "src-p5-margin",
+              "snapshot_ref": "snapshot:p5-margin"
+            }
+          ],
+          "demand": [
+            {
+              "value": "ok",
+              "source": "src-p5-demand",
+              "snapshot_ref": "snapshot:p5-demand"
+            }
+          ],
+          "risk": [
+            {
+              "value": "ok",
+              "source": "src-p5-risk",
+              "snapshot_ref": "snapshot:p5-risk"
+            }
+          ]
+        }
+      },
+      "conflicts_missing": {
+        "conflicts": [],
+        "missing": []
+      },
+      "final_recommendation": "p5",
+      "gate_verdict": "PASS",
+      "gate_reason": "none",
+      "refused": false,
+      "token_cost": {
+        "tokens": 0,
+        "estimated_cost_usd": 0.0
+      },
+      "tool_costs": [
+        {
+          "tool": "fixture-search",
+          "cost": 0.0
+        }
+      ],
+      "failure_reasons": [],
+      "mode": "OFFLINE_FIXTURE"
+    }
+  ]
+}

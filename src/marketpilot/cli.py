@@ -126,6 +126,18 @@ async def _run_demo(
     recorder.write_trajectory(run_dir / "trajectory.jsonl")
     recorder.write_final_state(run_dir / "final_state.json", final_state)
     recommendation = next(iter(final_state.recommendations.values()), None)
+    # --- Safety Gate on the final emission (Release Gate Task 1) ---
+    from marketpilot.safety.gateway import gate_recommendation
+
+    gated = gate_recommendation(
+        "cli.demo",
+        recommendation,
+        list(final_state.evidence.values()),
+        spent=float(final_state.metrics.tool_calls or 0),
+        world_budget=12.0,
+        task_id=str(run_id),
+    )
+    recorder.write_gate_event(run_dir / "gate.json", gated.to_dict())
     summary: dict[str, str | int | float | bool] = {
         "run_id": str(run_id),
         "status": final_state.status.value,
@@ -141,6 +153,11 @@ async def _run_demo(
             else "No recommendation produced."
         ),
         "decision": recommendation.decision.value if recommendation is not None else "NONE",
+        # Two-layer metrics: pre-gate outcome vs post-gate release.
+        "pre_gate_outcome": gated.pre_gate_outcome,
+        "gate_decision": gated.gate_decision,
+        "gate_reason_codes": ",".join(gated.gate_reason_codes),
+        "post_gate_outcome": gated.post_gate_outcome,
         "mode": mode,
         "research_mode": research_mode,
         "llm_provider": provider,
@@ -463,7 +480,7 @@ def _cmd_llm_smoke(settings: MarketPilotSettings) -> None:
 
 
 def _cmd_doctor(settings: MarketPilotSettings) -> None:
-    print("MarketPilot version: 1.1.0")
+    print("MarketPilot version: 0.1.0")
     print(f"Python: {platform.python_version()}")
     print("Offline capability: available")
     print(f"LLM provider: {settings.llm_provider or 'not configured'}")
@@ -474,19 +491,6 @@ def _cmd_doctor(settings: MarketPilotSettings) -> None:
     print(f"Database URL: {settings.database_url}")
     print("Execution modes: mock, llm")
     print("Research modes: mock, live, replay")
-    print("Web workbench: marketpilot workbench (--host 127.0.0.1 --port 8600)")
-
-
-def _cmd_workbench(host: str, port: int) -> None:
-    import uvicorn
-
-    from marketpilot.webui.server import create_app
-
-    app = create_app()
-    print("MarketPilot Workbench")
-    print(f"  URL: http://{host}:{port}")
-    print("  Stop with Ctrl+C. Artifacts are read from runs/, benchmark_runs/, datasets/.")
-    uvicorn.run(app, host=host, port=port, log_level="warning")
 
 
 def _cmd_select_product(settings: MarketPilotSettings, args: argparse.Namespace) -> None:
@@ -579,12 +583,6 @@ def main() -> None:
 
     subparsers.add_parser("doctor", help="Show environment diagnostics")
 
-    workbench = subparsers.add_parser(
-        "workbench", help="Launch the interactive web workbench"
-    )
-    workbench.add_argument("--host", default="127.0.0.1", help="Bind address (default 127.0.0.1)")
-    workbench.add_argument("--port", type=int, default=8600, help="Port (default 8600)")
-
     select_product = subparsers.add_parser(
         "select-product", help="Run closed-loop product selection"
     )
@@ -623,9 +621,6 @@ def main() -> None:
         return
     if args.command == "doctor":
         _cmd_doctor(settings)
-        return
-    if args.command == "workbench":
-        _cmd_workbench(args.host, args.port)
         return
     if args.command == "select-product":
         _cmd_select_product(settings, args)

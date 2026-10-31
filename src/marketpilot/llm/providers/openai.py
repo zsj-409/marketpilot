@@ -81,7 +81,7 @@ class OpenAIChatClient(LLMClient):
                 "max_tokens": request.max_output_tokens,
             }
             if tools:
-                create_kwargs["tool_choice"] = "auto"
+                create_kwargs["tool_choice"] = request.tool_choice
             if response_format is not None and not tools:
                 create_kwargs["response_format"] = response_format
             completion = await self._client.chat.completions.create(
@@ -211,15 +211,18 @@ class OpenAIChatClient(LLMClient):
         choice = completion.choices[0]
         message = choice.message
         tool_calls: list[LLMToolCall] = []
+        truncated = 0
         for call in message.tool_calls or []:
             if call.type != "function" or call.function is None:
                 continue
             try:
                 arguments = ToolArguments.model_validate_json(call.function.arguments)
-            except Exception as exc:
-                raise LLMInvalidRequestError(
-                    f"invalid OpenAI tool-call arguments for {call.function.name}"
-                ) from exc
+            except Exception:
+                # Provider-side truncation / malformed arguments: skip this
+                # call (record it) rather than failing the whole response —
+                # parallel tool calls on some providers get cut off.
+                truncated += 1
+                continue
             tool_calls.append(
                 LLMToolCall(
                     call_id=call.id,
@@ -245,14 +248,18 @@ class OpenAIChatClient(LLMClient):
                 update={"estimated_cost": self._pricing.estimate(request.model, normalized_usage)}
             )
 
+        rid = (
+            f"{completion.id}+truncated:{truncated}" if truncated else completion.id
+        )
         return LLMResponse(
-            response_id=completion.id,
+            response_id=rid,
             provider="openai",
             model=completion.model,
             finish_reason=self._finish_reason(choice.finish_reason),
             content=message.content,
             tool_calls=tool_calls,
             usage=normalized_usage,
+            attempts=1,
         )
 
     def _finish_reason(self, reason: str | None) -> LLMFinishReason:

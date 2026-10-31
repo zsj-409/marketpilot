@@ -1,0 +1,91 @@
+{
+  "world_id": "W4-conf",
+  "split": "dev",
+  "policy_hash": "b8894c6127a08a3d",
+  "outcome": "INSUFFICIENT",
+  "total_cost": 10.7,
+  "steps": [
+    {
+      "step_index": 0,
+      "action": "search_demand",
+      "state_before": "s0",
+      "state_after": "s1",
+      "cost": 1.0,
+      "decision": "INSUFFICIENT",
+      "product_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684"
+    },
+    {
+      "step_index": 1,
+      "action": "search_demand",
+      "state_before": "s1",
+      "state_after": "s2",
+      "cost": 1.0,
+      "decision": "INSUFFICIENT",
+      "product_id": "7311801c-d9b5-5d2a-b77e-8057321a779a"
+    },
+    {
+      "step_index": 2,
+      "action": "search_demand",
+      "state_before": "s2",
+      "state_after": "s3",
+      "cost": 1.0,
+      "decision": "INSUFFICIENT",
+      "product_id": "af640524-642d-559c-9876-7cad47581c72"
+    },
+    {
+      "step_index": 3,
+      "action": "search_demand",
+      "state_before": "s3",
+      "state_after": "s4",
+      "cost": 1.0,
+      "decision": "INSUFFICIENT",
+      "product_id": "1aecae5a-c37f-50d2-a808-c8b610943d78"
+    },
+    {
+      "step_index": 4,
+      "action": "search_risk",
+      "state_before": "s4",
+      "state_after": "s5",
+      "cost": 1.3,
+      "decision": "INSUFFICIENT",
+      "product_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684"
+    },
+    {
+      "step_index": 5,
+      "action": "search_risk",
+      "state_before": "s5",
+      "state_after": "s6",
+      "cost": 1.3,
+      "decision": "INSUFFICIENT",
+      "product_id": "7311801c-d9b5-5d2a-b77e-8057321a779a"
+    },
+    {
+      "step_index": 6,
+      "action": "search_risk",
+      "state_before": "s6",
+      "state_after": "s7",
+      "cost": 1.3,
+      "decision": "INSUFFICIENT",
+      "product_id": "af640524-642d-559c-9876-7cad47581c72"
+    },
+    {
+      "step_index": 7,
+      "action": "search_risk",
+      "state_before": "s7",
+      "state_after": "s8",
+      "cost": 1.3,
+      "decision": "INSUFFICIENT",
+      "product_id": "1aecae5a-c37f-50d2-a808-c8b610943d78"
+    },
+    {
+      "step_index": 8,
+      "action": "search_margin",
+      "state_before": "s8",
+      "state_after": "s9",
+      "cost": 1.5,
+      "decision": "INSUFFICIENT",
+      "product_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684"
+    }
+  ],
+  "round": 1
+}

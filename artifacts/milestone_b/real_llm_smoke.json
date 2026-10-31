@@ -1,0 +1,165 @@
+{
+  "status": "REAL_LLM_EXECUTED",
+  "provider": "volcengine-ark",
+  "model": "deepseek-v4-flash",
+  "base_url": "https://ark.cn-beijing.volces.com/api/plan/v3",
+  "smoke_tasks": [
+    {
+      "world_id": "W1-7",
+      "n_candidates": 2,
+      "calls": 2,
+      "tool_calls": 7,
+      "tokens_in": 2164,
+      "tokens_out": 1017,
+      "latency_ms": [
+        8000.0,
+        9266.0
+      ],
+      "decision": "GO",
+      "selected": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+      "gate": "PASS",
+      "gate_reason_codes": [],
+      "errors": [],
+      "schema_ok": true,
+      "_debug_finish": [
+        "TOOL_CALLS",
+        "TOOL_CALLS"
+      ],
+      "_debug_tools": [
+        6,
+        1
+      ],
+      "post_gate_outcome": "GO",
+      "evidence_chain": {
+        "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88": [
+          "demand",
+          "margin",
+          "risk"
+        ],
+        "6ca90f9c-d601-5981-b0bf-10a200c1383a": [
+          "demand",
+          "margin",
+          "risk"
+        ]
+      }
+    },
+    {
+      "world_id": "W2-8",
+      "n_candidates": 2,
+      "calls": 2,
+      "tool_calls": 7,
+      "tokens_in": 2148,
+      "tokens_out": 890,
+      "latency_ms": [
+        6890.0,
+        6719.0
+      ],
+      "decision": "GO",
+      "selected": "64a91384-b198-545d-972b-4e08874807c6",
+      "gate": "PASS",
+      "gate_reason_codes": [],
+      "errors": [],
+      "schema_ok": true,
+      "_debug_finish": [
+        "TOOL_CALLS",
+        "TOOL_CALLS"
+      ],
+      "_debug_tools": [
+        6,
+        1
+      ],
+      "post_gate_outcome": "GO",
+      "evidence_chain": {
+        "64a91384-b198-545d-972b-4e08874807c6": [
+          "demand",
+          "margin",
+          "risk"
+        ],
+        "2c02edca-37f1-5ce3-b5e8-25b0c7d411e4": [
+          "demand",
+          "margin",
+          "risk"
+        ]
+      }
+    },
+    {
+      "world_id": "W4-9",
+      "n_candidates": 4,
+      "calls": 1,
+      "tool_calls": 0,
+      "tokens_in": 665,
+      "tokens_out": 861,
+      "latency_ms": [
+        11453.0
+      ],
+      "decision": "REFUSED",
+      "selected": null,
+      "gate": "REFUSED",
+      "gate_reason_codes": [
+        "evidence_insufficient"
+      ],
+      "errors": [],
+      "schema_ok": true,
+      "_debug_finish": [
+        "LENGTH"
+      ],
+      "_debug_tools": [
+        11
+      ],
+      "post_gate_outcome": "REFUSED",
+      "evidence_chain": {
+        "9012d88a-cdb6-55fb-a721-6a15b79ab684": [],
+        "7311801c-d9b5-5d2a-b77e-8057321a779a": [],
+        "af640524-642d-559c-9876-7cad47581c72": [],
+        "1aecae5a-c37f-50d2-a808-c8b610943d78": []
+      }
+    },
+    {
+      "world_id": "W0-7",
+      "n_candidates": 2,
+      "calls": 2,
+      "tool_calls": 7,
+      "tokens_in": 2124,
+      "tokens_out": 861,
+      "latency_ms": [
+        6110.0,
+        8297.0
+      ],
+      "decision": "GO",
+      "selected": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+      "gate": "PASS",
+      "gate_reason_codes": [],
+      "errors": [],
+      "schema_ok": true,
+      "_debug_finish": [
+        "TOOL_CALLS",
+        "TOOL_CALLS"
+      ],
+      "_debug_tools": [
+        6,
+        1
+      ],
+      "post_gate_outcome": "GO",
+      "evidence_chain": {
+        "58f0accb-4dbc-5e82-bd46-97f04283daaf": [
+          "demand",
+          "margin",
+          "risk"
+        ],
+        "f6619092-c28b-56aa-8aa3-ef23cdfdbdf6": [
+          "demand",
+          "margin",
+          "risk"
+        ]
+      }
+    }
+  ],
+  "totals": {
+    "calls": 7,
+    "tool_calls": 21,
+    "tokens_in": 7101,
+    "tokens_out": 3629,
+    "schema_failures": 0
+  },
+  "note": "key read from Hermes .env (ARK_API_KEY), never persisted"
+}

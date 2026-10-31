@@ -1,0 +1,2711 @@
+{
+  "summary": {
+    "n_worlds": 60,
+    "n_research_changes_decision": 60,
+    "n_feasible_go": 54,
+    "n_must_abstain": 6,
+    "full_info_oracle_correct": 60
+  },
+  "per_world": [
+    {
+      "world_id": "pilot-conflict-7",
+      "difficulty": "medium",
+      "best_utility": 0.2437,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-conflict-8",
+      "difficulty": "medium",
+      "best_utility": 0.2474,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-conflict-9",
+      "difficulty": "medium",
+      "best_utility": 0.2344,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-conflict-10",
+      "difficulty": "medium",
+      "best_utility": 0.2486,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-conflict-11",
+      "difficulty": "medium",
+      "best_utility": 0.2617,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-conflict-12",
+      "difficulty": "medium",
+      "best_utility": 0.2846,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-noisy-7",
+      "difficulty": "medium",
+      "best_utility": 0.2437,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": false,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-noisy-8",
+      "difficulty": "medium",
+      "best_utility": 0.2474,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-noisy-9",
+      "difficulty": "medium",
+      "best_utility": 0.2344,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-noisy-10",
+      "difficulty": "medium",
+      "best_utility": 0.2486,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-noisy-11",
+      "difficulty": "medium",
+      "best_utility": 0.2617,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": false,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-noisy-12",
+      "difficulty": "medium",
+      "best_utility": 0.2846,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-asym-cost-7",
+      "difficulty": "medium",
+      "best_utility": 0.2437,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 11.7
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 4.5,
+        "n_states_explored": 1203,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-asym-cost-8",
+      "difficulty": "medium",
+      "best_utility": 0.2474,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 11.7
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 4.5,
+        "n_states_explored": 1175,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-asym-cost-9",
+      "difficulty": "medium",
+      "best_utility": 0.2344,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 11.7
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 4.5,
+        "n_states_explored": 1203,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-asym-cost-10",
+      "difficulty": "medium",
+      "best_utility": 0.2486,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 11.7
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 4.5,
+        "n_states_explored": 1175,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-asym-cost-11",
+      "difficulty": "medium",
+      "best_utility": 0.2617,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 11.7
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 4.5,
+        "n_states_explored": 1203,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-asym-cost-12",
+      "difficulty": "medium",
+      "best_utility": 0.2846,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 11.7
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 4.5,
+        "n_states_explored": 1175,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-redundant-7",
+      "difficulty": "medium",
+      "best_utility": 0.2437,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-redundant-8",
+      "difficulty": "medium",
+      "best_utility": 0.2474,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-redundant-9",
+      "difficulty": "medium",
+      "best_utility": 0.2344,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-redundant-10",
+      "difficulty": "medium",
+      "best_utility": 0.2486,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-redundant-11",
+      "difficulty": "medium",
+      "best_utility": 0.2617,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-redundant-12",
+      "difficulty": "medium",
+      "best_utility": 0.2846,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-drift-7",
+      "difficulty": "medium",
+      "best_utility": 0.2437,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-drift-8",
+      "difficulty": "medium",
+      "best_utility": 0.2474,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-drift-9",
+      "difficulty": "medium",
+      "best_utility": 0.2344,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-drift-10",
+      "difficulty": "medium",
+      "best_utility": 0.2486,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-drift-11",
+      "difficulty": "medium",
+      "best_utility": 0.2617,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-drift-12",
+      "difficulty": "medium",
+      "best_utility": 0.2846,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-scarce-7",
+      "difficulty": "medium",
+      "best_utility": 0.2437,
+      "n_products": 4,
+      "budget": 2.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": false,
+          "cost": 2.0
+        }
+      },
+      "reachability": {
+        "status": "abstention_required",
+        "min_valid_cost": null,
+        "n_states_explored": 211,
+        "n_go_paths": 0,
+        "reason": "full state space explored; no valid GO path within budget"
+      },
+      "solvability": {
+        "feasible_go_path": false,
+        "min_cost_for_best": 12.0,
+        "budget": 2.0,
+        "must_abstain": true
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-scarce-8",
+      "difficulty": "medium",
+      "best_utility": 0.2474,
+      "n_products": 4,
+      "budget": 2.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 2.0
+        }
+      },
+      "reachability": {
+        "status": "abstention_required",
+        "min_valid_cost": null,
+        "n_states_explored": 211,
+        "n_go_paths": 0,
+        "reason": "full state space explored; no valid GO path within budget"
+      },
+      "solvability": {
+        "feasible_go_path": false,
+        "min_cost_for_best": 12.0,
+        "budget": 2.0,
+        "must_abstain": true
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-scarce-9",
+      "difficulty": "medium",
+      "best_utility": 0.2344,
+      "n_products": 4,
+      "budget": 2.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 2.0
+        }
+      },
+      "reachability": {
+        "status": "abstention_required",
+        "min_valid_cost": null,
+        "n_states_explored": 211,
+        "n_go_paths": 0,
+        "reason": "full state space explored; no valid GO path within budget"
+      },
+      "solvability": {
+        "feasible_go_path": false,
+        "min_cost_for_best": 12.0,
+        "budget": 2.0,
+        "must_abstain": true
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-scarce-10",
+      "difficulty": "medium",
+      "best_utility": 0.2486,
+      "n_products": 4,
+      "budget": 2.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 2.0
+        }
+      },
+      "reachability": {
+        "status": "abstention_required",
+        "min_valid_cost": null,
+        "n_states_explored": 211,
+        "n_go_paths": 0,
+        "reason": "full state space explored; no valid GO path within budget"
+      },
+      "solvability": {
+        "feasible_go_path": false,
+        "min_cost_for_best": 12.0,
+        "budget": 2.0,
+        "must_abstain": true
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-scarce-11",
+      "difficulty": "medium",
+      "best_utility": 0.2617,
+      "n_products": 4,
+      "budget": 2.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 2.0
+        }
+      },
+      "reachability": {
+        "status": "abstention_required",
+        "min_valid_cost": null,
+        "n_states_explored": 211,
+        "n_go_paths": 0,
+        "reason": "full state space explored; no valid GO path within budget"
+      },
+      "solvability": {
+        "feasible_go_path": false,
+        "min_cost_for_best": 12.0,
+        "budget": 2.0,
+        "must_abstain": true
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-scarce-12",
+      "difficulty": "medium",
+      "best_utility": 0.2846,
+      "n_products": 4,
+      "budget": 2.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 2.0
+        }
+      },
+      "reachability": {
+        "status": "abstention_required",
+        "min_valid_cost": null,
+        "n_states_explored": 211,
+        "n_go_paths": 0,
+        "reason": "full state space explored; no valid GO path within budget"
+      },
+      "solvability": {
+        "feasible_go_path": false,
+        "min_cost_for_best": 12.0,
+        "budget": 2.0,
+        "must_abstain": true
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-multi-cand-7",
+      "difficulty": "medium",
+      "best_utility": 0.2437,
+      "n_products": 6,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 1620,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-multi-cand-8",
+      "difficulty": "medium",
+      "best_utility": 0.2474,
+      "n_products": 6,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 1620,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-multi-cand-9",
+      "difficulty": "medium",
+      "best_utility": 0.2344,
+      "n_products": 6,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 504,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-multi-cand-10",
+      "difficulty": "medium",
+      "best_utility": 0.2486,
+      "n_products": 6,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 1620,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-multi-cand-11",
+      "difficulty": "medium",
+      "best_utility": 0.2617,
+      "n_products": 6,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 1620,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-multi-cand-12",
+      "difficulty": "medium",
+      "best_utility": 0.2846,
+      "n_products": 6,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 1495,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 18.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-strict-7",
+      "difficulty": "medium",
+      "best_utility": 0.2437,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-strict-8",
+      "difficulty": "medium",
+      "best_utility": 0.2474,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-strict-9",
+      "difficulty": "medium",
+      "best_utility": 0.2344,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-strict-10",
+      "difficulty": "medium",
+      "best_utility": 0.2486,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-strict-11",
+      "difficulty": "medium",
+      "best_utility": 0.2617,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": false,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-strict-12",
+      "difficulty": "medium",
+      "best_utility": 0.2846,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-cheap-7",
+      "difficulty": "medium",
+      "best_utility": 0.2437,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 6.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 1.5,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 6.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-cheap-8",
+      "difficulty": "medium",
+      "best_utility": 0.2474,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 6.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 1.5,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 6.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-cheap-9",
+      "difficulty": "medium",
+      "best_utility": 0.2344,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 6.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 1.5,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 6.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-cheap-10",
+      "difficulty": "medium",
+      "best_utility": 0.2486,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 6.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 1.5,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 6.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-cheap-11",
+      "difficulty": "medium",
+      "best_utility": 0.2617,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 6.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 1.5,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 6.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-cheap-12",
+      "difficulty": "medium",
+      "best_utility": 0.2846,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 6.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 1.5,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 6.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-balanced-7",
+      "difficulty": "medium",
+      "best_utility": 0.2437,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-balanced-8",
+      "difficulty": "medium",
+      "best_utility": 0.2474,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-balanced-9",
+      "difficulty": "medium",
+      "best_utility": 0.2344,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-balanced-10",
+      "difficulty": "medium",
+      "best_utility": 0.2486,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    },
+    {
+      "world_id": "pilot-balanced-11",
+      "difficulty": "medium",
+      "best_utility": 0.2617,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": false
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 562,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": true
+      }
+    },
+    {
+      "world_id": "pilot-balanced-12",
+      "difficulty": "medium",
+      "best_utility": 0.2846,
+      "n_products": 4,
+      "budget": 12.0,
+      "self_tests": {
+        "random": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "heuristic": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "full_info_oracle": {
+          "outcome": "wrong_go",
+          "correct": true
+        },
+        "cheapest_first_heuristic": {
+          "outcome": "appropriate_abstention",
+          "correct": true,
+          "cost": 12.0
+        }
+      },
+      "reachability": {
+        "status": "go_reachable",
+        "min_valid_cost": 3.0,
+        "n_states_explored": 221,
+        "n_go_paths": 1,
+        "reason": "valid GO path found within budget"
+      },
+      "solvability": {
+        "feasible_go_path": true,
+        "min_cost_for_best": 12.0,
+        "budget": 12.0,
+        "must_abstain": false
+      },
+      "positive_control": {
+        "research_changes_decision": true
+      },
+      "leakage": {
+        "best_id_not_lex_first": false
+      }
+    }
+  ]
+}

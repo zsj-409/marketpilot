@@ -1,0 +1,122 @@
+[
+  {
+    "domain": "adafruit.com",
+    "site_class": "china",
+    "url": "https://www.adafruit.com/product/4884",
+    "canonical_url": "https://www.adafruit.com/product/4884",
+    "status": "SUCCESS",
+    "snapshot_id": "cc8737f0a0d176f0",
+    "content_hash": "d7b69e2ba1e5c7188cf7181c3376ab9f971cebe898d9c6142954291bf27d65dd",
+    "facts": {
+      "url": "https://www.adafruit.com/product/4884",
+      "canonical_url": "https://www.adafruit.com/product/4884",
+      "title": "Adafruit Feather RP2040",
+      "price": "11.9500",
+      "currency": "USD",
+      "sku": 4884,
+      "brand": null,
+      "description": null,
+      "image": "https://www.adafruit.com/images/480x360/4884-04.jpg"
+    }
+  },
+  {
+    "domain": "adafruit.com",
+    "site_class": "china",
+    "url": "https://www.adafruit.com/product/4900",
+    "canonical_url": "https://www.adafruit.com/product/4900",
+    "status": "SUCCESS",
+    "snapshot_id": "6d18e354f8b2da8d",
+    "content_hash": "11c877afd5c51026eaeba57fb4882c6908441489dde997c08e256f160b8fc545",
+    "facts": {
+      "url": "https://www.adafruit.com/product/4900",
+      "canonical_url": "https://www.adafruit.com/product/4900",
+      "title": "Adafruit QT Py RP2040",
+      "price": "9.9500",
+      "currency": "USD",
+      "sku": 4900,
+      "brand": null,
+      "description": null,
+      "image": "https://www.adafruit.com/images/480x360/4900-06"
+    }
+  },
+  {
+    "domain": "sparkfun.com",
+    "site_class": "global",
+    "url": "https://www.sparkfun.com/sparkfun-redboard-plus.html",
+    "canonical_url": "https://www.sparkfun.com/sparkfun-redboard-plus.html",
+    "status": "SUCCESS",
+    "snapshot_id": "840a3499104dad40",
+    "content_hash": "147545c4a53efccb5d18eeda2c3effc89791d07cdc767d93d30ed72502fa14b8",
+    "facts": {
+      "url": "https://www.sparkfun.com/sparkfun-redboard-plus.html",
+      "canonical_url": "https://www.sparkfun.com/sparkfun-redboard-plus.html",
+      "title": "SparkFun RedBoard Plus",
+      "price": "29.5",
+      "currency": "USD",
+      "sku": "DEV-18158",
+      "brand": null,
+      "description": null,
+      "image": "https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/8/18158-SparkFun_RedBoard_Plus-01.jpg"
+    }
+  },
+  {
+    "domain": "sparkfun.com",
+    "site_class": "global",
+    "url": "https://www.sparkfun.com/sparkfun-qwiic-pro-micro-usb-c-atmega32u4.html",
+    "canonical_url": "https://www.sparkfun.com/sparkfun-qwiic-pro-micro-usb-c-atmega32u4.html",
+    "status": "SUCCESS",
+    "snapshot_id": "56168a4c16fef041",
+    "content_hash": "5ceb5228c073d4be26a057798aae2418f381dc9e75f7f10f8b060f1f98416e82",
+    "facts": {
+      "url": "https://www.sparkfun.com/sparkfun-qwiic-pro-micro-usb-c-atmega32u4.html",
+      "canonical_url": "https://www.sparkfun.com/sparkfun-qwiic-pro-micro-usb-c-atmega32u4.html",
+      "title": "SparkFun Qwiic Pro Micro - USB-C",
+      "price": "23.95",
+      "currency": "USD",
+      "sku": "DEV-15795",
+      "brand": null,
+      "description": null,
+      "image": "https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/5/15795-Pro_Micro_C-01.jpg"
+    }
+  },
+  {
+    "domain": "shop.pimoroni.com",
+    "site_class": "independent",
+    "url": "https://shop.pimoroni.com/products/tiny-2040",
+    "canonical_url": "https://shop.pimoroni.com/products/tiny-2040",
+    "status": "SUCCESS",
+    "snapshot_id": "6f93048154f3d0d7",
+    "content_hash": "76f713bf3c0d05dad04b4a72c72bce06cf7bc278b54077a05565c0a39057a7aa",
+    "facts": {
+      "url": "https://shop.pimoroni.com/products/tiny-2040",
+      "canonical_url": "https://shop.pimoroni.com/products/tiny-2040",
+      "title": "Tiny 2040",
+      "price": null,
+      "currency": null,
+      "sku": "PIM558",
+      "brand": "Pimoroni",
+      "description": null,
+      "image": "https://cdn.shopify.com/s/files/1/0174/1800/products/tiny-2040-2_b1d082c2-59d4-4ed6-841f-72acc234cbb7.jpg?v=1616398927"
+    }
+  },
+  {
+    "domain": "shop.pimoroni.com",
+    "site_class": "independent",
+    "url": "https://shop.pimoroni.com/products/pimoroni-pico-lipo",
+    "canonical_url": "https://shop.pimoroni.com/products/pimoroni-pico-lipo",
+    "status": "SUCCESS",
+    "snapshot_id": "da4d8c93bdc2d3ec",
+    "content_hash": "343b1583ba2bcd3f192ba7579d39a7e1c7cd12f54077397b5b2b2dcf69bd53f1",
+    "facts": {
+      "url": "https://shop.pimoroni.com/products/pimoroni-pico-lipo",
+      "canonical_url": "https://shop.pimoroni.com/products/pimoroni-pico-lipo",
+      "title": "Pimoroni Pico LiPo",
+      "price": null,
+      "currency": null,
+      "sku": "PIM560",
+      "brand": "Pimoroni",
+      "description": null,
+      "image": "https://cdn.shopify.com/s/files/1/0174/1800/products/pimoroni-pico-lipo-1.jpg?v=1625483549"
+    }
+  }
+]

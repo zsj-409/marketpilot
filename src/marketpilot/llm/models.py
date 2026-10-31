@@ -98,6 +98,7 @@ class LLMRequest(BaseModel):
     max_output_tokens: int = Field(default=1024, ge=1)
     tools: list[LLMToolDefinition] = Field(default_factory=list)
     structured_output: LLMStructuredOutputSpec | None = None
+    tool_choice: str = Field(default="auto", pattern="^(auto|required|none)$")
     metadata: dict[str, str | int | float | bool | None] = Field(default_factory=dict)
 
 

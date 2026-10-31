@@ -1,0 +1,11 @@
+method,per_world_metrics,test_ood_executed,note
+fixed,YES,YES,frozen static policy
+missing-evidence,YES,YES,frozen static policy
+uncertainty,YES,YES,frozen static policy
+adaptive-voi,YES,YES,frozen static policy
+contextual-hybrid,YES,YES,frozen static policy
+global_best_static,YES (as gbs_family=fixed),YES (identical to fixed: same policy hash),selected on DEV; frozen registry v2 records family=fixed
+random_multi_family_search,NO,NO,optimization-efficiency method; only W1/W4 historical ablation (exploratory). NOT part of the frozen-policy task evaluation.
+full_dream_rsi,NO,NO,optimization-efficiency method; only W1/W4 historical ablation (exploratory). NOT part of the frozen-policy task evaluation.
+current_only_rsi,NO,NO,optimization-efficiency method; only W1/W4 historical ablation (exploratory). NOT part of the frozen-policy task evaluation.
+no_replay_optimization,NO,NO,optimization-efficiency method; only W1/W4 historical ablation (exploratory). NOT part of the frozen-policy task evaluation.

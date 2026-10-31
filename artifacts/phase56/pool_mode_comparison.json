@@ -1,0 +1,62 @@
+{
+  "full": {
+    "promoted": "b0b945835e119098",
+    "pool_size": 4,
+    "round_log": [
+      {
+        "round": 1,
+        "proposed_hash": "9dc9586186f6c5d5",
+        "dream_score": 0.9,
+        "confirmation_ok": false,
+        "action": "rollback",
+        "kind": null
+      },
+      {
+        "round": 2,
+        "proposed_hash": "11ee934132049267",
+        "dream_score": 0.9,
+        "confirmation_ok": false,
+        "action": "rollback",
+        "kind": null
+      },
+      {
+        "round": 3,
+        "proposed_hash": "9a969e279b350ac1",
+        "dream_score": 0.9,
+        "confirmation_ok": false,
+        "action": "rollback",
+        "kind": null
+      }
+    ]
+  },
+  "current": {
+    "promoted": "b0b945835e119098",
+    "pool_size": 4,
+    "round_log": [
+      {
+        "round": 1,
+        "proposed_hash": "9dc9586186f6c5d5",
+        "dream_score": 0.9,
+        "confirmation_ok": false,
+        "action": "rollback",
+        "kind": null
+      },
+      {
+        "round": 2,
+        "proposed_hash": "11ee934132049267",
+        "dream_score": 0.0,
+        "confirmation_ok": false,
+        "action": "rollback",
+        "kind": null
+      },
+      {
+        "round": 3,
+        "proposed_hash": "9a969e279b350ac1",
+        "dream_score": 0.0,
+        "confirmation_ok": false,
+        "action": "rollback",
+        "kind": null
+      }
+    ]
+  }
+}

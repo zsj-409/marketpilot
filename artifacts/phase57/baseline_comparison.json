@@ -1,0 +1,132 @@
+{
+  "W1": {
+    "static": {
+      "fixed": {
+        "decision": "GO",
+        "refused": false,
+        "correct": true,
+        "cost": 7.6
+      },
+      "missing-evidence": {
+        "decision": "GO",
+        "refused": false,
+        "correct": true,
+        "cost": 7.6
+      },
+      "uncertainty": {
+        "decision": "GO",
+        "refused": false,
+        "correct": true,
+        "cost": 7.6
+      },
+      "adaptive-voi": {
+        "decision": "INSUFFICIENT",
+        "refused": true,
+        "correct": false,
+        "cost": 3.8
+      }
+    },
+    "best_static": "fixed",
+    "random_search_best": [
+      "missing-evidence",
+      7.6
+    ],
+    "full_rsi": {
+      "promoted_family": "missing-evidence",
+      "decision": "GO",
+      "correct": true,
+      "cost": 7.6,
+      "round_log": [
+        {
+          "round": 1,
+          "proposed_hash": "b8894c6127a08a3d",
+          "dream_score": 0.9,
+          "confirmation_ok": true,
+          "action": "promote",
+          "kind": "tied"
+        },
+        {
+          "round": 2,
+          "proposed_hash": "f4b43eab8630ee75",
+          "dream_score": 1.0,
+          "confirmation_ok": true,
+          "action": "promote",
+          "kind": "tied"
+        },
+        {
+          "round": 3,
+          "proposed_hash": "58653a0ee8da6753",
+          "dream_score": 1.0,
+          "confirmation_ok": true,
+          "action": "promote",
+          "kind": "tied"
+        }
+      ]
+    }
+  },
+  "W4": {
+    "static": {
+      "fixed": {
+        "decision": "INSUFFICIENT",
+        "refused": false,
+        "correct": true,
+        "cost": 10.7
+      },
+      "missing-evidence": {
+        "decision": "INSUFFICIENT",
+        "refused": false,
+        "correct": true,
+        "cost": 10.7
+      },
+      "uncertainty": {
+        "decision": "INSUFFICIENT",
+        "refused": false,
+        "correct": true,
+        "cost": 10.4
+      },
+      "adaptive-voi": {
+        "decision": "GO",
+        "refused": false,
+        "correct": true,
+        "cost": 9.4
+      }
+    },
+    "best_static": "adaptive-voi",
+    "random_search_best": [
+      "adaptive-voi",
+      9.4
+    ],
+    "full_rsi": {
+      "promoted_family": "missing-evidence",
+      "decision": "INSUFFICIENT",
+      "correct": true,
+      "cost": 10.7,
+      "round_log": [
+        {
+          "round": 1,
+          "proposed_hash": "b8894c6127a08a3d",
+          "dream_score": 1.0,
+          "confirmation_ok": true,
+          "action": "promote",
+          "kind": "tied"
+        },
+        {
+          "round": 2,
+          "proposed_hash": "f4b43eab8630ee75",
+          "dream_score": 0.9,
+          "confirmation_ok": true,
+          "action": "promote",
+          "kind": "tied"
+        },
+        {
+          "round": 3,
+          "proposed_hash": "58653a0ee8da6753",
+          "dream_score": 0.9,
+          "confirmation_ok": true,
+          "action": "promote",
+          "kind": "tied"
+        }
+      ]
+    }
+  }
+}

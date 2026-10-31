@@ -1,0 +1,954 @@
+{
+  "results": [
+    {
+      "task_key": "fitness-hard",
+      "category": "Fitness Accessories",
+      "difficulty": "hard",
+      "policy": "static-ranking",
+      "oracle_candidate_id": "afc6feba-12e6-54db-b215-e5f74ed383e6",
+      "oracle_rank": 5,
+      "rank1_candidate_id": "d016a641-e13a-5e56-8dde-75436b222f89",
+      "rank2_candidate_id": "708e1a69-1ac0-5e96-8d44-0f666f178b31",
+      "rank2_score": 0.37206356510858934,
+      "oracle_score": 0.3550572210738973,
+      "promotion_gap": 0.017006344034692034,
+      "k_star": 5,
+      "oracle_regret_k": {
+        "1": 0.1106,
+        "2": 0.0782,
+        "3": 0.0782,
+        "4": 0.0782,
+        "5": 0.0,
+        "8": 0.0,
+        "10": 0.0
+      },
+      "component_deltas": {
+        "demand_score": -0.09160000000000001,
+        "gross_margin": -0.05708018354273792,
+        "differentiation_score": 0.11781850925496218,
+        "competition_score": -0.09999999999999998,
+        "risk_score": 0.09239999999999998,
+        "return_rate": 0.006000000000000005,
+        "seller_count": -8.0
+      }
+    },
+    {
+      "task_key": "fitness-hard",
+      "category": "Fitness Accessories",
+      "difficulty": "hard",
+      "policy": "constraint-first",
+      "oracle_candidate_id": "afc6feba-12e6-54db-b215-e5f74ed383e6",
+      "oracle_rank": 16,
+      "rank1_candidate_id": "85479fae-6ad8-580b-9cf6-3197e10187a8",
+      "rank2_candidate_id": "ceb2b232-8f1d-589c-b6fb-0180bb31d5cc",
+      "rank2_score": 0.30721146385642245,
+      "oracle_score": 0.3550572210738973,
+      "promotion_gap": -0.04784575721747486,
+      "k_star": null,
+      "oracle_regret_k": {
+        "1": 0.1473,
+        "2": 0.1363,
+        "3": 0.0782,
+        "4": 0.0782,
+        "5": 0.0782,
+        "8": 0.0782,
+        "10": 0.0782
+      },
+      "component_deltas": {
+        "demand_score": 0.11004999999999998,
+        "gross_margin": -0.03788569624378929,
+        "differentiation_score": 0.07608590639211099,
+        "competition_score": -0.09999999999999998,
+        "risk_score": 0.114175,
+        "return_rate": 0.026999999999999996,
+        "seller_count": -22.0
+      }
+    },
+    {
+      "task_key": "fitness-hard",
+      "category": "Fitness Accessories",
+      "difficulty": "hard",
+      "policy": "evidence-gap-first",
+      "oracle_candidate_id": "afc6feba-12e6-54db-b215-e5f74ed383e6",
+      "oracle_rank": 11,
+      "rank1_candidate_id": "85479fae-6ad8-580b-9cf6-3197e10187a8",
+      "rank2_candidate_id": "d016a641-e13a-5e56-8dde-75436b222f89",
+      "rank2_score": 0.3592524555069883,
+      "oracle_score": 0.3550572210738973,
+      "promotion_gap": 0.004195234433091,
+      "k_star": null,
+      "oracle_regret_k": {
+        "1": 0.1473,
+        "2": 0.1106,
+        "3": 0.0782,
+        "4": 0.0782,
+        "5": 0.0782,
+        "8": 0.0782,
+        "10": 0.0782
+      },
+      "component_deltas": {
+        "demand_score": -0.1310499999999999,
+        "gross_margin": -0.003565007447585866,
+        "differentiation_score": 0.18081758714402685,
+        "competition_score": -0.09999999999999998,
+        "risk_score": 0.08599999999999997,
+        "return_rate": 0.006000000000000005,
+        "seller_count": -14.0
+      }
+    },
+    {
+      "task_key": "fitness-hard",
+      "category": "Fitness Accessories",
+      "difficulty": "hard",
+      "policy": "risk-first",
+      "oracle_candidate_id": "afc6feba-12e6-54db-b215-e5f74ed383e6",
+      "oracle_rank": 17,
+      "rank1_candidate_id": "85479fae-6ad8-580b-9cf6-3197e10187a8",
+      "rank2_candidate_id": "ceb2b232-8f1d-589c-b6fb-0180bb31d5cc",
+      "rank2_score": 0.30721146385642245,
+      "oracle_score": 0.3550572210738973,
+      "promotion_gap": -0.04784575721747486,
+      "k_star": null,
+      "oracle_regret_k": {
+        "1": 0.1473,
+        "2": 0.1363,
+        "3": 0.1106,
+        "4": 0.0782,
+        "5": 0.0782,
+        "8": 0.0782,
+        "10": 0.0782
+      },
+      "component_deltas": {
+        "demand_score": 0.11004999999999998,
+        "gross_margin": -0.03788569624378929,
+        "differentiation_score": 0.07608590639211099,
+        "competition_score": -0.09999999999999998,
+        "risk_score": 0.114175,
+        "return_rate": 0.026999999999999996,
+        "seller_count": -22.0
+      }
+    },
+    {
+      "task_key": "kitchen-medium",
+      "category": "Kitchen Accessories",
+      "difficulty": "medium",
+      "policy": "static-ranking",
+      "oracle_candidate_id": "053fe84c-1993-55eb-b847-f34d18383782",
+      "oracle_rank": 9,
+      "rank1_candidate_id": "d0b0a212-6430-52fe-9846-474ff52d7c1d",
+      "rank2_candidate_id": "3db98d5c-dad4-52b4-aee8-b7ff2e2342d8",
+      "rank2_score": 0.37890172343506767,
+      "oracle_score": 0.39827271257731744,
+      "promotion_gap": -0.019370989142249773,
+      "k_star": 10,
+      "oracle_regret_k": {
+        "1": 0.055,
+        "2": 0.055,
+        "3": 0.055,
+        "4": 0.0324,
+        "5": 0.0324,
+        "8": 0.0324,
+        "10": 0.0
+      },
+      "component_deltas": {
+        "demand_score": -0.10030000000000006,
+        "gross_margin": -0.02054558881033486,
+        "differentiation_score": 0.23246193172416785,
+        "competition_score": -0.09999999999999998,
+        "risk_score": 0.01880000000000004,
+        "return_rate": 0.0,
+        "seller_count": -2.0
+      }
+    },
+    {
+      "task_key": "kitchen-medium",
+      "category": "Kitchen Accessories",
+      "difficulty": "medium",
+      "policy": "constraint-first",
+      "oracle_candidate_id": "053fe84c-1993-55eb-b847-f34d18383782",
+      "oracle_rank": 11,
+      "rank1_candidate_id": "d0b0a212-6430-52fe-9846-474ff52d7c1d",
+      "rank2_candidate_id": "634ce641-e2ba-54e3-a4d6-88d355fd3365",
+      "rank2_score": 0.310957420785329,
+      "oracle_score": 0.39827271257731744,
+      "promotion_gap": -0.08731529179198844,
+      "k_star": null,
+      "oracle_regret_k": {
+        "1": 0.055,
+        "2": 0.055,
+        "3": 0.055,
+        "4": 0.055,
+        "5": 0.055,
+        "8": 0.055,
+        "10": 0.0324
+      },
+      "component_deltas": {
+        "demand_score": 0.14335000000000003,
+        "gross_margin": -0.04815581911825728,
+        "differentiation_score": 0.12574623285776376,
+        "competition_score": -0.09999999999999998,
+        "risk_score": -0.09032499999999999,
+        "return_rate": -0.00899999999999998,
+        "seller_count": -2.0
+      }
+    },
+    {
+      "task_key": "kitchen-medium",
+      "category": "Kitchen Accessories",
+      "difficulty": "medium",
+      "policy": "evidence-gap-first",
+      "oracle_candidate_id": "053fe84c-1993-55eb-b847-f34d18383782",
+      "oracle_rank": 8,
+      "rank1_candidate_id": "f085c5fd-b79e-587f-b8ac-288bd4223a7d",
+      "rank2_candidate_id": "d0b0a212-6430-52fe-9846-474ff52d7c1d",
+      "rank2_score": 0.3933264545140479,
+      "oracle_score": 0.39827271257731744,
+      "promotion_gap": -0.004946258063269537,
+      "k_star": 8,
+      "oracle_regret_k": {
+        "1": 0.1905,
+        "2": 0.055,
+        "3": 0.055,
+        "4": 0.055,
+        "5": 0.055,
+        "8": 0.0,
+        "10": 0.0
+      },
+      "component_deltas": {
+        "demand_score": -0.12424999999999997,
+        "gross_margin": -0.0473888763550685,
+        "differentiation_score": 0.2366048857601833,
+        "competition_score": -0.09999999999999998,
+        "risk_score": 0.02040000000000003,
+        "return_rate": 0.0,
+        "seller_count": -4.0
+      }
+    },
+    {
+      "task_key": "kitchen-medium",
+      "category": "Kitchen Accessories",
+      "difficulty": "medium",
+      "policy": "risk-first",
+      "oracle_candidate_id": "053fe84c-1993-55eb-b847-f34d18383782",
+      "oracle_rank": 12,
+      "rank1_candidate_id": "7384c809-1cf6-5993-871c-e12823ef0fcc",
+      "rank2_candidate_id": "d0b0a212-6430-52fe-9846-474ff52d7c1d",
+      "rank2_score": 0.3933264545140479,
+      "oracle_score": 0.39827271257731744,
+      "promotion_gap": -0.004946258063269537,
+      "k_star": null,
+      "oracle_regret_k": {
+        "1": 0.1451,
+        "2": 0.055,
+        "3": 0.055,
+        "4": 0.055,
+        "5": 0.055,
+        "8": 0.055,
+        "10": 0.0324
+      },
+      "component_deltas": {
+        "demand_score": -0.12424999999999997,
+        "gross_margin": -0.0473888763550685,
+        "differentiation_score": 0.2366048857601833,
+        "competition_score": -0.09999999999999998,
+        "risk_score": 0.02040000000000003,
+        "return_rate": 0.0,
+        "seller_count": -4.0
+      }
+    },
+    {
+      "task_key": "outdoor-hard",
+      "category": "Outdoor Recreation",
+      "difficulty": "hard",
+      "policy": "static-ranking",
+      "oracle_candidate_id": "80342822-9b0a-51b0-892e-ddcc24f0e2e9",
+      "oracle_rank": 1,
+      "rank1_candidate_id": "80342822-9b0a-51b0-892e-ddcc24f0e2e9",
+      "rank2_candidate_id": "fcb3a339-50f3-5a34-9b85-8ad05cd26e8b",
+      "rank2_score": 0.3456641114828557,
+      "oracle_score": 0.3305701621737196,
+      "promotion_gap": 0.015093949309136101,
+      "k_star": 1,
+      "oracle_regret_k": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "8": 0.0,
+        "10": 0.0
+      },
+      "component_deltas": {
+        "demand_score": 0.015099999999999891,
+        "gross_margin": 0.004284770749030664,
+        "differentiation_score": -0.0469007099819686,
+        "competition_score": 0.0,
+        "risk_score": 0.12070000000000003,
+        "return_rate": 0.02400000000000002,
+        "seller_count": 2.0
+      }
+    },
+    {
+      "task_key": "outdoor-hard",
+      "category": "Outdoor Recreation",
+      "difficulty": "hard",
+      "policy": "constraint-first",
+      "oracle_candidate_id": "80342822-9b0a-51b0-892e-ddcc24f0e2e9",
+      "oracle_rank": 1,
+      "rank1_candidate_id": "80342822-9b0a-51b0-892e-ddcc24f0e2e9",
+      "rank2_candidate_id": "fcb3a339-50f3-5a34-9b85-8ad05cd26e8b",
+      "rank2_score": 0.3456641114828557,
+      "oracle_score": 0.3305701621737196,
+      "promotion_gap": 0.015093949309136101,
+      "k_star": 1,
+      "oracle_regret_k": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "8": 0.0,
+        "10": 0.0
+      },
+      "component_deltas": {
+        "demand_score": 0.015099999999999891,
+        "gross_margin": 0.004284770749030664,
+        "differentiation_score": -0.0469007099819686,
+        "competition_score": 0.0,
+        "risk_score": 0.12070000000000003,
+        "return_rate": 0.02400000000000002,
+        "seller_count": 2.0
+      }
+    },
+    {
+      "task_key": "outdoor-hard",
+      "category": "Outdoor Recreation",
+      "difficulty": "hard",
+      "policy": "evidence-gap-first",
+      "oracle_candidate_id": "80342822-9b0a-51b0-892e-ddcc24f0e2e9",
+      "oracle_rank": 1,
+      "rank1_candidate_id": "80342822-9b0a-51b0-892e-ddcc24f0e2e9",
+      "rank2_candidate_id": "7f1740d1-6fce-582d-b780-a064eb7489a8",
+      "rank2_score": 0.14625959515924786,
+      "oracle_score": 0.3305701621737196,
+      "promotion_gap": -0.18431056701447174,
+      "k_star": 1,
+      "oracle_regret_k": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "8": 0.0,
+        "10": 0.0
+      },
+      "component_deltas": {
+        "demand_score": 0.17079999999999995,
+        "gross_margin": -0.02434369736363301,
+        "differentiation_score": 0.3105949567769003,
+        "competition_score": -0.44999999999999996,
+        "risk_score": -0.009974999999999956,
+        "return_rate": 0.015000000000000013,
+        "seller_count": -26.0
+      }
+    },
+    {
+      "task_key": "outdoor-hard",
+      "category": "Outdoor Recreation",
+      "difficulty": "hard",
+      "policy": "risk-first",
+      "oracle_candidate_id": "80342822-9b0a-51b0-892e-ddcc24f0e2e9",
+      "oracle_rank": 4,
+      "rank1_candidate_id": "5e547162-8d28-5940-adbb-82a0ff34534b",
+      "rank2_candidate_id": "2b4b139f-9a10-51f9-b9d4-22f90aa2a2ad",
+      "rank2_score": 0.2515757218313956,
+      "oracle_score": 0.3305701621737196,
+      "promotion_gap": -0.078994440342324,
+      "k_star": 4,
+      "oracle_regret_k": {
+        "1": 0.1795,
+        "2": 0.1795,
+        "3": 0.0967,
+        "4": 0.0,
+        "5": 0.0,
+        "8": 0.0,
+        "10": 0.0
+      },
+      "component_deltas": {
+        "demand_score": 0.11964999999999992,
+        "gross_margin": 0.042121137852907886,
+        "differentiation_score": 0.07718327939548514,
+        "competition_score": -0.15000000000000002,
+        "risk_score": 0.11350000000000005,
+        "return_rate": 0.048000000000000015,
+        "seller_count": -15.0
+      }
+    },
+    {
+      "task_key": "beauty-medium",
+      "category": "Beauty Tools",
+      "difficulty": "medium",
+      "policy": "static-ranking",
+      "oracle_candidate_id": "2c94cec1-17f5-5c62-99d9-762c30ae0150",
+      "oracle_rank": 1,
+      "rank1_candidate_id": "2c94cec1-17f5-5c62-99d9-762c30ae0150",
+      "rank2_candidate_id": "0586058b-8564-5076-a36d-ce185f89b507",
+      "rank2_score": 0.4028019077235724,
+      "oracle_score": 0.4004463820541511,
+      "promotion_gap": 0.0023555256694212656,
+      "k_star": 1,
+      "oracle_regret_k": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "8": 0.0,
+        "10": 0.0
+      },
+      "component_deltas": {
+        "demand_score": -0.0039000000000001256,
+        "gross_margin": 0.011829805143274252,
+        "differentiation_score": 0.040460115223800996,
+        "competition_score": 0.0,
+        "risk_score": 0.12040000000000001,
+        "return_rate": 0.03,
+        "seller_count": -8.0
+      }
+    },
+    {
+      "task_key": "beauty-medium",
+      "category": "Beauty Tools",
+      "difficulty": "medium",
+      "policy": "constraint-first",
+      "oracle_candidate_id": "2c94cec1-17f5-5c62-99d9-762c30ae0150",
+      "oracle_rank": 2,
+      "rank1_candidate_id": "3806f3bb-775d-5604-96c7-ba16833e569b",
+      "rank2_candidate_id": "2c94cec1-17f5-5c62-99d9-762c30ae0150",
+      "rank2_score": 0.4004463820541511,
+      "oracle_score": 0.4004463820541511,
+      "promotion_gap": 0.0,
+      "k_star": 2,
+      "oracle_regret_k": {
+        "1": 0.1192,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "8": 0.0,
+        "10": 0.0
+      },
+      "component_deltas": {
+        "demand_score": 0.0,
+        "gross_margin": 0.0,
+        "differentiation_score": 0.0,
+        "competition_score": 0.0,
+        "risk_score": 0.0,
+        "return_rate": 0.0,
+        "seller_count": 0.0
+      }
+    },
+    {
+      "task_key": "beauty-medium",
+      "category": "Beauty Tools",
+      "difficulty": "medium",
+      "policy": "evidence-gap-first",
+      "oracle_candidate_id": "2c94cec1-17f5-5c62-99d9-762c30ae0150",
+      "oracle_rank": 2,
+      "rank1_candidate_id": "3806f3bb-775d-5604-96c7-ba16833e569b",
+      "rank2_candidate_id": "2c94cec1-17f5-5c62-99d9-762c30ae0150",
+      "rank2_score": 0.4004463820541511,
+      "oracle_score": 0.4004463820541511,
+      "promotion_gap": 0.0,
+      "k_star": 2,
+      "oracle_regret_k": {
+        "1": 0.1192,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "8": 0.0,
+        "10": 0.0
+      },
+      "component_deltas": {
+        "demand_score": 0.0,
+        "gross_margin": 0.0,
+        "differentiation_score": 0.0,
+        "competition_score": 0.0,
+        "risk_score": 0.0,
+        "return_rate": 0.0,
+        "seller_count": 0.0
+      }
+    },
+    {
+      "task_key": "beauty-medium",
+      "category": "Beauty Tools",
+      "difficulty": "medium",
+      "policy": "risk-first",
+      "oracle_candidate_id": "2c94cec1-17f5-5c62-99d9-762c30ae0150",
+      "oracle_rank": 4,
+      "rank1_candidate_id": "3806f3bb-775d-5604-96c7-ba16833e569b",
+      "rank2_candidate_id": "6e375617-8200-5b09-8ab8-466ad1918283",
+      "rank2_score": 0.43827579676576284,
+      "oracle_score": 0.4004463820541511,
+      "promotion_gap": 0.03782941471161172,
+      "k_star": 4,
+      "oracle_regret_k": {
+        "1": 0.1192,
+        "2": 0.1192,
+        "3": 0.1192,
+        "4": 0.0,
+        "5": 0.0,
+        "8": 0.0,
+        "10": 0.0
+      },
+      "component_deltas": {
+        "demand_score": 0.31409999999999993,
+        "gross_margin": 0.020367829209860133,
+        "differentiation_score": -0.35485686007038375,
+        "competition_score": 0.4,
+        "risk_score": 0.21885,
+        "return_rate": 0.06,
+        "seller_count": 32.0
+      }
+    }
+  ],
+  "branch_union_frontier": {
+    "fitness-hard": 0.0817,
+    "kitchen-medium": 0.056,
+    "outdoor-hard": 0.028,
+    "beauty-medium": 0.0707
+  },
+  "candidate_policy_matrix": {
+    "d016a641-e13a-5e56-8dde-75436b222f89": {
+      "fitness-hard:static-ranking": 1,
+      "fitness-hard:constraint-first": 4,
+      "fitness-hard:evidence-gap-first": 2,
+      "fitness-hard:risk-first": 3
+    },
+    "708e1a69-1ac0-5e96-8d44-0f666f178b31": {
+      "fitness-hard:static-ranking": 2,
+      "fitness-hard:constraint-first": 3,
+      "fitness-hard:evidence-gap-first": 3,
+      "fitness-hard:risk-first": 4
+    },
+    "85479fae-6ad8-580b-9cf6-3197e10187a8": {
+      "fitness-hard:static-ranking": 3,
+      "fitness-hard:constraint-first": 1,
+      "fitness-hard:evidence-gap-first": 1,
+      "fitness-hard:risk-first": 1
+    },
+    "ceb2b232-8f1d-589c-b6fb-0180bb31d5cc": {
+      "fitness-hard:static-ranking": 4,
+      "fitness-hard:constraint-first": 2,
+      "fitness-hard:evidence-gap-first": 4,
+      "fitness-hard:risk-first": 2
+    },
+    "afc6feba-12e6-54db-b215-e5f74ed383e6": {
+      "fitness-hard:static-ranking": 5,
+      "fitness-hard:constraint-first": 16,
+      "fitness-hard:evidence-gap-first": 11,
+      "fitness-hard:risk-first": 17
+    },
+    "8c8b5d61-2622-5343-9d1a-03f67b6c4df8": {
+      "fitness-hard:static-ranking": 6,
+      "fitness-hard:constraint-first": 6,
+      "fitness-hard:evidence-gap-first": 5,
+      "fitness-hard:risk-first": 5
+    },
+    "c9be068b-290f-512b-b739-07bc7329edf4": {
+      "fitness-hard:static-ranking": 7,
+      "fitness-hard:constraint-first": 5,
+      "fitness-hard:evidence-gap-first": 6,
+      "fitness-hard:risk-first": 6
+    },
+    "1b4feb29-3634-5ddb-94d3-bcc4576e6d79": {
+      "fitness-hard:static-ranking": 8,
+      "fitness-hard:constraint-first": 13,
+      "fitness-hard:evidence-gap-first": 17,
+      "fitness-hard:risk-first": 15
+    },
+    "d4bc33a1-bb14-5675-bc23-1d75d4136f29": {
+      "fitness-hard:static-ranking": 9,
+      "fitness-hard:constraint-first": 7,
+      "fitness-hard:evidence-gap-first": 9,
+      "fitness-hard:risk-first": 8
+    },
+    "a2705d51-2c1a-5eff-b45d-5dc7372a0dfa": {
+      "fitness-hard:static-ranking": 10,
+      "fitness-hard:constraint-first": 9,
+      "fitness-hard:evidence-gap-first": 8,
+      "fitness-hard:risk-first": 7
+    },
+    "2bc889ae-301f-53a1-b54b-811709c4f2d4": {
+      "fitness-hard:static-ranking": 11,
+      "fitness-hard:constraint-first": 8,
+      "fitness-hard:evidence-gap-first": 14,
+      "fitness-hard:risk-first": 12
+    },
+    "e3d13320-bbbd-5d42-870d-b05b32a49e50": {
+      "fitness-hard:static-ranking": 12,
+      "fitness-hard:constraint-first": 11,
+      "fitness-hard:evidence-gap-first": 7,
+      "fitness-hard:risk-first": 9
+    },
+    "7e0bf2de-9df5-551c-8c29-68f6e734af15": {
+      "fitness-hard:static-ranking": 13,
+      "fitness-hard:constraint-first": 12,
+      "fitness-hard:evidence-gap-first": 13,
+      "fitness-hard:risk-first": 10
+    },
+    "db3f5bf2-e633-5e5d-a980-f4611034eaaa": {
+      "fitness-hard:static-ranking": 14,
+      "fitness-hard:constraint-first": 14,
+      "fitness-hard:evidence-gap-first": 15,
+      "fitness-hard:risk-first": 14
+    },
+    "14b2f140-fb3b-5a2e-bb7a-a4c7f63868b5": {
+      "fitness-hard:static-ranking": 15,
+      "fitness-hard:constraint-first": 10,
+      "fitness-hard:evidence-gap-first": 10,
+      "fitness-hard:risk-first": 11
+    },
+    "1d3412ed-0345-5ed2-afa3-e590d27c2da6": {
+      "fitness-hard:static-ranking": 16,
+      "fitness-hard:constraint-first": 15,
+      "fitness-hard:evidence-gap-first": 16,
+      "fitness-hard:risk-first": 13
+    },
+    "e62da0e7-8043-5a4f-88ea-1c5a64d18a33": {
+      "fitness-hard:static-ranking": 17,
+      "fitness-hard:constraint-first": 18,
+      "fitness-hard:evidence-gap-first": 18,
+      "fitness-hard:risk-first": 18
+    },
+    "ca06cb29-e708-583c-a870-d083eec77ffe": {
+      "fitness-hard:static-ranking": 18,
+      "fitness-hard:constraint-first": 17,
+      "fitness-hard:evidence-gap-first": 12,
+      "fitness-hard:risk-first": 16
+    },
+    "d0b0a212-6430-52fe-9846-474ff52d7c1d": {
+      "kitchen-medium:static-ranking": 1,
+      "kitchen-medium:constraint-first": 1,
+      "kitchen-medium:evidence-gap-first": 2,
+      "kitchen-medium:risk-first": 2
+    },
+    "3db98d5c-dad4-52b4-aee8-b7ff2e2342d8": {
+      "kitchen-medium:static-ranking": 2,
+      "kitchen-medium:constraint-first": 6,
+      "kitchen-medium:evidence-gap-first": 3,
+      "kitchen-medium:risk-first": 3
+    },
+    "bc45ebed-6ca8-5175-8395-669e0763e6a8": {
+      "kitchen-medium:static-ranking": 3,
+      "kitchen-medium:constraint-first": 9,
+      "kitchen-medium:evidence-gap-first": 16,
+      "kitchen-medium:risk-first": 17
+    },
+    "948c70d4-f8ac-5eb8-9a47-28e091a3cf35": {
+      "kitchen-medium:static-ranking": 4,
+      "kitchen-medium:constraint-first": 10,
+      "kitchen-medium:evidence-gap-first": 10,
+      "kitchen-medium:risk-first": 10
+    },
+    "7384c809-1cf6-5993-871c-e12823ef0fcc": {
+      "kitchen-medium:static-ranking": 5,
+      "kitchen-medium:constraint-first": 8,
+      "kitchen-medium:evidence-gap-first": 6,
+      "kitchen-medium:risk-first": 1
+    },
+    "029305cf-b6aa-53e4-800a-67555b3ce3eb": {
+      "kitchen-medium:static-ranking": 6,
+      "kitchen-medium:constraint-first": 7,
+      "kitchen-medium:evidence-gap-first": 4,
+      "kitchen-medium:risk-first": 8
+    },
+    "1601be98-0cd2-5e9b-aa5c-e8b08c416efd": {
+      "kitchen-medium:static-ranking": 7,
+      "kitchen-medium:constraint-first": 3,
+      "kitchen-medium:evidence-gap-first": 5,
+      "kitchen-medium:risk-first": 5
+    },
+    "4e1b98db-dc43-5d7b-ab75-6c591eb017da": {
+      "kitchen-medium:static-ranking": 8,
+      "kitchen-medium:constraint-first": 4,
+      "kitchen-medium:evidence-gap-first": 13,
+      "kitchen-medium:risk-first": 6
+    },
+    "053fe84c-1993-55eb-b847-f34d18383782": {
+      "kitchen-medium:static-ranking": 9,
+      "kitchen-medium:constraint-first": 11,
+      "kitchen-medium:evidence-gap-first": 8,
+      "kitchen-medium:risk-first": 12
+    },
+    "634ce641-e2ba-54e3-a4d6-88d355fd3365": {
+      "kitchen-medium:static-ranking": 10,
+      "kitchen-medium:constraint-first": 2,
+      "kitchen-medium:evidence-gap-first": 11,
+      "kitchen-medium:risk-first": 11
+    },
+    "f085c5fd-b79e-587f-b8ac-288bd4223a7d": {
+      "kitchen-medium:static-ranking": 11,
+      "kitchen-medium:constraint-first": 5,
+      "kitchen-medium:evidence-gap-first": 1,
+      "kitchen-medium:risk-first": 4
+    },
+    "08aeec6e-5175-598d-8989-318c3bda3c7d": {
+      "kitchen-medium:static-ranking": 12,
+      "kitchen-medium:constraint-first": 13,
+      "kitchen-medium:evidence-gap-first": 12,
+      "kitchen-medium:risk-first": 13
+    },
+    "234b0c29-6d88-5b96-8ba6-892c4e7172ab": {
+      "kitchen-medium:static-ranking": 13,
+      "kitchen-medium:constraint-first": 15,
+      "kitchen-medium:evidence-gap-first": 7,
+      "kitchen-medium:risk-first": 15
+    },
+    "677fb5fe-ed8f-5fc8-99d3-40664278f93c": {
+      "kitchen-medium:static-ranking": 14,
+      "kitchen-medium:constraint-first": 14,
+      "kitchen-medium:evidence-gap-first": 15,
+      "kitchen-medium:risk-first": 14
+    },
+    "e56527c1-108a-5342-87d9-0e63ff52db33": {
+      "kitchen-medium:static-ranking": 15,
+      "kitchen-medium:constraint-first": 16,
+      "kitchen-medium:evidence-gap-first": 14,
+      "kitchen-medium:risk-first": 18
+    },
+    "c09c5de1-c132-5c85-ac3a-50217714e5db": {
+      "kitchen-medium:static-ranking": 16,
+      "kitchen-medium:constraint-first": 12,
+      "kitchen-medium:evidence-gap-first": 9,
+      "kitchen-medium:risk-first": 9
+    },
+    "40c93c88-a3a3-59db-a186-86245e8c7a9c": {
+      "kitchen-medium:static-ranking": 17,
+      "kitchen-medium:constraint-first": 17,
+      "kitchen-medium:evidence-gap-first": 18,
+      "kitchen-medium:risk-first": 7
+    },
+    "7b25742b-cdae-5af3-a5b3-73820436986b": {
+      "kitchen-medium:static-ranking": 18,
+      "kitchen-medium:evidence-gap-first": 17,
+      "kitchen-medium:risk-first": 16
+    },
+    "80342822-9b0a-51b0-892e-ddcc24f0e2e9": {
+      "outdoor-hard:static-ranking": 1,
+      "outdoor-hard:constraint-first": 1,
+      "outdoor-hard:evidence-gap-first": 1,
+      "outdoor-hard:risk-first": 4
+    },
+    "fcb3a339-50f3-5a34-9b85-8ad05cd26e8b": {
+      "outdoor-hard:static-ranking": 2,
+      "outdoor-hard:constraint-first": 2,
+      "outdoor-hard:evidence-gap-first": 3,
+      "outdoor-hard:risk-first": 3
+    },
+    "2b4b139f-9a10-51f9-b9d4-22f90aa2a2ad": {
+      "outdoor-hard:static-ranking": 3,
+      "outdoor-hard:constraint-first": 4,
+      "outdoor-hard:evidence-gap-first": 7,
+      "outdoor-hard:risk-first": 2
+    },
+    "d85381de-8643-574e-9baa-983051b4bad2": {
+      "outdoor-hard:static-ranking": 4,
+      "outdoor-hard:constraint-first": 3,
+      "outdoor-hard:evidence-gap-first": 8,
+      "outdoor-hard:risk-first": 7
+    },
+    "7f1740d1-6fce-582d-b780-a064eb7489a8": {
+      "outdoor-hard:static-ranking": 5,
+      "outdoor-hard:constraint-first": 8,
+      "outdoor-hard:evidence-gap-first": 2,
+      "outdoor-hard:risk-first": 11
+    },
+    "5e547162-8d28-5940-adbb-82a0ff34534b": {
+      "outdoor-hard:static-ranking": 6,
+      "outdoor-hard:constraint-first": 6,
+      "outdoor-hard:evidence-gap-first": 5,
+      "outdoor-hard:risk-first": 1
+    },
+    "919d0ffb-3f2f-52ff-9bea-853dd3086fd7": {
+      "outdoor-hard:static-ranking": 7,
+      "outdoor-hard:constraint-first": 9,
+      "outdoor-hard:evidence-gap-first": 4,
+      "outdoor-hard:risk-first": 6
+    },
+    "7d8d280c-fdfb-5076-acb5-ec1c8a4b30fa": {
+      "outdoor-hard:static-ranking": 8,
+      "outdoor-hard:constraint-first": 7,
+      "outdoor-hard:evidence-gap-first": 11,
+      "outdoor-hard:risk-first": 13
+    },
+    "f4e6cbdb-4981-5570-9745-8859aecad3f7": {
+      "outdoor-hard:static-ranking": 9,
+      "outdoor-hard:constraint-first": 12,
+      "outdoor-hard:evidence-gap-first": 12,
+      "outdoor-hard:risk-first": 16
+    },
+    "62bcb5d9-2982-55dc-bed4-95029c6c0392": {
+      "outdoor-hard:static-ranking": 10,
+      "outdoor-hard:constraint-first": 5,
+      "outdoor-hard:evidence-gap-first": 6,
+      "outdoor-hard:risk-first": 5
+    },
+    "21292d83-2f91-55c8-8d32-cca28554d0c0": {
+      "outdoor-hard:static-ranking": 11,
+      "outdoor-hard:constraint-first": 13,
+      "outdoor-hard:evidence-gap-first": 13,
+      "outdoor-hard:risk-first": 15
+    },
+    "783c87a4-08f3-5104-a499-94e01070ed28": {
+      "outdoor-hard:static-ranking": 12,
+      "outdoor-hard:constraint-first": 10,
+      "outdoor-hard:evidence-gap-first": 18,
+      "outdoor-hard:risk-first": 18
+    },
+    "c7ff8e27-d4e6-5d03-9f4a-81e0056345ef": {
+      "outdoor-hard:static-ranking": 13,
+      "outdoor-hard:constraint-first": 11,
+      "outdoor-hard:evidence-gap-first": 9,
+      "outdoor-hard:risk-first": 9
+    },
+    "642b952d-57de-5a3d-bc2b-30fb60a04f62": {
+      "outdoor-hard:static-ranking": 14,
+      "outdoor-hard:constraint-first": 16,
+      "outdoor-hard:evidence-gap-first": 16,
+      "outdoor-hard:risk-first": 8
+    },
+    "288ef61f-7b0e-5ba5-82dc-f4c6f02b777e": {
+      "outdoor-hard:static-ranking": 15,
+      "outdoor-hard:constraint-first": 14,
+      "outdoor-hard:evidence-gap-first": 14,
+      "outdoor-hard:risk-first": 14
+    },
+    "4dc5c1d4-dc6a-5885-88c6-52b92fd020ed": {
+      "outdoor-hard:static-ranking": 16,
+      "outdoor-hard:constraint-first": 15,
+      "outdoor-hard:evidence-gap-first": 15,
+      "outdoor-hard:risk-first": 17
+    },
+    "33193e18-06bb-59a9-90e5-ba8f71aaf179": {
+      "outdoor-hard:static-ranking": 17,
+      "outdoor-hard:constraint-first": 17,
+      "outdoor-hard:evidence-gap-first": 17,
+      "outdoor-hard:risk-first": 12
+    },
+    "222f3668-60f7-5952-b5b7-12fce2fd1ad2": {
+      "outdoor-hard:static-ranking": 18,
+      "outdoor-hard:constraint-first": 18,
+      "outdoor-hard:evidence-gap-first": 10,
+      "outdoor-hard:risk-first": 10
+    },
+    "2c94cec1-17f5-5c62-99d9-762c30ae0150": {
+      "beauty-medium:static-ranking": 1,
+      "beauty-medium:constraint-first": 2,
+      "beauty-medium:evidence-gap-first": 2,
+      "beauty-medium:risk-first": 4
+    },
+    "0586058b-8564-5076-a36d-ce185f89b507": {
+      "beauty-medium:static-ranking": 2,
+      "beauty-medium:constraint-first": 4,
+      "beauty-medium:evidence-gap-first": 4,
+      "beauty-medium:risk-first": 5
+    },
+    "31041305-ebea-58e9-a5b0-994bdfec0bb8": {
+      "beauty-medium:static-ranking": 3,
+      "beauty-medium:constraint-first": 5,
+      "beauty-medium:evidence-gap-first": 5,
+      "beauty-medium:risk-first": 6
+    },
+    "1cce9923-2578-5dc6-b6b1-c22692d2e7d8": {
+      "beauty-medium:static-ranking": 4,
+      "beauty-medium:constraint-first": 13,
+      "beauty-medium:evidence-gap-first": 12,
+      "beauty-medium:risk-first": 14
+    },
+    "3806f3bb-775d-5604-96c7-ba16833e569b": {
+      "beauty-medium:static-ranking": 5,
+      "beauty-medium:constraint-first": 1,
+      "beauty-medium:evidence-gap-first": 1,
+      "beauty-medium:risk-first": 1
+    },
+    "6e375617-8200-5b09-8ab8-466ad1918283": {
+      "beauty-medium:static-ranking": 6,
+      "beauty-medium:constraint-first": 6,
+      "beauty-medium:evidence-gap-first": 6,
+      "beauty-medium:risk-first": 2
+    },
+    "d13cdef8-aef8-51ba-a227-af1b88adc8c6": {
+      "beauty-medium:static-ranking": 7,
+      "beauty-medium:constraint-first": 7,
+      "beauty-medium:evidence-gap-first": 10,
+      "beauty-medium:risk-first": 9
+    },
+    "fe8897b5-878e-5c27-94a3-2971740fbf75": {
+      "beauty-medium:static-ranking": 8,
+      "beauty-medium:constraint-first": 3,
+      "beauty-medium:evidence-gap-first": 7,
+      "beauty-medium:risk-first": 11
+    },
+    "2cf7879c-c6bb-5c3a-9239-d41887764d7a": {
+      "beauty-medium:static-ranking": 14,
+      "beauty-medium:constraint-first": 8,
+      "beauty-medium:evidence-gap-first": 8,
+      "beauty-medium:risk-first": 8
+    },
+    "4399ced7-2616-548e-af85-53df86e47775": {
+      "beauty-medium:static-ranking": 10,
+      "beauty-medium:constraint-first": 11,
+      "beauty-medium:evidence-gap-first": 17,
+      "beauty-medium:risk-first": 12
+    },
+    "54c21788-945f-5bd8-a7d6-578e2d0b8ce4": {
+      "beauty-medium:static-ranking": 11,
+      "beauty-medium:constraint-first": 12,
+      "beauty-medium:evidence-gap-first": 11,
+      "beauty-medium:risk-first": 13
+    },
+    "d9858e3a-8126-5381-a5b9-4df6b26913f9": {
+      "beauty-medium:static-ranking": 12,
+      "beauty-medium:constraint-first": 14,
+      "beauty-medium:evidence-gap-first": 3,
+      "beauty-medium:risk-first": 3
+    },
+    "013e9b49-4adb-50e2-858f-df9669828365": {
+      "beauty-medium:static-ranking": 13,
+      "beauty-medium:constraint-first": 10,
+      "beauty-medium:evidence-gap-first": 13,
+      "beauty-medium:risk-first": 7
+    },
+    "5a4ad700-2519-5301-9bb7-d73630f405db": {
+      "beauty-medium:static-ranking": 15,
+      "beauty-medium:constraint-first": 17,
+      "beauty-medium:evidence-gap-first": 15,
+      "beauty-medium:risk-first": 15
+    },
+    "0c1c6711-6a96-5fb2-a8ec-5d85f318fd8d": {
+      "beauty-medium:static-ranking": 16,
+      "beauty-medium:constraint-first": 15,
+      "beauty-medium:evidence-gap-first": 16,
+      "beauty-medium:risk-first": 16
+    },
+    "e1c4c275-51a1-5a14-8c6e-e7834af6678a": {
+      "beauty-medium:static-ranking": 17,
+      "beauty-medium:constraint-first": 18,
+      "beauty-medium:evidence-gap-first": 18,
+      "beauty-medium:risk-first": 18
+    },
+    "f3456632-57c2-5a99-a0d2-bc7cbd5ac3ba": {
+      "beauty-medium:static-ranking": 18,
+      "beauty-medium:constraint-first": 9,
+      "beauty-medium:evidence-gap-first": 9,
+      "beauty-medium:risk-first": 10
+    },
+    "4ef9fcc3-0472-5251-8888-58304dead281": {
+      "beauty-medium:constraint-first": 16,
+      "beauty-medium:evidence-gap-first": 14,
+      "beauty-medium:risk-first": 17
+    }
+  }
+}

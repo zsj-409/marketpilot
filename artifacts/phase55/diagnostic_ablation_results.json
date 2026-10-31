@@ -1,0 +1,282 @@
+{
+  "W0": [
+    {
+      "condition": "full",
+      "online_cost": 69.3,
+      "replay_cost": 37.8,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "no-replay",
+      "online_cost": 41.1,
+      "replay_cost": 0.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "fixed",
+      "online_cost": 19.5,
+      "replay_cost": 0.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 0
+    },
+    {
+      "condition": "no-diagnostics",
+      "online_cost": 69.3,
+      "replay_cost": 37.8,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "no-world-pool",
+      "online_cost": 69.3,
+      "replay_cost": 37.8,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "current-history-only",
+      "online_cost": 69.3,
+      "replay_cost": 37.8,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    }
+  ],
+  "W1": [
+    {
+      "condition": "full",
+      "online_cost": 19.0,
+      "replay_cost": 22.8,
+      "final_decision": "INSUFFICIENT",
+      "oracle_correct": false,
+      "oracle_regret": 0.0,
+      "promoted": 0
+    },
+    {
+      "condition": "no-replay",
+      "online_cost": 26.6,
+      "replay_cost": 0.0,
+      "final_decision": "INSUFFICIENT",
+      "oracle_correct": false,
+      "oracle_regret": 0.0,
+      "promoted": 0
+    },
+    {
+      "condition": "fixed",
+      "online_cost": 16.0,
+      "replay_cost": 0.0,
+      "final_decision": "INSUFFICIENT",
+      "oracle_correct": false,
+      "oracle_regret": 0.0,
+      "promoted": 0
+    },
+    {
+      "condition": "no-diagnostics",
+      "online_cost": 19.0,
+      "replay_cost": 22.8,
+      "final_decision": "INSUFFICIENT",
+      "oracle_correct": false,
+      "oracle_regret": 0.0,
+      "promoted": 0
+    },
+    {
+      "condition": "no-world-pool",
+      "online_cost": 19.0,
+      "replay_cost": 22.8,
+      "final_decision": "INSUFFICIENT",
+      "oracle_correct": false,
+      "oracle_regret": 0.0,
+      "promoted": 0
+    },
+    {
+      "condition": "current-history-only",
+      "online_cost": 19.0,
+      "replay_cost": 15.2,
+      "final_decision": "INSUFFICIENT",
+      "oracle_correct": false,
+      "oracle_regret": 0.0,
+      "promoted": 0
+    }
+  ],
+  "W2": [
+    {
+      "condition": "full",
+      "online_cost": 93.5,
+      "replay_cost": 51.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "no-replay",
+      "online_cost": 59.5,
+      "replay_cost": 0.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "fixed",
+      "online_cost": 26.5,
+      "replay_cost": 0.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 0
+    },
+    {
+      "condition": "no-diagnostics",
+      "online_cost": 93.5,
+      "replay_cost": 51.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "no-world-pool",
+      "online_cost": 93.5,
+      "replay_cost": 51.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "current-history-only",
+      "online_cost": 93.5,
+      "replay_cost": 51.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    }
+  ],
+  "W3": [
+    {
+      "condition": "full",
+      "online_cost": 69.3,
+      "replay_cost": 37.8,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "no-replay",
+      "online_cost": 44.1,
+      "replay_cost": 0.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "fixed",
+      "online_cost": 19.5,
+      "replay_cost": 0.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 0
+    },
+    {
+      "condition": "no-diagnostics",
+      "online_cost": 69.3,
+      "replay_cost": 37.8,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "no-world-pool",
+      "online_cost": 69.3,
+      "replay_cost": 37.8,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "current-history-only",
+      "online_cost": 69.3,
+      "replay_cost": 37.8,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    }
+  ],
+  "W4": [
+    {
+      "condition": "full",
+      "online_cost": 103.4,
+      "replay_cost": 56.4,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "no-replay",
+      "online_cost": 65.8,
+      "replay_cost": 0.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "fixed",
+      "online_cost": 27.0,
+      "replay_cost": 0.0,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 0
+    },
+    {
+      "condition": "no-diagnostics",
+      "online_cost": 103.4,
+      "replay_cost": 56.4,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "no-world-pool",
+      "online_cost": 103.4,
+      "replay_cost": 56.4,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    },
+    {
+      "condition": "current-history-only",
+      "online_cost": 103.4,
+      "replay_cost": 56.4,
+      "final_decision": "GO",
+      "oracle_correct": true,
+      "oracle_regret": 0.0,
+      "promoted": 3
+    }
+  ]
+}

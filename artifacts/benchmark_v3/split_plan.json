@@ -1,0 +1,20 @@
+{
+  "generation_dev_families": [
+    "conflict",
+    "noisy",
+    "asym-cost",
+    "redundant",
+    "drift",
+    "scarce"
+  ],
+  "confirmation_dev_families": [
+    "multi-cand",
+    "strict"
+  ],
+  "heldout_test_families": [
+    "cheap",
+    "balanced"
+  ],
+  "ood_stress": "unseen mechanism combos (e.g. drift+conflict+asym-cost)",
+  "rule": "same family never spans dev/test; markets are instance-unique"
+}

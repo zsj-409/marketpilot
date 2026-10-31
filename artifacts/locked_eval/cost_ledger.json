@@ -1,0 +1,36 @@
+{
+  "benchmark_version": "v3.1",
+  "cost_units": "synthetic budget units (NOT USD; no real API calls)",
+  "task_execution": {
+    "test_120": {
+      "fixed": {"online": 1237.2, "cost_per_valid": 16.5},
+      "missing-evidence": {"online": 178.8, "cost_per_valid": 1.84},
+      "uncertainty": {"online": 24.0, "cost_per_valid": 0.25},
+      "adaptive-voi": {"online": 167.6, "cost_per_valid": 1.73},
+      "contextual-hybrid": {"online": 36.0, "cost_per_valid": 0.37}
+    },
+    "ood_80": {
+      "fixed": {"cost_per_valid": 61.14},
+      "missing-evidence": {"cost_per_valid": 8.38},
+      "uncertainty": {"cost_per_valid": 0.0},
+      "adaptive-voi": {"cost_per_valid": 3.75},
+      "contextual-hybrid": {"cost_per_valid": 0.0}
+    }
+  },
+  "optimization_efficiency": {
+    "note": "Phase 5.7/5.8 budget-matched; simulated historical action cost NOT double-counted as online",
+    "w1": {
+      "full_rsi": {"online": 53.2, "replay_compute": 41.8},
+      "current_only_rsi": {"online": 45.6, "replay_compute": 34.2},
+      "random_search": {"online": 22.8, "replay_compute": 0.0},
+      "no_replay": {"online": 22.8, "replay_compute": 0.0}
+    },
+    "w4": {
+      "full_rsi": {"online": 57.7, "replay_compute": 57.7},
+      "current_only_rsi": {"online": 38.9, "replay_compute": 38.9},
+      "random_search": {"online": 31.8, "replay_compute": 0.0},
+      "no_replay": {"online": 31.8, "replay_compute": 0.0}
+    }
+  },
+  "archive_collection": "dev trajectories reused (no separate collection cost for the locked run)"
+}

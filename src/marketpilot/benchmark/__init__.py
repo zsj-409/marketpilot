@@ -1,5 +1,11 @@
 """MarketPilot synthetic benchmark suite."""
 
+from marketpilot.benchmark.isolation import (
+    IsolationReport,
+    ViewPollutionError,
+    isolated_execute,
+    run_method_order_invariance,
+)
 from marketpilot.benchmark.models import (
     BenchmarkResult,
     BenchmarkSuite,
@@ -16,4 +22,8 @@ __all__ = [
     "BenchmarkTask",
     "ExperimentManifest",
     "FailureCategory",
+    "IsolationReport",
+    "ViewPollutionError",
+    "isolated_execute",
+    "run_method_order_invariance",
 ]

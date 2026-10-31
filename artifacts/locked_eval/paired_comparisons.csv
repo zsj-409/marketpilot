@@ -1,0 +1,6 @@
+comparison,method_a,method_b,status,n_worlds,mean_diff_a_minus_b,ci95_low,ci95_high
+A,adaptive-voi,fixed,evaluated,200,-0.4436,-0.5131,-0.3752
+B,contextual-hybrid,global_best_static,evaluated,200,-0.0228,-0.0418,-0.0074
+C,full_dream_rsi,random_multi_family_search,NOT_EVALUATED_in_locked_task_phase,,,,
+D,full_dream_rsi,no_replay_optimization,NOT_EVALUATED_in_locked_task_phase,,,,
+E,full_dream_rsi,current_only_rsi,NOT_EVALUATED_in_locked_task_phase,,,,

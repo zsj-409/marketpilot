@@ -119,14 +119,18 @@ async def test_tool_call_normalization() -> None:
 
 
 async def test_invalid_tool_call_arguments_are_typed() -> None:
+    """Malformed/truncated tool-call arguments are SKIPPED (not fatal) and
+    the response_id records the truncation — real providers truncate
+    parallel tool calls; a single bad call must not fail the whole turn."""
     tool_call = ChatCompletionMessageFunctionToolCall(
         id="call-1",
         type="function",
         function=Function(name="web_search", arguments="{bad json"),
     )
     adapter = _client(_completion(content=None, tool_calls=[tool_call]))
-    with pytest.raises(LLMInvalidRequestError):
-        await adapter.generate(_request(tools=True))
+    response = await adapter.generate(_request(tools=True))
+    assert response.tool_calls == []
+    assert "truncated:1" in response.response_id
 
 
 async def test_request_conversion_includes_tools_and_response_format() -> None:

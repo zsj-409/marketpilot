@@ -1,233 +1,90 @@
 # MarketPilot
 
-MarketPilot is a reproducible multi-agent product-research platform with a real LLM runtime, a real read-only research environment, a hidden-ground-truth synthetic market benchmark, provenance, replay, verifier-guided test-time scaling, adaptive planning, memory, persistence, and offline run visualization.
+**A reproducible multi-agent product-research platform: real LLM runtime, deterministic safety gate, hidden-ground-truth synthetic benchmark, and auditable evidence chains.**
+
+MarketPilot demonstrates a complete agent research loop — from user request to evidence-backed product recommendation — with full provenance, replay, budget-aware research controllers, and a locked, independently replicated evaluation suite. It is built to be **deterministic, offline-testable, and auditable**: every claim in the docs maps to a real experiment artifact, never a fabricated result.
 
 [![Python](https://img.shields.io/badge/python-3.12-blue.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![CI](https://img.shields.io/badge/CI-credential--free-blue.svg)]()
 [![Ruff](https://img.shields.io/badge/lint-ruff-5b2a86.svg)]()
 [![Mypy](https://img.shields.io/badge/types-mypy-2a6db2.svg)]()
-[![Tests](https://img.shields.io/badge/tests-pytest-orange.svg)]()
+[![Tests](https://img.shields.io/badge/tests-pytest-322%20passed-orange.svg)]()
+[![CI](https://img.shields.io/badge/CI-credential--free-blue.svg)]()
+
+---
 
 ## Why This Project
 
-Cross-border e-commerce teams need product research that is auditable, repeatable, and improvable. Prompt-only agent demos fail because they hide state, lose provenance, cannot be replayed, and offer no meaningful decision-quality signal. MarketPilot demonstrates the full Agent research loop with evidence, trajectory, and benchmark evaluation.
+Cross-border e-commerce teams need product research that is **auditable, repeatable, and improvable**. Prompt-only agent demos fail because they hide state, lose provenance, cannot be replayed, and offer no meaningful decision-quality signal. MarketPilot shows how to build an agent loop that:
 
-## Demo
+- **Records every research action** — evidence, sources, timestamps, costs — into a replayable trajectory.
+- **Separates hidden truth from agent observation** — controllers never read the oracle; regret is computed evaluator-side.
+- **Gates every final recommendation** through a deterministic, strategy-independent Safety Gate that refuses unsafe (evidence-insufficient) GOs.
+- **Evaluates honestly** — a locked 440-world synthetic benchmark plus a 200-world independent replication, with pre-registered metrics and three clearly separated historical result generations (INVALIDATED ORIGINAL / POST-AUDIT REANALYSIS v2 / INDEPENDENT REPLICATION v2.1).
 
-No API keys required:
+## What's Inside
 
-```bash
-uv run marketpilot showcase
-```
+| Layer | Module | What it does |
+|---|---|---|
+| Input | `src/marketpilot/input/` | Normalization (money, quantity, time), constraint parsing, prompt-injection scanning, perturbation invariance |
+| Agents | `src/marketpilot/agents/` | LLM planner/research/decision agents + deterministic mock fallback |
+| Orchestration | `src/marketpilot/orchestration/` | DAG runner, research planner |
+| Research | `src/marketpilot/research/` | Search/retrieval providers (mock, Tavily, HTTP), evidence store, dedup, budget tracker, replay store |
+| Synthetic market | `src/marketpilot/world/` | Hidden-truth world generator (W0–W5 mechanism families), agent view with revealed-evidence isolation |
+| Policies | `src/marketpilot/optimization/` | Deterministic research controllers (fixed, missing-evidence, uncertainty, adaptive-voi, contextual-hybrid) + Dream-RSI (experimental) |
+| **Safety** | `src/marketpilot/safety/` | **Final Decision Safety Gate** (`gate.py`), full-path gateway (`gateway.py`), evidence trust boundary (`trust.py`) |
+| Evaluation | `src/marketpilot/evaluation/` + `benchmark/` | Outcome taxonomy (7 reason codes), Metric Contract v2.1, isolation runner, reachability oracle |
+| Workbench | `scripts/serve_workbench.py` + `artifacts/milestone_c/workbench.html` | Interactive demo: run strategies live, inspect evidence chains, Safety Gate verdicts, benchmark tables, runtime status |
 
-For the full interactive experience, launch the web workbench:
-
-```bash
-uv run marketpilot workbench
-# → http://127.0.0.1:8600
-```
-
-## Web Workbench
-
-MarketPilot ships an interactive, self-contained web UI (`src/marketpilot/webui/`) for presenting and operating the whole system — no build step, no CDN assets, works fully offline.
-
-- **Overview** — the product story: live artifact counts, architecture diagram, cross-experiment strategy table, and the honest-labeling caveats.
-- **Runs** — every research run and closed-loop selection run, filterable and searchable.
-- **Run detail** — the full evidence chain for one run: task DAG (click a node to filter), recommendation with score radar, findings, evidence, risk flags, sources/snapshots, SystemEvaluator checks, and a filterable trajectory timeline of all 40+ event types.
-- **Benchmarks** — every experiment with manifest reproducibility info, regret/recall/verifier metrics, difficulty and family breakdowns, failure taxonomy, and per-task results.
-- **Compare** — pick 2–4 experiments and compare decision-quality metrics side by side.
-- **Environment** — explore the synthetic market (observable agent-facing fields only; hidden ground truth is never exposed).
-- **Workbench** — submit demo runs, benchmark experiments, dataset generation, and closed-loop selection as background jobs with live logs.
-
-The API is read-only over artifacts plus an allow-listed job endpoint; jobs execute as isolated subprocesses with logs under `work/jobs/`. The server binds to `127.0.0.1` by default.
-
-## Architecture
-
-```text
-                 Research Goal
-                       ↓
-                 Research Planner
-                 /             \
-           Fixed DAG      Adaptive DAG
-                 \             /
-                       ↓
-                 Multi-Agent Runtime
-                       ↓
-                   ToolExecutor
-              /         |          \
-       Synthetic      Replay       Live
-        Market        Research    Research
-              \         |          /
-                       ↓
-                Evidence Graph
-                       ↓
-                Candidate Set
-                       ↓
-          ┌────────────┴────────────┐
-          ↓                         ↓
-      Baseline                 Best-of-N
-                                    ↓
-                                Verifier
-                                    ↓
-                             Recommendation
-                                    ↓
-                                Evaluator
-                                    ↓
-                              Benchmark DB
-                                    ↓
-                             benchmark.html
-```
-
-## Agent Roles
-
-ResearchManager, MarketResearch, ProductResearch, ReviewMining, CompetitorResearch, RiskAnalysis, Decision, and EvidenceVerifier. Agents coordinate through a typed shared blackboard, not free-form chat.
-
-## Research Environment
-
-`mock`, `replay`, and `live` research modes share the same `ToolExecutor`. Live mode includes a Tavily search adapter and a read-only HTTP page retriever. Replay mode is strict and never falls back to the network.
-
-## Synthetic Market Environment
-
-The deterministic generator creates an internally consistent market from category profiles and regime rules. Hidden latent opportunity and risk scores form benchmark ground truth and are never exposed to agents.
-
-## Evidence & Provenance
-
-Every finding references evidence. Every evidence item can trace to a source snapshot, retrieval record, and tool call. Recommendations must reference findings, evidence, and risks.
-
-## Verifier
-
-A deterministic verifier checks evidence, snapshot existence, constraint satisfaction, source diversity, risk coverage, and numeric consistency, returning inspectable issues and a score.
-
-## Test-Time Scaling
-
-Baseline N=1, Best-of-N, and verifier-guided Best-of-N strategies run against the same frozen synthetic environment.
-
-## Adaptive Planning
-
-An optional bounded planner can spawn follow-up research tasks when evidence, diversity, competitor coverage, risk, or constraint coverage is missing.
-
-## Memory & Skills
-
-Structured episodic memory stores successful and failed episodes and retrieves them by category, task type, and constraint overlap. Deterministic skill extraction turns recurring evidence patterns into bounded, inspectable skills.
-
-## Benchmark
-
-MarketPilot Synthetic Benchmark v1 contains 48 tasks across eight categories and six families. Evaluation is split into structural, research-quality, and synthetic decision-quality levels.
-
-## Evaluation
-
-Decision-quality metrics include regret, top-k recall, constraint satisfaction, risk recall, ranking correlation, and verifier score. Results are labeled synthetic-environment decision quality, not real market accuracy.
-
-## Experiment Reproducibility
-
-Every benchmark run writes a manifest with git commit, dataset version, generator version, seed, strategy, model, provider, prompt versions, budget, and timestamps.
-
-## Example Results
-
-Run the benchmark to regenerate results:
+## Quickstart (no API keys required)
 
 ```bash
-uv run marketpilot benchmark run --suite marketpilot-synthetic-v1 --strategy baseline --provider mock
-uv run marketpilot benchmark run --suite marketpilot-synthetic-v1 --strategy verifier-best-of-n --n 4 --provider mock
-uv run marketpilot benchmark compare <experiment-a> <experiment-b>
+uv sync                      # or: python -m pip install -e .
+uv run pytest tests/ -q      # 322 passed, 1 skipped
+uv run ruff check src tests scripts
+uv run mypy src
+
+# Interactive workbench (offline demo):
+uv run python scripts/build_workbench.py
+uv run python scripts/serve_workbench.py
+# open http://127.0.0.1:8000/workbench.html
 ```
 
-Representative synthetic benchmark results after hardening:
+### Real-LLM mode (optional)
 
-| Strategy | Mean regret | Top-k recall |
-| --- | --- | --- |
-| Baseline | 0.0430 | 0.458 |
-| Best-of-N N=4 | 0.0799 | 0.278 |
-| Verifier-guided N=4 | 0.0618 | 0.208 |
-| Adaptive planner | 0.0430 | 0.403 |
-
-Key finding: process verification score was essentially unaligned with hidden decision utility (`Spearman = 0.026`). More computation did not automatically improve final product selection. These are synthetic-environment results, not real market performance.
-
-## Failure Analysis
-
-The benchmark reports a typed failure taxonomy with counts and representative examples in `benchmark.html`.
-
-## Project Structure
-
-```text
-src/marketpilot/
-├── agents/            # LLM and deterministic agents
-├── benchmark/         # synthetic benchmark and strategies
-├── domain/            # typed domain contracts
-├── evaluation/        # structural and business evaluation
-├── llm/               # provider-neutral LLM runtime
-├── memory/            # episodic and skill memory
-├── observability/     # trajectory events and logging
-├── orchestration/     # DAG, planner, adaptive planner, runner
-├── persistence/       # SQLAlchemy models and repositories
-├── prompts/           # versioned prompts
-├── reporting/         # report.html and benchmark.html
-├── research/          # research tools, replay, provenance
-├── synthetic/         # synthetic market environment
-├── tools/             # tool protocol and registry
-├── verifier/          # deterministic verification
-└── webui/             # FastAPI backend + self-contained SPA workbench
-```
-
-## Quick Start
+The real-LLM runtime speaks OpenAI-compatible chat completions (any provider with a base_url + key). Set the key via environment variable only — it is never read from files inside the repo, never logged, never committed:
 
 ```bash
-uv sync
-uv run marketpilot doctor
-uv run marketpilot dataset generate --dataset synthetic-market-v1 --seed 42
-uv run marketpilot showcase
-uv run marketpilot workbench   # interactive web UI at http://127.0.0.1:8600
+export ARK_API_KEY=...                 # or LLM_API_KEY (OpenAI-compatible provider)
+uv run python scripts/run_real_llm_smoke.py    # 4-task smoke
+uv run python scripts/run_real_llm_b2.py       # 24-world paired experiment
 ```
 
-See [docs/PROJECT_STATE.md](docs/PROJECT_STATE.md) for the canonical project status and [docs/experiments/V1_EXPERIMENT_REPORT.md](docs/experiments/V1_EXPERIMENT_REPORT.md) for benchmark findings.
+The B2 experiment was executed for real on `deepseek-v4-flash` (volcengine-ark): 24 worlds, 50 calls, 170 tool calls, 87k tokens, 0 schema failures, 0 gate interceptions. Results in `artifacts/milestone_b/real_llm_vs_deterministic.json`.
 
-## Run a Benchmark
+## Evaluation Honesty
 
-```bash
-uv run marketpilot benchmark run --suite marketpilot-synthetic-v1 --strategy baseline --provider mock
-```
+- **Metric Contract v2.1**: an evidence-insufficient GO (`unsupported_go`) is penalized ≥ a correct abstention — guessing without evidence is never rewarded.
+- **Independent replication**: 120 ID + 80 OOD worlds with fresh seeds, manifest frozen before reading results. Systematized families (fixed/missing-evidence/uncertainty/contextual-hybrid) are behaviorally equivalent on generous budgets; adaptive-voi is significantly worse (pooled diff +0.338, CI [0.274, 0.403]); fixed is the recommended default.
+- **Three result generations are kept separate** — invalidated original runs are never mixed with corrected or independent runs.
+- **Dream-RSI is marked EXPERIMENTAL** — no verified independent replay gain.
 
-## Run with a Real LLM
+## Demo / Interview Materials
 
-Set `MARKETPILOT_LLM_API_KEY` and run:
+- `docs/demo/MARKETPILOT_DEMO_GUIDE.md` — clean-environment launch, success + gate-rejection scenarios, 3–5 min talk track.
+- `docs/demo/ARCHITECTURE_WALKTHROUGH.md` — layered architecture, data flow, security boundaries.
+- `docs/demo/INTERVIEW_QA.md` — ten prepared answers with evidence references.
+- `docs/demo/FINAL_RELEASE_SECURITY_AUDIT.md` + `docs/demo/SAFETY_GATE_EVIDENCE_CONTRACT.md` — trust-boundary and server-hardening audit.
 
-```bash
-uv run marketpilot demo --mode llm --provider openai --model gpt-4o-mini
-```
+## Key Results (Independent Replication, Metric v2.1)
 
-## Run with Live Research
+| Method | TEST Supported GO (120) | OOD Supported GO (80) | Unsupported GO (TEST) | Cost/Supported (TEST) |
+|---|---|---|---|---|
+| fixed / missing-evidence / uncertainty / contextual-hybrid | **84** | 20 | 0 | 14.73 |
+| adaptive-voi | 34 | 0 | 55 | 34.71 |
 
-Set `MARKETPILOT_SEARCH_API_KEY` and run:
+Real LLM (deepseek-v4-flash): 15/24 GO vs fixed 16/24; 0 unsupported GOs; decision agreement 50%; P50 latency 8s.
 
-```bash
-uv run marketpilot demo --mode llm --provider mock --research-mode live
-```
+## License
 
-## Limitations
-
-Synthetic benchmark results describe behavior inside MarketPilot's deterministic synthetic environment. They are not claims about real product-market performance. The candidate-scaling experiments use deterministic heuristic variants, not independent LLM rollouts. Live research requires user-supplied API keys and was not executed during development.
-
-## Status
-
-- IMPLEMENTED: Agent runtime, research environment, provenance, replay, benchmark, verifier, persistence, reporting.
-- EVALUATED: Baseline, candidate scaling, verifier selection, adaptive planning, memory.
-- OPTIONAL LIVE VALIDATION: Not executed; no API keys were configured.
-- FUTURE WORK: Independent LLM sampling, utility-supervised verifier, human evaluation, Agentic RL.
-
-## Roadmap
-
-- PostgreSQL-backed benchmark runs and source snapshots.
-- Larger benchmark datasets and human evaluation.
-- Reflection loops and more advanced test-time scaling.
-- Trajectory-learning reward modeling and Agentic RL.
-- ~~Interactive research workbench~~ → shipped in v1.1 (`marketpilot workbench`): runs, evidence chains, trajectory timelines, benchmark comparison, and job submission in a self-contained web UI. Next: live streaming (SSE) run progress and multi-user auth for shared deployments.
-
-## Engineering Decisions
-
-- Framework-independent domain and agent contracts.
-- Provider SDKs isolated behind adapters.
-- Evidence before recommendation.
-- Event-sourced trajectories.
-- Replay for environment reproducibility, separate from memory.
-- Credential-free CI.
+MIT — see [LICENSE](LICENSE).

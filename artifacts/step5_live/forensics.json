@@ -1,0 +1,94 @@
+[
+  {
+    "task_key": "beauty-medium",
+    "category": "Beauty Tools",
+    "difficulty": "medium",
+    "global_candidate_oracle_regret": 0.0,
+    "n1_selected_regret": 0.0,
+    "n1_pool_oracle_regret": 0.0,
+    "n4_pool_oracle_regret": 0.0,
+    "rollout_frontier_gap": 0.0,
+    "selection_gap": 0.0,
+    "observable_universe_gap": 0.0,
+    "global_best_rank_positions": [
+      1,
+      1,
+      7,
+      1
+    ],
+    "pool_size_n4": 4,
+    "unique_top1": 2,
+    "pool_utility_min": 0.3486,
+    "pool_utility_max": 0.5556,
+    "mean_ranking_spearman": 0.4241
+  },
+  {
+    "task_key": "fitness-hard",
+    "category": "Fitness Accessories",
+    "difficulty": "hard",
+    "global_candidate_oracle_regret": 0.0,
+    "n1_selected_regret": 0.1473,
+    "n1_pool_oracle_regret": 0.0782,
+    "n4_pool_oracle_regret": 0.0782,
+    "rollout_frontier_gap": 0.0,
+    "selection_gap": 0.0691,
+    "observable_universe_gap": 0.0782,
+    "global_best_rank_positions": [
+      10,
+      8,
+      10,
+      10
+    ],
+    "pool_size_n4": 3,
+    "unique_top1": 2,
+    "pool_utility_min": 0.3974,
+    "pool_utility_max": 0.4665,
+    "mean_ranking_spearman": 0.9477
+  },
+  {
+    "task_key": "kitchen-medium",
+    "category": "Kitchen Accessories",
+    "difficulty": "medium",
+    "global_candidate_oracle_regret": 0.0,
+    "n1_selected_regret": 0.055,
+    "n1_pool_oracle_regret": 0.055,
+    "n4_pool_oracle_regret": 0.055,
+    "rollout_frontier_gap": 0.0,
+    "selection_gap": 0.0,
+    "observable_universe_gap": 0.055,
+    "global_best_rank_positions": [
+      11,
+      18,
+      11,
+      10
+    ],
+    "pool_size_n4": 2,
+    "unique_top1": 1,
+    "pool_utility_min": 0.4528,
+    "pool_utility_max": 0.5154,
+    "mean_ranking_spearman": 0.8934
+  },
+  {
+    "task_key": "outdoor-hard",
+    "category": "Outdoor Recreation",
+    "difficulty": "hard",
+    "global_candidate_oracle_regret": 0.0,
+    "n1_selected_regret": 0.0,
+    "n1_pool_oracle_regret": 0.0,
+    "n4_pool_oracle_regret": 0.0,
+    "rollout_frontier_gap": 0.0,
+    "selection_gap": 0.0,
+    "observable_universe_gap": 0.0,
+    "global_best_rank_positions": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "pool_size_n4": 2,
+    "unique_top1": 1,
+    "pool_utility_min": 0.5017,
+    "pool_utility_max": 0.5983,
+    "mean_ranking_spearman": 0.8197
+  }
+]

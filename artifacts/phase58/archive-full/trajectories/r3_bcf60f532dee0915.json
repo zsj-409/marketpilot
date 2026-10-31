@@ -1,0 +1,64 @@
+{
+  "world_id": "W1-conf",
+  "split": "dev",
+  "policy_hash": "bcf60f532dee0915",
+  "outcome": "GO",
+  "total_cost": 7.6,
+  "steps": [
+    {
+      "step_index": 0,
+      "action": "search_demand",
+      "state_before": "s0",
+      "state_after": "s1",
+      "cost": 1.0,
+      "decision": "GO",
+      "product_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88"
+    },
+    {
+      "step_index": 1,
+      "action": "search_demand",
+      "state_before": "s1",
+      "state_after": "s2",
+      "cost": 1.0,
+      "decision": "GO",
+      "product_id": "6ca90f9c-d601-5981-b0bf-10a200c1383a"
+    },
+    {
+      "step_index": 2,
+      "action": "search_risk",
+      "state_before": "s2",
+      "state_after": "s3",
+      "cost": 1.3,
+      "decision": "GO",
+      "product_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88"
+    },
+    {
+      "step_index": 3,
+      "action": "search_risk",
+      "state_before": "s3",
+      "state_after": "s4",
+      "cost": 1.3,
+      "decision": "GO",
+      "product_id": "6ca90f9c-d601-5981-b0bf-10a200c1383a"
+    },
+    {
+      "step_index": 4,
+      "action": "search_margin",
+      "state_before": "s4",
+      "state_after": "s5",
+      "cost": 1.5,
+      "decision": "GO",
+      "product_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88"
+    },
+    {
+      "step_index": 5,
+      "action": "search_margin",
+      "state_before": "s5",
+      "state_after": "s6",
+      "cost": 1.5,
+      "decision": "GO",
+      "product_id": "6ca90f9c-d601-5981-b0bf-10a200c1383a"
+    }
+  ],
+  "round": 3
+}

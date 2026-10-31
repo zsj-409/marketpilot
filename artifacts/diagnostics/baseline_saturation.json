@@ -1,0 +1,15 @@
+{
+  "product_count": 144,
+  "latent_heuristic_pearson": 0.5562578755085307,
+  "latent_heuristic_spearman": 0.4996905393457118,
+  "feature_correlations": {
+    "demand_score": 0.6820500104483412,
+    "gross_margin": 0.08850293671916405,
+    "differentiation_score": 0.3070301923198222,
+    "competition_score": -0.2012452537296608,
+    "risk_score": -0.05756104802487871,
+    "monthly_search_volume": 0.23216373379262395,
+    "seller_count": -0.19453957057609192,
+    "ad_cpc_proxy": 0.08381481116148509
+  }
+}

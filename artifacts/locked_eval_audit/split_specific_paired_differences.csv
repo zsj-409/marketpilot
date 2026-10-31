@@ -1,0 +1,5 @@
+comparison,method_a,method_b,split,mean_diff_a_minus_b,n_worlds
+adaptive-voi_vs_fixed,adaptive-voi,fixed,test,0.0827,120
+adaptive-voi_vs_fixed,adaptive-voi,fixed,ood,-0.0024,80
+contextual-hybrid_vs_global_best_static,contextual-hybrid,global_best_static,test,0.0,120
+contextual-hybrid_vs_global_best_static,contextual-hybrid,global_best_static,ood,0.0,80

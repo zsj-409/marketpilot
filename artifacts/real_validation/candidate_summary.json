@@ -1,0 +1,68 @@
+[
+  {
+    "candidate_id": "e1fb8b42-deb8-5b2d-8b84-b14ce6bdfb01",
+    "title": "Adafruit Feather RP2040",
+    "price": "11.9500",
+    "currency": "USD",
+    "battery": null,
+    "weight": null,
+    "fragile": null,
+    "category": "microcontroller-development-board",
+    "url": "https://www.adafruit.com/product/4884"
+  },
+  {
+    "candidate_id": "8a7bfa91-d213-5ca0-95f1-ea96d1ab07e7",
+    "title": "Adafruit QT Py RP2040",
+    "price": "9.9500",
+    "currency": "USD",
+    "battery": null,
+    "weight": null,
+    "fragile": null,
+    "category": "microcontroller-development-board",
+    "url": "https://www.adafruit.com/product/4900"
+  },
+  {
+    "candidate_id": "570abe83-14f3-50ef-81ec-e8ab966b6b02",
+    "title": "SparkFun RedBoard Plus",
+    "price": "29.5",
+    "currency": "USD",
+    "battery": null,
+    "weight": null,
+    "fragile": null,
+    "category": "Microcontroller Board",
+    "url": "https://www.sparkfun.com/sparkfun-redboard-plus.html"
+  },
+  {
+    "candidate_id": "05909438-d333-5c58-8781-e3995caf8e1b",
+    "title": "SparkFun Qwiic Pro Micro - USB-C",
+    "price": "23.95",
+    "currency": "USD",
+    "battery": null,
+    "weight": null,
+    "fragile": null,
+    "category": "Microcontroller Development Board",
+    "url": "https://www.sparkfun.com/sparkfun-qwiic-pro-micro-usb-c-atmega32u4.html"
+  },
+  {
+    "candidate_id": "5c85fc56-243c-53e9-a780-35b217b27fca",
+    "title": "Tiny 2040",
+    "price": null,
+    "currency": null,
+    "battery": null,
+    "weight": null,
+    "fragile": null,
+    "category": "Electronics > Development Boards > Microcontroller Boards",
+    "url": "https://shop.pimoroni.com/products/tiny-2040"
+  },
+  {
+    "candidate_id": "da29b996-ff5b-5f66-851d-8cc0ff69b3f8",
+    "title": "Pimoroni Pico LiPo",
+    "price": null,
+    "currency": null,
+    "battery": null,
+    "weight": null,
+    "fragile": null,
+    "category": "Electronics > Microcontrollers > Development Boards",
+    "url": "https://shop.pimoroni.com/products/pimoroni-pico-lipo"
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "world_id": "minimal-dev",
+  "split": "dev",
+  "difficulty": "easy",
+  "key_facet": "margin",
+  "products": [
+    {
+      "product_id": "4ab89bdd-640d-5b4e-8f54-f23798199e2c",
+      "true_margin": 0.72,
+      "true_reliability": 0.8,
+      "true_demand": 0.6,
+      "true_competition": 0.4,
+      "true_risk": 0.3,
+      "true_utility": 0.74,
+      "viable": true
+    },
+    {
+      "product_id": "3e555775-40ea-5b91-827d-c596fbc20dc3",
+      "true_margin": 0.28,
+      "true_reliability": 0.7,
+      "true_demand": 0.65,
+      "true_competition": 0.35,
+      "true_risk": 0.45,
+      "true_utility": 0.38,
+      "viable": false
+    }
+  ],
+  "observables": {
+    "4ab89bdd-640d-5b4e-8f54-f23798199e2c": {
+      "product_id": "4ab89bdd-640d-5b4e-8f54-f23798199e2c",
+      "title": "Aster Air Grooming",
+      "observed_margin": 0.35,
+      "observed_reliability": 0.75,
+      "observed_demand": 0.55,
+      "observed_competition": 0.45,
+      "observed_risk": 0.4
+    },
+    "3e555775-40ea-5b91-827d-c596fbc20dc3": {
+      "product_id": "3e555775-40ea-5b91-827d-c596fbc20dc3",
+      "title": "Lumen Pro Feeder",
+      "observed_margin": 0.55,
+      "observed_reliability": 0.7,
+      "observed_demand": 0.6,
+      "observed_competition": 0.4,
+      "observed_risk": 0.35
+    }
+  },
+  "evidence": {
+    "4ab89bdd-640d-5b4e-8f54-f23798199e2c": {
+      "margin": [
+        {
+          "facet": "margin",
+          "value": 0.7094,
+          "truth_value": 0.72,
+          "noise": 0.03,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "margin-report:4ab89bdd-640d-5b4e-8f54-f23798199e2c"
+        }
+      ],
+      "demand": [
+        {
+          "facet": "demand",
+          "value": 0.5651,
+          "truth_value": 0.6,
+          "noise": 0.05,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "demand-report:4ab89bdd-640d-5b4e-8f54-f23798199e2c"
+        }
+      ],
+      "risk": [
+        {
+          "facet": "risk",
+          "value": 0.3151,
+          "truth_value": 0.3,
+          "noise": 0.05,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "risk-report:4ab89bdd-640d-5b4e-8f54-f23798199e2c"
+        }
+      ]
+    },
+    "3e555775-40ea-5b91-827d-c596fbc20dc3": {
+      "margin": [
+        {
+          "facet": "margin",
+          "value": 0.2543,
+          "truth_value": 0.28,
+          "noise": 0.03,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "margin-report:3e555775-40ea-5b91-827d-c596fbc20dc3"
+        }
+      ],
+      "demand": [
+        {
+          "facet": "demand",
+          "value": 0.6536,
+          "truth_value": 0.65,
+          "noise": 0.05,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "demand-report:3e555775-40ea-5b91-827d-c596fbc20dc3"
+        }
+      ],
+      "risk": [
+        {
+          "facet": "risk",
+          "value": 0.4366,
+          "truth_value": 0.45,
+          "noise": 0.05,
+          "bias": 0.0,
+          "stale": false,
+          "conflict_with_truth": false,
+          "source": "risk-report:3e555775-40ea-5b91-827d-c596fbc20dc3"
+        }
+      ]
+    }
+  }
+}

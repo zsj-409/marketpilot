@@ -1,0 +1,5 @@
+task_key,category,difficulty,global_candidate_oracle_regret,n1_selected_regret,n1_pool_oracle_regret,n4_pool_oracle_regret,rollout_frontier_gap,selection_gap,observable_universe_gap,global_best_rank_positions,pool_size_n4,unique_top1,pool_utility_min,pool_utility_max,mean_ranking_spearman
+beauty-medium,Beauty Tools,medium,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"[1, 1, 7, 1]",4,2,0.3486,0.5556,0.4241
+fitness-hard,Fitness Accessories,hard,0.0,0.1473,0.0782,0.0782,0.0,0.0691,0.0782,"[10, 8, 10, 10]",3,2,0.3974,0.4665,0.9477
+kitchen-medium,Kitchen Accessories,medium,0.0,0.055,0.055,0.055,0.0,0.0,0.055,"[11, 18, 11, 10]",2,1,0.4528,0.5154,0.8934
+outdoor-hard,Outdoor Recreation,hard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"[1, 1, 1, 1]",2,1,0.5017,0.5983,0.8197

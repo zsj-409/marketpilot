@@ -1,0 +1,17 @@
+{
+  "title": "MarketPilot Agent Workbench",
+  "first_screen_loaded": true,
+  "world_select_count": 24,
+  "strategy_select_count": 5,
+  "scenario_A_fixed_supported_go": true,
+  "scenario_A_gate": "PASS\nreason codes: —\n{\n  \"world\": \"W1-7\"",
+  "scenario_B_adaptive_intercepted": true,
+  "scenario_B_gate": "REFUSED\nreason codes: evidence_insuffici",
+  "scenario_C_abstention_or_go": "world W3-7 · strategy uncertainty · elapsed 0ms\n决策: GO · Gat",
+  "scenario_D_invalid_world_rejected": true,
+  "scenario_D_error": "unknown world id: W9-99",
+  "scenario_D_invalid_strategy_rejected": true,
+  "narrow_layout_no_hscroll": true,
+  "has_select_labels": true,
+  "run_button_visible": true
+}

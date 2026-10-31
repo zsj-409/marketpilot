@@ -1,0 +1,43 @@
+{
+  "evaluation_plan_version": "1.0",
+  "benchmark_hash": "734f028335eaac3f41743a7c39e111a9b52d0ba2e7f515c6b695d8d21670c1ac",
+  "metric_contract_version": "2.0",
+  "frozen_at_commit": "16c7e87",
+  "pre_registered_before_reading_test_results": true,
+  "method_registry": [
+    "random", "heuristic", "cheapest_first", "fixed", "missing-evidence",
+    "uncertainty", "adaptive-voi", "contextual-hybrid", "full_info"
+  ],
+  "optimization_methods": [
+    "global_best_static", "random_multi_family_search", "full_dream_rsi",
+    "current_only_rsi", "no_replay_optimization"
+  ],
+  "primary_comparisons": [
+    {"id": "A", "question": "AdaptiveVOI 是否优于 Fixed?", "method_a": "adaptive-voi", "method_b": "fixed"},
+    {"id": "B", "question": "ContextualHybrid 是否优于全局最佳静态策略?", "method_a": "contextual-hybrid", "method_b": "global_best_static"},
+    {"id": "C", "question": "Full Dream-RSI 是否优于预算匹配的 Random Multi-Family Search?", "method_a": "full_dream_rsi", "method_b": "random_multi_family_search"},
+    {"id": "D", "question": "Full Dream-RSI 是否优于 No-Replay Online Optimization?", "method_a": "full_dream_rsi", "method_b": "no_replay_optimization"},
+    {"id": "E", "question": "Full Pool 是否相比 Current-History-Only 产生额外收益?", "method_a": "full_dream_rsi", "method_b": "current_only_rsi"}
+  ],
+  "primary_endpoint": "task_level_loss",
+  "secondary_endpoints": ["valid_go_rate", "decision_regret", "cost_per_valid_go"],
+  "task_budgets": "per-world research_budget (frozen in world data); scarce=2.0",
+  "optimizer_budgets": {
+    "random_multi_family_search": "3 rounds x 4 proposals",
+    "full_dream_rsi": "3 rounds, archive=dev trajectories only",
+    "current_only_rsi": "3 rounds, current history only",
+    "no_replay": "3 rounds, live confirmation only"
+  },
+  "optimization_rounds": 3,
+  "random_seeds": {"evaluation": 42, "optimization": 7},
+  "repeat_count": 1,
+  "bootstrap_method": "world-level paired differences, stratified by mechanism family",
+  "confidence_interval_level": 0.95,
+  "bootstrap_iterations": 2000,
+  "noninferiority_tolerances": {
+    "quality_delta": 0.02,
+    "cost_delta": 0.5
+  },
+  "failure_handling_policy": "UNRESOLVED worlds excluded from reachability-stratified stats; runtime failures recorded and retried once; no selective reruns by performance",
+  "note": "drift-family and ood-drift-conflict worlds have multi-version evidence; their reachability labels are UNRESOLVED (not exact). Execution-time evidence sufficiency is reported separately from reachability."
+}

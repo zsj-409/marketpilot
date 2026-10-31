@@ -1,0 +1,39 @@
+{
+  "benchmark_version": "v3.1",
+  "sealed_at_commit": "16c7e87",
+  "sealed_reachability": {
+    "go_reachable": 404,
+    "abstention_required": 36,
+    "unresolved": 0
+  },
+  "post_precheck_reachability": {
+    "go_reachable": 348,
+    "abstention_required": 36,
+    "unresolved": 56
+  },
+  "reachability_change": {
+    "cause": "Task 1.1 precheck: drift-family worlds carry multi-version time evidence; revealed-set state does not encode time, so exactness unproven -> UNRESOLVED",
+    "timing": "BEFORE first locked test execution (precheck phase)",
+    "protocol_amendment": "evaluation_plan.json v1.0 note covers UNRESOLVED handling"
+  },
+  "evaluator_versions": {
+    "sealed": "0.2 (no _has_time_versions check)",
+    "post_fix": "0.2 + _has_time_versions (working tree, unversioned)",
+    "gap": "v2 run did not bump evaluator_version to 0.3 — recorded here"
+  },
+  "metric_contract": {
+    "version": "2.0",
+    "issue": "WRONG_GO with insufficient evidence is charged decision_regret (~0.25) instead of an unsafe-recommendation penalty; this makes abstention (cost 1.0) look worse than guessing. Requires v2.1 contract revision (frozen BEFORE any new locked test).",
+    "not_silently_changed": true
+  },
+  "original_lock_test": {
+    "commit": "2522aec",
+    "status": "INVALIDATED",
+    "cause": "shared AgentWorldView across methods -> evidence leakage, zero-cost phantom GOs"
+  },
+  "v2_lock_test": {
+    "status": "VALID (fresh view per method)",
+    "output_dir": "artifacts/locked_eval_v2",
+    "evaluator_version_note": "unversioned working-tree code; commit pending"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "test": {
+    "random": {
+      "valid_go": 0,
+      "wrong_go": 120,
+      "app_abstain": 0,
+      "unn_abstain": 0,
+      "total_cost": 0.0,
+      "task_loss": 28.853,
+      "valid_go_rate": 0.0,
+      "cost_per_valid_go": null
+    },
+    "heuristic": {
+      "valid_go": 0,
+      "wrong_go": 120,
+      "app_abstain": 0,
+      "unn_abstain": 0,
+      "total_cost": 0.0,
+      "task_loss": 28.853,
+      "valid_go_rate": 0.0,
+      "cost_per_valid_go": null
+    },
+    "cheapest_first": {
+      "valid_go": 0,
+      "wrong_go": 0,
+      "app_abstain": 120,
+      "unn_abstain": 0,
+      "total_cost": 1244.4,
+      "task_loss": 120.0,
+      "valid_go_rate": 0.0,
+      "cost_per_valid_go": null
+    },
+    "fixed": {
+      "valid_go": 75,
+      "wrong_go": 9,
+      "app_abstain": 36,
+      "unn_abstain": 0,
+      "total_cost": 1237.2,
+      "task_loss": 37.693,
+      "valid_go_rate": 0.625,
+      "cost_per_valid_go": 16.5
+    },
+    "missing-evidence": {
+      "valid_go": 97,
+      "wrong_go": 11,
+      "app_abstain": 12,
+      "unn_abstain": 0,
+      "total_cost": 178.8,
+      "task_loss": 14.013,
+      "valid_go_rate": 0.808,
+      "cost_per_valid_go": 1.84
+    },
+    "uncertainty": {
+      "valid_go": 97,
+      "wrong_go": 11,
+      "app_abstain": 12,
+      "unn_abstain": 0,
+      "total_cost": 24.0,
+      "task_loss": 14.013,
+      "valid_go_rate": 0.808,
+      "cost_per_valid_go": 0.25
+    },
+    "adaptive-voi": {
+      "valid_go": 97,
+      "wrong_go": 20,
+      "app_abstain": 3,
+      "unn_abstain": 0,
+      "total_cost": 168.0,
+      "task_loss": 7.178,
+      "valid_go_rate": 0.808,
+      "cost_per_valid_go": 1.73
+    },
+    "contextual-hybrid": {
+      "valid_go": 97,
+      "wrong_go": 17,
+      "app_abstain": 6,
+      "unn_abstain": 0,
+      "total_cost": 36.0,
+      "task_loss": 9.462,
+      "valid_go_rate": 0.808,
+      "cost_per_valid_go": 0.37
+    },
+    "full_info": {
+      "valid_go": 120,
+      "wrong_go": 0,
+      "app_abstain": 0,
+      "unn_abstain": 0,
+      "total_cost": 0.0,
+      "task_loss": 0.0,
+      "valid_go_rate": 1.0,
+      "cost_per_valid_go": 0.0
+    }
+  },
+  "ood": {
+    "random": {
+      "valid_go": 0,
+      "wrong_go": 80,
+      "app_abstain": 0,
+      "unn_abstain": 0,
+      "total_cost": 0.0,
+      "task_loss": 19.374,
+      "valid_go_rate": 0.0,
+      "cost_per_valid_go": null
+    },
+    "heuristic": {
+      "valid_go": 0,
+      "wrong_go": 80,
+      "app_abstain": 0,
+      "unn_abstain": 0,
+      "total_cost": 0.0,
+      "task_loss": 19.374,
+      "valid_go_rate": 0.0,
+      "cost_per_valid_go": null
+    },
+    "cheapest_first": {
+      "valid_go": 0,
+      "wrong_go": 0,
+      "app_abstain": 80,
+      "unn_abstain": 0,
+      "total_cost": 856.0,
+      "task_loss": 80.0,
+      "valid_go_rate": 0.0,
+      "cost_per_valid_go": null
+    },
+    "fixed": {
+      "valid_go": 14,
+      "wrong_go": 6,
+      "app_abstain": 60,
+      "unn_abstain": 0,
+      "total_cost": 856.0,
+      "task_loss": 61.208,
+      "valid_go_rate": 0.175,
+      "cost_per_valid_go": 61.14
+    },
+    "missing-evidence": {
+      "valid_go": 64,
+      "wrong_go": 16,
+      "app_abstain": 0,
+      "unn_abstain": 0,
+      "total_cost": 536.0,
+      "task_loss": 3.013,
+      "valid_go_rate": 0.8,
+      "cost_per_valid_go": 8.38
+    },
+    "uncertainty": {
+      "valid_go": 64,
+      "wrong_go": 16,
+      "app_abstain": 0,
+      "unn_abstain": 0,
+      "total_cost": 0.0,
+      "task_loss": 3.013,
+      "valid_go_rate": 0.8,
+      "cost_per_valid_go": 0.0
+    },
+    "adaptive-voi": {
+      "valid_go": 64,
+      "wrong_go": 16,
+      "app_abstain": 0,
+      "unn_abstain": 0,
+      "total_cost": 240.0,
+      "task_loss": 3.013,
+      "valid_go_rate": 0.8,
+      "cost_per_valid_go": 3.75
+    },
+    "contextual-hybrid": {
+      "valid_go": 64,
+      "wrong_go": 16,
+      "app_abstain": 0,
+      "unn_abstain": 0,
+      "total_cost": 0.0,
+      "task_loss": 3.013,
+      "valid_go_rate": 0.8,
+      "cost_per_valid_go": 0.0
+    },
+    "full_info": {
+      "valid_go": 80,
+      "wrong_go": 0,
+      "app_abstain": 0,
+      "unn_abstain": 0,
+      "total_cost": 0.0,
+      "task_loss": 0.0,
+      "valid_go_rate": 1.0,
+      "cost_per_valid_go": 0.0
+    }
+  }
+}

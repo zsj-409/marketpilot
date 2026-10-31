@@ -1,0 +1,1091 @@
+{
+  "real_llm": false,
+  "n_worlds": 24,
+  "n_calls": 96,
+  "n_tool_calls": 96,
+  "total_tokens": 1440,
+  "estimated_cost": 0.0,
+  "per_world": [
+    {
+      "world_id": "W0-7",
+      "kind": "W0",
+      "oracle_best": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 6.3,
+          "steps": 5
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W0-8",
+      "kind": "W0",
+      "oracle_best": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 6.3,
+          "steps": 5
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W0-9",
+      "kind": "W0",
+      "oracle_best": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 6.3,
+          "steps": 5
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W0-10",
+      "kind": "W0",
+      "oracle_best": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 6.3,
+          "steps": 5
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "58f0accb-4dbc-5e82-bd46-97f04283daaf",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W1-7",
+      "kind": "W1",
+      "oracle_best": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 3.8,
+          "steps": 3
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W1-8",
+      "kind": "W1",
+      "oracle_best": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 3.8,
+          "steps": 3
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W1-9",
+      "kind": "W1",
+      "oracle_best": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 3.8,
+          "steps": 3
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W1-10",
+      "kind": "W1",
+      "oracle_best": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 3.8,
+          "steps": 3
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "3f6d852a-2c5c-5cfa-81f1-d5da9cc1dc88",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W2-7",
+      "kind": "W2",
+      "oracle_best": "64a91384-b198-545d-972b-4e08874807c6",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 8.5,
+          "steps": 5
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W2-8",
+      "kind": "W2",
+      "oracle_best": "64a91384-b198-545d-972b-4e08874807c6",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 8.5,
+          "steps": 5
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W2-9",
+      "kind": "W2",
+      "oracle_best": "64a91384-b198-545d-972b-4e08874807c6",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 8.5,
+          "steps": 5
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W2-10",
+      "kind": "W2",
+      "oracle_best": "64a91384-b198-545d-972b-4e08874807c6",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 8.5,
+          "steps": 5
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+          "cost": 10.0,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "64a91384-b198-545d-972b-4e08874807c6",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W3-7",
+      "kind": "W3",
+      "oracle_best": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 9.3,
+          "steps": 8
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W3-8",
+      "kind": "W3",
+      "oracle_best": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 9.3,
+          "steps": 8
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W3-9",
+      "kind": "W3",
+      "oracle_best": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 9.3,
+          "steps": 8
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W3-10",
+      "kind": "W3",
+      "oracle_best": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+      "strategies": {
+        "fixed": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "missing-evidence": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "uncertainty": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 9.3,
+          "steps": 8
+        },
+        "contextual-hybrid": {
+          "decision": "GO",
+          "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+          "cost": 7.6,
+          "steps": 6
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "d7f0b8fb-38b3-5795-9925-0a94ce484070",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W4-7",
+      "kind": "W4",
+      "oracle_best": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+      "strategies": {
+        "fixed": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        },
+        "missing-evidence": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        },
+        "uncertainty": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+          "cost": 9.4,
+          "steps": 7
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+          "cost": 9.4,
+          "steps": 7
+        },
+        "contextual-hybrid": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W4-8",
+      "kind": "W4",
+      "oracle_best": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+      "strategies": {
+        "fixed": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        },
+        "missing-evidence": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        },
+        "uncertainty": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+          "cost": 9.4,
+          "steps": 7
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+          "cost": 9.4,
+          "steps": 7
+        },
+        "contextual-hybrid": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W4-9",
+      "kind": "W4",
+      "oracle_best": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+      "strategies": {
+        "fixed": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        },
+        "missing-evidence": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        },
+        "uncertainty": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+          "cost": 9.4,
+          "steps": 7
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+          "cost": 9.4,
+          "steps": 7
+        },
+        "contextual-hybrid": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W4-10",
+      "kind": "W4",
+      "oracle_best": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+      "strategies": {
+        "fixed": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        },
+        "missing-evidence": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        },
+        "uncertainty": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+          "cost": 9.4,
+          "steps": 7
+        },
+        "adaptive-voi": {
+          "decision": "GO",
+          "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+          "cost": 9.4,
+          "steps": 7
+        },
+        "contextual-hybrid": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "af640524-642d-559c-9876-7cad47581c72",
+          "cost": 9.2,
+          "steps": 8
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "9012d88a-cdb6-55fb-a721-6a15b79ab684",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W5-7",
+      "kind": "W5",
+      "oracle_best": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+      "strategies": {
+        "fixed": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "missing-evidence": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "uncertainty": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "adaptive-voi": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "278d8df1-4612-59cb-8c64-cd99940b898b",
+          "cost": 9.3,
+          "steps": 9
+        },
+        "contextual-hybrid": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W5-8",
+      "kind": "W5",
+      "oracle_best": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+      "strategies": {
+        "fixed": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "missing-evidence": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "uncertainty": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "adaptive-voi": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "278d8df1-4612-59cb-8c64-cd99940b898b",
+          "cost": 9.3,
+          "steps": 9
+        },
+        "contextual-hybrid": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W5-9",
+      "kind": "W5",
+      "oracle_best": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+      "strategies": {
+        "fixed": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "missing-evidence": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "uncertainty": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "adaptive-voi": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "278d8df1-4612-59cb-8c64-cd99940b898b",
+          "cost": 9.3,
+          "steps": 9
+        },
+        "contextual-hybrid": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    },
+    {
+      "world_id": "W5-10",
+      "kind": "W5",
+      "oracle_best": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+      "strategies": {
+        "fixed": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "missing-evidence": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "uncertainty": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        },
+        "adaptive-voi": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "278d8df1-4612-59cb-8c64-cd99940b898b",
+          "cost": 9.3,
+          "steps": 9
+        },
+        "contextual-hybrid": {
+          "decision": "INSUFFICIENT",
+          "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+          "cost": 9.9,
+          "steps": 8
+        }
+      },
+      "llm": {
+        "decision": "GO",
+        "selected_id": "1ba908a2-472f-513f-85ac-f28bcb218db3",
+        "n_calls": 4,
+        "n_tool_calls": 4,
+        "tokens": 60,
+        "cost": 0.0
+      }
+    }
+  ],
+  "status": "REAL_LLM_NOT_RUN"
+}

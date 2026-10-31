@@ -1,0 +1,65 @@
+{
+  "protocol_version": "2.1",
+  "name": "Independent Replication (Metric Contract v2.1)",
+  "pre_registered_before_reading_results": true,
+  "created_after_milestone_A": true,
+  "dataset": {
+    "version": "v2.1-independent",
+    "id_worlds": 120,
+    "ood_worlds": 80,
+    "seed_ranges": {
+      "id": "range(500, 512) x 10 families = 120",
+      "ood": "range(700, 720) x 4 combos = 80"
+    },
+    "independence": "new seeds not used in DEV/Conf/TEST v3.1; fresh hidden product truths; no market instance shared with any prior split",
+    "generator_version": "0.2",
+    "evaluator_version": "0.3 (v2.1 reason_codes)"
+  },
+  "methods": [
+    "fixed", "missing-evidence", "uncertainty", "adaptive-voi",
+    "contextual-hybrid", "global_best_static"
+  ],
+  "global_best_static_selection": "re-selected on NEW Generation DEV (v2.1 seeds); not carried over from the invalidated run",
+  "primary_questions": {
+    "A": "Fixed/MissingEvidence/Uncertainty/ContextualHybrid differ in task capability or cost efficiency?",
+    "B": "AdaptiveVOI has real quality/cost advantage, or systematic early-stop / unsupported GO?",
+    "C": "Under Metric v2.1, what are valid-completion / risk / task-loss differences?",
+    "D": "OOD degradation: research strategy, evidence availability, or decision rule?"
+  },
+  "primary_endpoint": "task_loss_v21",
+  "secondary_endpoints": [
+    "valid_go_rate", "unsupported_go_rate", "appropriate_abstention_rate",
+    "unnecessary_abstention_rate", "decision_regret_on_supported_go",
+    "total_research_cost", "cost_per_valid_go", "budget_violation_rate"
+  ],
+  "task_budgets": "per-world research_budget (frozen in world data)",
+  "statistics": {
+    "unit": "world-level paired differences",
+    "bootstrap": "stratified by mechanism family, 2000 iterations, 95% CI",
+    "seeds": {"evaluation": 42, "bootstrap": 42},
+    "repeat_count": 1
+  },
+  "failure_handling": {
+    "runtime_error": "save full log; one retry; no selective reruns",
+    "execution_correctness_error": "STOP confirmatory run; save results; mark BLOCKED",
+    "unresolved_reachability": "reported separately; never forced into GO or abstain"
+  },
+  "isolation": {
+    "runner": "marketpilot.benchmark.isolation.isolated_execute",
+    "fresh_view_per_method": true,
+    "order_invariance_test": "required before results are read",
+    "dirty_view_rejection": "ViewPollutionError"
+  },
+  "metric_contract": {
+    "version": "2.1",
+    "task_loss": "task_loss_v21 (unsupported_go >= abstention_cost; suboptimal_go = regret only)",
+    "hash": "frozen at milestone A"
+  },
+  "prohibited": [
+    "updating policies during test",
+    "using test results to adjust metrics",
+    "selecting favorable samples",
+    "overwriting first-run records",
+    "renaming v2 results as this independent run"
+  ]
+}

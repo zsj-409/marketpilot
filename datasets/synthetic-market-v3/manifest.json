@@ -1,0 +1,20 @@
+{
+  "version": "v3-minimal",
+  "worlds": {
+    "minimal-dev": {
+      "split": "dev",
+      "difficulty": "easy",
+      "hash": "da4eea03547642ad59a7871f328aba8cf107b1e326ac71471a039b29ccfc06a1"
+    },
+    "minimal-confirmation": {
+      "split": "confirmation",
+      "difficulty": "easy",
+      "hash": "549279f576b5fd22f74488b7888c7bb65c455252c8a78d643a742b069c336190"
+    },
+    "minimal-test": {
+      "split": "test",
+      "difficulty": "easy",
+      "hash": "e6e6456bcd941fb1d43c1a3179d88e15013b4197a09dd8da10eac7634899d5d4"
+    }
+  }
+}
